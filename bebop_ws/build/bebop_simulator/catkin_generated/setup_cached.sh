@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/chris/bebop_ws/devel/.private/bebop_simulator:$CMAKE_PREFIX_PATH"
-export PWD="/home/chris/bebop_ws/build/bebop_simulator"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/chris/bebop_ws/devel/.private/bebop_simulator/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/chris/bebop_ws/src/BebopS:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator:$CMAKE_PREFIX_PATH"
+export PWD="/home/chris/bebop-software-framework/bebop_ws/build/bebop_simulator"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/chris/bebop-software-framework/bebop_ws/src/BebopS:$ROS_PACKAGE_PATH"

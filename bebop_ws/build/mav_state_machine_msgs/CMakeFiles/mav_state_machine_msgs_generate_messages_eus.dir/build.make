@@ -43,40 +43,40 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/mav_state_machine_msgs
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs
 
 # Utility rule file for mav_state_machine_msgs_generate_messages_eus.
 
 # Include the progress variables for this target.
 include CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/progress.make
 
-CMakeFiles/mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l
-CMakeFiles/mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l
-CMakeFiles/mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l
+CMakeFiles/mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l
+CMakeFiles/mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l
+CMakeFiles/mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l
 
 
-/home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l: /home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg
-/home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from mav_state_machine_msgs/StartStopTask.msg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg -Imav_state_machine_msgs:/home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from mav_state_machine_msgs/StartStopTask.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg -Imav_state_machine_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg
 
-/home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l: /home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from mav_state_machine_msgs/RunTaskService.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv -Imav_state_machine_msgs:/home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from mav_state_machine_msgs/RunTaskService.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv -Imav_state_machine_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv
 
-/home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for mav_state_machine_msgs"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs mav_state_machine_msgs std_msgs
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for mav_state_machine_msgs"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs mav_state_machine_msgs std_msgs
 
 mav_state_machine_msgs_generate_messages_eus: CMakeFiles/mav_state_machine_msgs_generate_messages_eus
-mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l
-mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l
-mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l
+mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l
+mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l
+mav_state_machine_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l
 mav_state_machine_msgs_generate_messages_eus: CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/build.make
 
 .PHONY : mav_state_machine_msgs_generate_messages_eus
@@ -91,6 +91,6 @@ CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/depend:
-	cd /home/chris/bebop_ws/build/mav_state_machine_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs /home/chris/bebop_ws/src/mav_comm/mav_state_machine_msgs /home/chris/bebop_ws/build/mav_state_machine_msgs /home/chris/bebop_ws/build/mav_state_machine_msgs /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_state_machine_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/depend
 

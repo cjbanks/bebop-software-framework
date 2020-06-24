@@ -1,6 +1,6 @@
-devel_space: /home/chris/bebop_ws/devel
+devel_space: /home/chris/bebop-software-framework/bebop_ws/devel
 install: false
-install_space: /home/chris/bebop_ws/install
+install_space: /home/chris/bebop-software-framework/bebop_ws/install
 profile: default
-source_space: /home/chris/bebop_ws/src
-workspace: /home/chris/bebop_ws
+source_space: /home/chris/bebop-software-framework/bebop_ws/src
+workspace: /home/chris/bebop-software-framework/bebop_ws

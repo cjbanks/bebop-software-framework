@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chris/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/lee_position_controller_node.cpp" "/home/chris/bebop_ws/build/rotors_control/CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o"
+  "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/lee_position_controller_node.cpp" "/home/chris/bebop-software-framework/bebop_ws/build/rotors_control/CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,17 +17,17 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include"
+  "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include"
+  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/chris/bebop_ws/devel/.private/mav_msgs/include"
-  "/home/chris/bebop_ws/src/mav_comm/mav_msgs/include"
   "/usr/include/eigen3"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chris/bebop_ws/build/rotors_control/CMakeFiles/lee_position_controller.dir/DependInfo.cmake"
+  "/home/chris/bebop-software-framework/bebop_ws/build/rotors_control/CMakeFiles/lee_position_controller.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

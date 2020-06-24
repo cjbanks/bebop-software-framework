@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/bebop_ws/src/joystick_drivers/ps3joy
+# Install script for directory: /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/bebop_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chris/bebop-software-framework/bebop_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/_setup_util.py")
+   "/home/chris/bebop-software-framework/bebop_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/env.sh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.bash;/home/chris/bebop_ws/install/local_setup.bash")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.bash;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/setup.bash"
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/setup.bash"
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.sh;/home/chris/bebop_ws/install/local_setup.sh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.sh;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/setup.sh"
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/setup.sh"
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.zsh;/home/chris/bebop_ws/install/local_setup.zsh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.zsh;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/setup.zsh"
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/setup.zsh"
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/.rosinstall")
+   "/home/chris/bebop-software-framework/bebop_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/ps3joy.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/ps3joy.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy/cmake" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/ps3joyConfig.cmake"
-    "/home/chris/bebop_ws/build/ps3joy/catkin_generated/installspace/ps3joyConfig-version.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/ps3joyConfig.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/catkin_generated/installspace/ps3joyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/chris/bebop_ws/src/joystick_drivers/ps3joy/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,7 +150,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ps3joy/sixpair"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ps3joy" TYPE EXECUTABLE FILES "/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ps3joy" TYPE EXECUTABLE FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ps3joy/sixpair" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ps3joy/sixpair")
     file(RPATH_CHANGE
@@ -164,24 +164,24 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE DIRECTORY FILES "/home/chris/bebop_ws/src/joystick_drivers/ps3joy/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/chris/bebop_ws/src/joystick_drivers/ps3joy/diagnostics.yaml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/diagnostics.yaml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ps3joy" TYPE PROGRAM FILES
-    "/home/chris/bebop_ws/src/joystick_drivers/ps3joy/scripts/ps3joy.py"
-    "/home/chris/bebop_ws/src/joystick_drivers/ps3joy/scripts/ps3joy_node.py"
-    "/home/chris/bebop_ws/src/joystick_drivers/ps3joy/scripts/ps3joysim.py"
+    "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/scripts/ps3joy.py"
+    "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/scripts/ps3joy_node.py"
+    "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/scripts/ps3joysim.py"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/bebop_ws/build/ps3joy/gtest/cmake_install.cmake")
+  include("/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/gtest/cmake_install.cmake")
 
 endif()
 
@@ -193,5 +193,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chris/bebop_ws/build/ps3joy/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

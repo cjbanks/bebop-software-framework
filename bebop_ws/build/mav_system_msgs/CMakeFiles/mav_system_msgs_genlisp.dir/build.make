@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/mav_comm/mav_system_msgs
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_system_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/mav_system_msgs
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/mav_system_msgs
 
 # Utility rule file for mav_system_msgs_genlisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/mav_system_msgs_genlisp.dir/clean:
 .PHONY : CMakeFiles/mav_system_msgs_genlisp.dir/clean
 
 CMakeFiles/mav_system_msgs_genlisp.dir/depend:
-	cd /home/chris/bebop_ws/build/mav_system_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/mav_comm/mav_system_msgs /home/chris/bebop_ws/src/mav_comm/mav_system_msgs /home/chris/bebop_ws/build/mav_system_msgs /home/chris/bebop_ws/build/mav_system_msgs /home/chris/bebop_ws/build/mav_system_msgs/CMakeFiles/mav_system_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/mav_system_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_system_msgs /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_system_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_system_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_system_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_system_msgs/CMakeFiles/mav_system_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mav_system_msgs_genlisp.dir/depend
 

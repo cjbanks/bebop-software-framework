@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bebop.dir/src/bebop.cpp.o"
   "CMakeFiles/bebop.dir/src/bebop_video_decoder.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/bebop_driver/lib/libbebop.pdb"
-  "/home/chris/bebop_ws/devel/.private/bebop_driver/lib/libbebop.so"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/lib/libbebop.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/lib/libbebop.so"
 )
 
 # Per-language clean rules from dependency scanning.

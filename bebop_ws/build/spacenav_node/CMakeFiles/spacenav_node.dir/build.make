@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/joystick_drivers/spacenav_node
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/spacenav_node
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node
 
 # Include any dependencies generated for this target.
 include CMakeFiles/spacenav_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/spacenav_node.dir/progress.make
 include CMakeFiles/spacenav_node.dir/flags.make
 
 CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o: CMakeFiles/spacenav_node.dir/flags.make
-CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o: /home/chris/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop_ws/build/spacenav_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o -c /home/chris/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp
+CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o -c /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp
 
 CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chris/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp > CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp > CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.i
 
 CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chris/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp -o CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp -o CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.s
 
 # Object files for target spacenav_node
 spacenav_node_OBJECTS = \
@@ -77,33 +77,32 @@ spacenav_node_OBJECTS = \
 # External object files for target spacenav_node
 spacenav_node_EXTERNAL_OBJECTS =
 
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: CMakeFiles/spacenav_node.dir/build.make
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libroscpp.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librosconsole.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librostime.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: CMakeFiles/spacenav_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop_ws/build/spacenav_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node"
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: CMakeFiles/spacenav_node.dir/build.make
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libroscpp.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librosconsole.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/librostime.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node: CMakeFiles/spacenav_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spacenav_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/spacenav_node.dir/build: /home/chris/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node
+CMakeFiles/spacenav_node.dir/build: /home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/lib/spacenav_node/spacenav_node
 
 .PHONY : CMakeFiles/spacenav_node.dir/build
 
@@ -112,6 +111,6 @@ CMakeFiles/spacenav_node.dir/clean:
 .PHONY : CMakeFiles/spacenav_node.dir/clean
 
 CMakeFiles/spacenav_node.dir/depend:
-	cd /home/chris/bebop_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop_ws/build/spacenav_node /home/chris/bebop_ws/build/spacenav_node /home/chris/bebop_ws/build/spacenav_node/CMakeFiles/spacenav_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/spacenav_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/spacenav_node.dir/depend
 

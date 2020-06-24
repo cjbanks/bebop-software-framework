@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chris/bebop_ws/src/joystick_drivers/wiimote/src/teleop_wiimote.cpp" "/home/chris/bebop_ws/build/wiimote/CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o"
+  "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/src/teleop_wiimote.cpp" "/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/chris/bebop_ws/devel/.private/wiimote/include"
-  "/home/chris/bebop_ws/src/joystick_drivers/wiimote/include"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/include"
+  "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/rotors_simulator/rotors_evaluation
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_evaluation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/rotors_evaluation
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_evaluation
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles /home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_evaluation/CMakeFiles /home/chris/bebop-software-framework/bebop_ws/build/rotors_evaluation/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_evaluation/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,4 +1,4 @@
-prefix=/home/chris/bebop_ws/install
+prefix=/home/chris/bebop-software-framework/bebop_ws/install
 
 Name: bebop_tools
 Description: Description of bebop_tools

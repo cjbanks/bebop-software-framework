@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "bebop_simulator")
-set(bebop_simulator_VERSION "2.0.1")
+set(bebop_simulator_VERSION "0.2.2")
 set(bebop_simulator_MAINTAINER "Giuseppe Silano <giuseppe.silano@unisannio.it>, Luigi Iannelli <luigi.iannelli@unisannio.it>")
 set(bebop_simulator_PACKAGE_FORMAT "1")
 set(bebop_simulator_BUILD_DEPENDS "gazebo_plugins" "rotors_gazebo_plugins" "gazebo_msgs" "geometry_msgs" "mav_msgs" "nav_msgs" "std_msgs" "bebop_driver" "roscpp" "sensor_msgs" "cmake_modules" "tf2" "tf")

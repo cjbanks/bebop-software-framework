@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Actuators.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Actuators.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 string
 -
 vector
@@ -46,7 +46,7 @@ geometry_msgs/Quaternion.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 string
 -
 vector
@@ -68,7 +68,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
 string
 -
 vector
@@ -88,7 +88,7 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 string
 -
 vector
@@ -106,7 +106,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 string
 -
 vector
@@ -128,29 +128,29 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Matrix3x3.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Matrix3x3.h
 Vector3.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Vector3.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Vector3.h
 Quaternion.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Quaternion.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Quaternion.h
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/QuadWord.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/QuadWord.h
 Scalar.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Scalar.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Scalar.h
 MinMax.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h
 altivec.h
 -
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Quaternion.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Quaternion.h
 Vector3.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Vector3.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Vector3.h
 QuadWord.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/QuadWord.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/QuadWord.h
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Scalar.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Scalar.h
 math.h
 -
 stdlib.h
@@ -172,13 +172,13 @@ assert.h
 assert.h
 -
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Vector3.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Vector3.h
 Scalar.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/Scalar.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Scalar.h
 MinMax.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/common.h
 assert.h
 -
 mav_msgs/conversions.h
@@ -188,13 +188,13 @@ mav_msgs/default_topics.h
 nav_msgs/Odometry.h
 -
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/extendedKalmanFilter.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/extendedKalmanFilter.h
 bebop_simulator/transform_datatypes.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/bebop_simulator/transform_datatypes.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/bebop_simulator/transform_datatypes.h
 bebop_simulator/Matrix3x3.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/bebop_simulator/Matrix3x3.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/bebop_simulator/Matrix3x3.h
 bebop_simulator/Quaternion.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/bebop_simulator/Quaternion.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/bebop_simulator/Quaternion.h
 nav_msgs/Odometry.h
 -
 mav_msgs/conversions.h
@@ -208,65 +208,65 @@ random
 cmath
 -
 stabilizer_types.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/stabilizer_types.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/stabilizer_types.h
 filter_parameters.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/filter_parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/filter_parameters.h
 common.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/common.h
 parameters_ros.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/parameters_ros.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/parameters_ros.h
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/filter_parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/filter_parameters.h
 Eigen/Eigen
 -
 ros/ros.h
 -
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/parameters.h
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/parameters_ros.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/parameters_ros.h
 ros/ros.h
 -
 parameters.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/parameters.h
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/stabilizer_types.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/stabilizer_types.h
 ros/ros.h
 -
 
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/transform_datatypes.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/transform_datatypes.h
 string
 -
 geometry_msgs/PointStamped.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/PointStamped.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/PointStamped.h
 geometry_msgs/Vector3Stamped.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/Vector3Stamped.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/Vector3Stamped.h
 geometry_msgs/QuaternionStamped.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/QuaternionStamped.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/QuaternionStamped.h
 geometry_msgs/TransformStamped.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/TransformStamped.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/TransformStamped.h
 geometry_msgs/PoseStamped.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/PoseStamped.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/geometry_msgs/PoseStamped.h
 tf/LinearMath/Transform.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/tf/LinearMath/Transform.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/tf/LinearMath/Transform.h
 ros/time.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/ros/time.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/ros/time.h
 ros/console.h
-/home/chris/bebop_ws/src/BebopS/include/bebop_simulator/ros/console.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/ros/console.h
 
-/home/chris/bebop_ws/src/BebopS/src/library/extendedKalmanFilter.cpp
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/extendedKalmanFilter.cpp
 bebop_simulator/extendedKalmanFilter.h
-/home/chris/bebop_ws/src/BebopS/src/library/bebop_simulator/extendedKalmanFilter.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/bebop_simulator/extendedKalmanFilter.h
 bebop_simulator/transform_datatypes.h
-/home/chris/bebop_ws/src/BebopS/src/library/bebop_simulator/transform_datatypes.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/bebop_simulator/transform_datatypes.h
 bebop_simulator/Matrix3x3.h
-/home/chris/bebop_ws/src/BebopS/src/library/bebop_simulator/Matrix3x3.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/bebop_simulator/Matrix3x3.h
 bebop_simulator/Quaternion.h
-/home/chris/bebop_ws/src/BebopS/src/library/bebop_simulator/Quaternion.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/bebop_simulator/Quaternion.h
 bebop_simulator/stabilizer_types.h
-/home/chris/bebop_ws/src/BebopS/src/library/bebop_simulator/stabilizer_types.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/bebop_simulator/stabilizer_types.h
 bebop_simulator/common.h
-/home/chris/bebop_ws/src/BebopS/src/library/bebop_simulator/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/bebop_simulator/common.h
 math.h
 -
 ros/ros.h
@@ -282,7 +282,7 @@ ros/console.h
 random
 -
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h
 geometry_msgs/Point.h
 -
 geometry_msgs/Quaternion.h
@@ -294,7 +294,7 @@ Eigen/Geometry
 boost/algorithm/clamp.hpp
 -
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h
 geometry_msgs/Point.h
 -
 geometry_msgs/PoseStamped.h
@@ -312,31 +312,31 @@ ros/ros.h
 trajectory_msgs/MultiDOFJointTrajectory.h
 -
 mav_msgs/Actuators.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/Actuators.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/Actuators.h
 mav_msgs/AttitudeThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/AttitudeThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/AttitudeThrust.h
 mav_msgs/RateThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RateThrust.h
 mav_msgs/RollPitchYawrateThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrust.h
 mav_msgs/RollPitchYawrateThrustCrazyflie.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrustCrazyflie.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 mav_msgs/TorqueThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/TorqueThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/TorqueThrust.h
 mav_msgs/common.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
 mav_msgs/default_values.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/default_values.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/default_values.h
 mav_msgs/eigen_mav_msgs.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/eigen_mav_msgs.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/eigen_mav_msgs.h
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_values.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_values.h
 mav_msgs/common.h
 -
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/eigen_mav_msgs.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/eigen_mav_msgs.h
 Eigen/Eigen
 -
 deque
@@ -344,7 +344,7 @@ deque
 iostream
 -
 mav_msgs/common.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string
@@ -1279,6 +1279,8 @@ Vector3.h
 /opt/ros/melodic/include/tf/LinearMath/Vector3.h
 Quaternion.h
 /opt/ros/melodic/include/tf/LinearMath/Quaternion.h
+ros/macros.h
+-
 
 /opt/ros/melodic/include/tf/LinearMath/Transform.h
 Matrix3x3.h

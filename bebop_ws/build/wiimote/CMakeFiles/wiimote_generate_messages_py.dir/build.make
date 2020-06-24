@@ -43,52 +43,52 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/joystick_drivers/wiimote
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/wiimote
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/wiimote
 
 # Utility rule file for wiimote_generate_messages_py.
 
 # Include the progress variables for this target.
 include CMakeFiles/wiimote_generate_messages_py.dir/progress.make
 
-CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py
-CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py
-CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py
-CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py
+CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py
+CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py
+CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py
+CMakeFiles/wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py
 
 
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py: /home/chris/bebop_ws/src/joystick_drivers/wiimote/msg/TimedSwitch.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG wiimote/TimedSwitch"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop_ws/src/joystick_drivers/wiimote/msg/TimedSwitch.msg -Iwiimote:/home/chris/bebop_ws/src/joystick_drivers/wiimote/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -p wiimote -o /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py: /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg/IrSourceInfo.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG wiimote/IrSourceInfo"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg/IrSourceInfo.msg -Iwiimote:/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -p wiimote -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg
 
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py: /home/chris/bebop_ws/src/joystick_drivers/wiimote/msg/IrSourceInfo.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG wiimote/IrSourceInfo"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop_ws/src/joystick_drivers/wiimote/msg/IrSourceInfo.msg -Iwiimote:/home/chris/bebop_ws/src/joystick_drivers/wiimote/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -p wiimote -o /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py: /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg/TimedSwitch.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG wiimote/TimedSwitch"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg/TimedSwitch.msg -Iwiimote:/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -p wiimote -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg
 
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /home/chris/bebop_ws/src/joystick_drivers/wiimote/msg/State.msg
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /home/chris/bebop_ws/src/joystick_drivers/wiimote/msg/IrSourceInfo.msg
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG wiimote/State"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop_ws/src/joystick_drivers/wiimote/msg/State.msg -Iwiimote:/home/chris/bebop_ws/src/joystick_drivers/wiimote/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -p wiimote -o /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg/State.msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg/IrSourceInfo.msg
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG wiimote/State"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg/State.msg -Iwiimote:/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -p wiimote -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg
 
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py
-/home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for wiimote"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg --initpy
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for wiimote"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg --initpy
 
 wiimote_generate_messages_py: CMakeFiles/wiimote_generate_messages_py
-wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py
-wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py
-wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py
-wiimote_generate_messages_py: /home/chris/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py
+wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_IrSourceInfo.py
+wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_TimedSwitch.py
+wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/_State.py
+wiimote_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/python2.7/dist-packages/wiimote/msg/__init__.py
 wiimote_generate_messages_py: CMakeFiles/wiimote_generate_messages_py.dir/build.make
 
 .PHONY : wiimote_generate_messages_py
@@ -103,6 +103,6 @@ CMakeFiles/wiimote_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/wiimote_generate_messages_py.dir/clean
 
 CMakeFiles/wiimote_generate_messages_py.dir/depend:
-	cd /home/chris/bebop_ws/build/wiimote && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop_ws/build/wiimote /home/chris/bebop_ws/build/wiimote /home/chris/bebop_ws/build/wiimote/CMakeFiles/wiimote_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/wiimote && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop-software-framework/bebop_ws/build/wiimote /home/chris/bebop-software-framework/bebop_ws/build/wiimote /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles/wiimote_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/wiimote_generate_messages_py.dir/depend
 

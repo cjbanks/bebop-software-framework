@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/joystick_drivers/spacenav_node
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/spacenav_node
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/chris/bebop_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop_ws/build/spacenav_node /home/chris/bebop_ws/build/spacenav_node /home/chris/bebop_ws/build/spacenav_node/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/depend
 

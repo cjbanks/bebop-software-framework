@@ -1,6 +1,6 @@
-Symlinking /home/chris/bebop_ws/devel/lib/bebop_controller/bebop_controller
-Symlinking /home/chris/bebop_ws/devel/lib/bebop_controller/bebop_controller_diff_flat
-Symlinking /home/chris/bebop_ws/devel/lib/bebop_controller/bebop_controller_diff_flat_yaw
-Symlinking /home/chris/bebop_ws/devel/lib/pkgconfig/bebop_controller.pc
-Symlinking /home/chris/bebop_ws/devel/share/bebop_controller/cmake/bebop_controllerConfig-version.cmake
-Symlinking /home/chris/bebop_ws/devel/share/bebop_controller/cmake/bebop_controllerConfig.cmake
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/bebop_controller/bebop_controller
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/bebop_controller/bebop_controller_diff_flat
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/bebop_controller/bebop_controller_diff_flat_yaw
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/pkgconfig/bebop_controller.pc
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/bebop_controller/cmake/bebop_controllerConfig-version.cmake
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/bebop_controller/cmake/bebop_controllerConfig.cmake

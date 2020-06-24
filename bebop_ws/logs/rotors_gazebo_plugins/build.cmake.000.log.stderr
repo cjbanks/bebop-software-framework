@@ -32,8 +32,3 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
   CMakeLists.txt:223 (catkin_package)
 
 
-[31m[1mCMake Error[0m at /home/chris/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/CMakeLists.txt:370 (message):
-  MAVLink headers were not found.  They are required for building
-  MavlinkInterfacePlugin.
-
-

@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/chris/bebop_ws/devel/.private/spacenav_node:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/chris/bebop_ws/devel/.private/spacenav_node/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/chris/bebop_ws/devel/.private/spacenav_node/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/chris/bebop_ws/build/spacenav_node"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/chris/bebop_ws/devel/.private/spacenav_node/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/chris/bebop_ws/src/joystick_drivers/spacenav_node:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node:$CMAKE_PREFIX_PATH"
+export PWD="/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node:$ROS_PACKAGE_PATH"

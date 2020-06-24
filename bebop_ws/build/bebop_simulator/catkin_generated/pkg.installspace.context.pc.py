@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/eigen3".split(
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;mav_msgs;nav_msgs;roscpp;sensor_msgs;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lposition_controller;-lextendedKalmanFilter;-lposition_controller_with_bebop;-lwaypoint_filter".split(';') if "-lposition_controller;-lextendedKalmanFilter;-lposition_controller_with_bebop;-lwaypoint_filter" != "" else []
 PROJECT_NAME = "bebop_simulator"
-PROJECT_SPACE_DIR = "/home/chris/bebop_ws/install"
-PROJECT_VERSION = "2.0.1"
+PROJECT_SPACE_DIR = "/home/chris/bebop-software-framework/bebop_ws/install"
+PROJECT_VERSION = "0.2.2"

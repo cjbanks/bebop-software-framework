@@ -1,3 +1,3 @@
-Linked: (/home/chris/bebop_ws/devel/.private/rotors_description/lib/pkgconfig/rotors_description.pc, /home/chris/bebop_ws/devel/lib/pkgconfig/rotors_description.pc)
-Linked: (/home/chris/bebop_ws/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig.cmake, /home/chris/bebop_ws/devel/share/rotors_description/cmake/rotors_descriptionConfig.cmake)
-Linked: (/home/chris/bebop_ws/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake, /home/chris/bebop_ws/devel/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake)
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/pkgconfig/rotors_description.pc
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/rotors_description/cmake/rotors_descriptionConfig.cmake
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake

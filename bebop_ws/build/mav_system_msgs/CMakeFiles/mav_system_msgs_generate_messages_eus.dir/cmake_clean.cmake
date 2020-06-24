@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_system_msgs_generate_messages_eus"
-  "/home/chris/bebop_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/CpuInfo.l"
-  "/home/chris/bebop_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/ProcessInfo.l"
-  "/home/chris/bebop_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/manifest.l"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/ProcessInfo.l"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/msg/CpuInfo.l"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_system_msgs/share/roseus/ros/mav_system_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

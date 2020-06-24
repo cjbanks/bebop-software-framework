@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "diagnostic_msgs;sensor_msgs;rospy;rosgraph".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ps3joy"
-PROJECT_SPACE_DIR = "/home/chris/bebop_ws/devel/.private/ps3joy"
+PROJECT_SPACE_DIR = "/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy"
 PROJECT_VERSION = "1.13.0"

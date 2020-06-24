@@ -67,14 +67,14 @@ set(mouse_teleop_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mouse_teleop_SOURCE_PREFIX /home/chris/bebop_ws/src/teleop_tools/mouse_teleop)
-  set(mouse_teleop_DEVEL_PREFIX /home/chris/bebop_ws/devel/.private/mouse_teleop)
+  set(mouse_teleop_SOURCE_PREFIX /home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/mouse_teleop)
+  set(mouse_teleop_DEVEL_PREFIX /home/chris/bebop-software-framework/bebop_ws/devel/.private/mouse_teleop)
   set(mouse_teleop_INSTALL_PREFIX "")
   set(mouse_teleop_PREFIX ${mouse_teleop_DEVEL_PREFIX})
 else()
   set(mouse_teleop_SOURCE_PREFIX "")
   set(mouse_teleop_DEVEL_PREFIX "")
-  set(mouse_teleop_INSTALL_PREFIX /home/chris/bebop_ws/install)
+  set(mouse_teleop_INSTALL_PREFIX /home/chris/bebop-software-framework/bebop_ws/install)
   set(mouse_teleop_PREFIX ${mouse_teleop_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chris/bebop_ws/install/lib;/opt/ros/melodic/lib;/home/chris/bebop_ws/devel/lib)
+    foreach(path /home/chris/bebop-software-framework/bebop_ws/install/lib;/home/chris/bebop-software-framework/bebop_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

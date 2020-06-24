@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/bebop_ws/src/bebop_controller/scripts/controller.cpp
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller.cpp
 ros/ros.h
 -
 tf/transform_listener.h
@@ -16,70 +16,10 @@ std_srvs/Empty.h
 geometry_msgs/Twist.h
 -
 pid.hpp
-/home/chris/bebop_ws/src/bebop_controller/scripts/pid.hpp
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/pid.hpp
 
-/home/chris/bebop_ws/src/bebop_controller/scripts/pid.hpp
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/pid.hpp
 ros/ros.h
--
-
-/opt/ros/melodic/include/boost_161_condition_variable.h
-boost/thread/detail/platform.hpp
--
-boost/thread/win32/condition_variable.hpp
--
-boost_161_pthread_condition_variable.h
-/opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-
-/opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-boost_161_pthread_condition_variable_fwd.h
-/opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
-boost/thread/pthread/timespec.hpp
--
-boost/thread/pthread/pthread_mutex_scoped_lock.hpp
--
-boost/thread/pthread/thread_data.hpp
--
-boost/chrono/system_clocks.hpp
--
-boost/chrono/ceil.hpp
--
-boost/thread/detail/delete.hpp
--
-boost/config/abi_prefix.hpp
--
-boost/config/abi_suffix.hpp
--
-
-/opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
-boost/assert.hpp
--
-boost/throw_exception.hpp
--
-pthread.h
--
-boost/thread/cv_status.hpp
--
-boost/thread/mutex.hpp
--
-boost/thread/lock_types.hpp
--
-boost/thread/thread_time.hpp
--
-boost/thread/pthread/timespec.hpp
--
-boost/thread/xtime.hpp
--
-boost/chrono/system_clocks.hpp
--
-boost/chrono/ceil.hpp
--
-boost/thread/detail/delete.hpp
--
-boost/date_time/posix_time/posix_time_duration.hpp
--
-boost/config/abi_prefix.hpp
--
-boost/config/abi_suffix.hpp
 -
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
@@ -363,14 +303,6 @@ ros/time.h
 /opt/ros/melodic/include/ros/ros/time.h
 
 /opt/ros/melodic/include/ros/callback_queue.h
-boost/version.hpp
--
-boost_161_condition_variable.h
-/opt/ros/melodic/include/ros/boost_161_condition_variable.h
-boost/thread/condition_variable.hpp
--
-boost/thread/condition_variable.hpp
--
 ros/callback_queue_interface.h
 /opt/ros/melodic/include/ros/ros/callback_queue_interface.h
 ros/time.h
@@ -378,6 +310,8 @@ ros/time.h
 common.h
 /opt/ros/melodic/include/ros/common.h
 boost/shared_ptr.hpp
+-
+boost/thread/condition_variable.hpp
 -
 boost/thread/mutex.hpp
 -
@@ -1163,6 +1097,8 @@ Vector3.h
 /opt/ros/melodic/include/tf/LinearMath/Vector3.h
 Quaternion.h
 /opt/ros/melodic/include/tf/LinearMath/Quaternion.h
+ros/macros.h
+-
 
 /opt/ros/melodic/include/tf/LinearMath/MinMax.h
 
@@ -1179,6 +1115,8 @@ Vector3.h
 /opt/ros/melodic/include/tf/LinearMath/Vector3.h
 QuadWord.h
 /opt/ros/melodic/include/tf/LinearMath/QuadWord.h
+ros/macros.h
+-
 
 /opt/ros/melodic/include/tf/LinearMath/Scalar.h
 math.h
@@ -1244,6 +1182,8 @@ boost/signals2.hpp
 geometry_msgs/TwistStamped.h
 /opt/ros/melodic/include/tf/geometry_msgs/TwistStamped.h
 tf2_ros/buffer.h
+-
+ros/macros.h
 -
 
 /opt/ros/melodic/include/tf/tfMessage.h
@@ -1311,6 +1251,8 @@ ros/ros.h
 /opt/ros/melodic/include/tf/ros/ros.h
 ros/callback_queue.h
 /opt/ros/melodic/include/tf/ros/callback_queue.h
+ros/macros.h
+/opt/ros/melodic/include/tf/ros/macros.h
 tf/FrameGraph.h
 /opt/ros/melodic/include/tf/tf/FrameGraph.h
 boost/thread.hpp

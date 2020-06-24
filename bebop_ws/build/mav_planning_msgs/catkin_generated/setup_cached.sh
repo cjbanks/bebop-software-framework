@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/chris/bebop_ws/devel/.private/mav_planning_msgs:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/chris/bebop_ws/devel/.private/mav_planning_msgs/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/chris/bebop_ws/devel/.private/mav_planning_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/chris/bebop_ws/build/mav_planning_msgs"
-export PYTHONPATH="/home/chris/bebop_ws/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/chris/bebop_ws/devel/.private/mav_planning_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/chris/bebop_ws/src/mav_comm/mav_planning_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs:$CMAKE_PREFIX_PATH"
+export PWD="/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs:$ROS_PACKAGE_PATH"

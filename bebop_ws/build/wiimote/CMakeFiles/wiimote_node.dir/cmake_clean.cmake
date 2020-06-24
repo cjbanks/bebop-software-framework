@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o"
   "CMakeFiles/wiimote_node.dir/src/stat_vector_3d.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/wiimote/lib/wiimote/wiimote_node.pdb"
-  "/home/chris/bebop_ws/devel/.private/wiimote/lib/wiimote/wiimote_node"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/wiimote/wiimote_node.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/wiimote/wiimote_node"
 )
 
 # Per-language clean rules from dependency scanning.

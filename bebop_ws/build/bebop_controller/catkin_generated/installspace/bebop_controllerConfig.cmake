@@ -67,14 +67,14 @@ set(bebop_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(bebop_controller_SOURCE_PREFIX /home/chris/bebop_ws/src/bebop_controller)
-  set(bebop_controller_DEVEL_PREFIX /home/chris/bebop_ws/devel/.private/bebop_controller)
+  set(bebop_controller_SOURCE_PREFIX /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller)
+  set(bebop_controller_DEVEL_PREFIX /home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller)
   set(bebop_controller_INSTALL_PREFIX "")
   set(bebop_controller_PREFIX ${bebop_controller_DEVEL_PREFIX})
 else()
   set(bebop_controller_SOURCE_PREFIX "")
   set(bebop_controller_DEVEL_PREFIX "")
-  set(bebop_controller_INSTALL_PREFIX /home/chris/bebop_ws/install)
+  set(bebop_controller_INSTALL_PREFIX /home/chris/bebop-software-framework/bebop_ws/install)
   set(bebop_controller_PREFIX ${bebop_controller_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chris/bebop_ws/install/lib;/opt/ros/melodic/lib;/home/chris/bebop_ws/devel/lib)
+    foreach(path /home/chris/bebop-software-framework/bebop_ws/install/lib;/home/chris/bebop-software-framework/bebop_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

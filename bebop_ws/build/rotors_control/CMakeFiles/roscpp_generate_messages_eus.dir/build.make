@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/rotors_simulator/rotors_control
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/rotors_control
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_control
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/chris/bebop_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/rotors_simulator/rotors_control /home/chris/bebop_ws/src/rotors_simulator/rotors_control /home/chris/bebop_ws/build/rotors_control /home/chris/bebop_ws/build/rotors_control /home/chris/bebop_ws/build/rotors_control/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/rotors_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control /home/chris/bebop-software-framework/bebop_ws/build/rotors_control /home/chris/bebop-software-framework/bebop_ws/build/rotors_control /home/chris/bebop-software-framework/bebop_ws/build/rotors_control/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-88-generic - x86_64
+The system is: Linux - 4.15.0-106-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/3.11.0-rc2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/3.11.0-rc2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/3.11.0-rc2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/3.11.0-rc2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ab09/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ab09.dir/build.make CMakeFiles/cmTC_3ab09.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ab09.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3ab09.dir/testCCompiler.c.o   -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3ab09
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ab09.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3ab09.dir/testCCompiler.c.o  -o cmTC_3ab09 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_61c34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61c34.dir/build.make CMakeFiles/cmTC_61c34.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61c34.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61c34.dir/testCCompiler.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_61c34
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61c34.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_61c34.dir/testCCompiler.c.o  -o cmTC_61c34 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a4b7f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a4b7f.dir/build.make CMakeFiles/cmTC_a4b7f.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_a4b7f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b7f.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o  -o cmTC_a4b7f 
+Run Build Command:"/usr/bin/make" "cmTC_7eccc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7eccc.dir/build.make CMakeFiles/cmTC_7eccc.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7eccc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eccc.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o  -o cmTC_7eccc 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a4b7f' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIg0ELm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a4b7f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a4b7f' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7eccc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuTL6yy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7eccc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7eccc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a4b7f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a4b7f.dir/build.make CMakeFiles/cmTC_a4b7f.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_a4b7f]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b7f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o  -o cmTC_a4b7f ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7eccc/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7eccc.dir/build.make CMakeFiles/cmTC_7eccc.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7eccc]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eccc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o  -o cmTC_7eccc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a4b7f' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIg0ELm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a4b7f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7eccc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuTL6yy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7eccc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccIg0ELm.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuTL6yy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a4b7f] ==> ignore
+    arg [cmTC_7eccc] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_a4b7f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7eccc.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4ac7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f4ac7.dir/build.make CMakeFiles/cmTC_f4ac7.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f4ac7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_f4ac7.dir/feature_tests.c.o   -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f4ac7
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4ac7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f4ac7.dir/feature_tests.c.o  -o cmTC_f4ac7 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3e457/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e457.dir/build.make CMakeFiles/cmTC_3e457.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e457.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3e457.dir/feature_tests.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3e457
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e457.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3e457.dir/feature_tests.c.o  -o cmTC_3e457 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CM
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4f075/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4f075.dir/build.make CMakeFiles/cmTC_4f075.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4f075.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4f075.dir/feature_tests.c.o   -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4f075
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f075.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4f075.dir/feature_tests.c.o  -o cmTC_4f075 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_26916/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26916.dir/build.make CMakeFiles/cmTC_26916.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26916.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_26916.dir/feature_tests.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.c
+Linking C executable cmTC_26916
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26916.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_26916.dir/feature_tests.c.o  -o cmTC_26916 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CM
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d1d1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1d1d1.dir/build.make CMakeFiles/cmTC_1d1d1.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d1d1.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_1d1d1.dir/feature_tests.c.o   -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1d1d1
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d1d1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1d1d1.dir/feature_tests.c.o  -o cmTC_1d1d1 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d7cfc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7cfc.dir/build.make CMakeFiles/cmTC_d7cfc.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7cfc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d7cfc.dir/feature_tests.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d7cfc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7cfc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d7cfc.dir/feature_tests.c.o  -o cmTC_d7cfc 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CM
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_11b8f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_11b8f.dir/build.make CMakeFiles/cmTC_11b8f.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_11b8f.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_11b8f.dir/testCXXCompiler.cxx.o -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_11b8f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11b8f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_11b8f.dir/testCXXCompiler.cxx.o  -o cmTC_11b8f 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3b6b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b6b0.dir/build.make CMakeFiles/cmTC_3b6b0.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b6b0.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3b6b0.dir/testCXXCompiler.cxx.o -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3b6b0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b6b0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3b6b0.dir/testCXXCompiler.cxx.o  -o cmTC_3b6b0 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7192f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7192f.dir/build.make CMakeFiles/cmTC_7192f.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_7192f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7192f.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7192f 
+Run Build Command:"/usr/bin/make" "cmTC_df69d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df69d.dir/build.make CMakeFiles/cmTC_df69d.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_df69d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df69d.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_df69d 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7192f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuhnFC1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7192f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7192f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_df69d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1jiP69.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_df69d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_df69d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7192f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7192f.dir/build.make CMakeFiles/cmTC_7192f.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_7192f]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7192f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7192f ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_df69d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_df69d.dir/build.make CMakeFiles/cmTC_df69d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_df69d]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df69d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_df69d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7192f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuhnFC1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7192f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_df69d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1jiP69.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_df69d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccuhnFC1.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1jiP69.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7192f] ==> ignore
+    arg [cmTC_df69d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_7192f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_df69d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a8b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3a8b8.dir/build.make CMakeFiles/cmTC_3a8b8.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3a8b8.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_3a8b8.dir/feature_tests.cxx.o -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3a8b8
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a8b8.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3a8b8.dir/feature_tests.cxx.o  -o cmTC_3a8b8 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7d717/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d717.dir/build.make CMakeFiles/cmTC_7d717.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d717.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_7d717.dir/feature_tests.cxx.o -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7d717
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d717.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7d717.dir/feature_tests.cxx.o  -o cmTC_7d717 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CM
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e580/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2e580.dir/build.make CMakeFiles/cmTC_2e580.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2e580.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_2e580.dir/feature_tests.cxx.o -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2e580
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e580.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2e580.dir/feature_tests.cxx.o  -o cmTC_2e580 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f9792/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9792.dir/build.make CMakeFiles/cmTC_f9792.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9792.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f9792.dir/feature_tests.cxx.o -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f9792
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9792.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f9792.dir/feature_tests.cxx.o  -o cmTC_f9792 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CM
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c5a27/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c5a27.dir/build.make CMakeFiles/cmTC_c5a27.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c5a27.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_c5a27.dir/feature_tests.cxx.o -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c5a27
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5a27.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c5a27.dir/feature_tests.cxx.o  -o cmTC_c5a27 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3c403/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c403.dir/build.make CMakeFiles/cmTC_3c403.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c403.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_3c403.dir/feature_tests.cxx.o -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3c403
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c403.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3c403.dir/feature_tests.cxx.o  -o cmTC_3c403 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CM
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f0c99/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f0c99.dir/build.make CMakeFiles/cmTC_f0c99.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f0c99.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f0c99.dir/feature_tests.cxx.o -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f0c99
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0c99.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f0c99.dir/feature_tests.cxx.o  -o cmTC_f0c99 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4a3f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a3f7.dir/build.make CMakeFiles/cmTC_4a3f7.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a3f7.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_4a3f7.dir/feature_tests.cxx.o -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4a3f7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a3f7.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4a3f7.dir/feature_tests.cxx.o  -o cmTC_4a3f7 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,30 +632,30 @@ make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CM
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ab45/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ab45.dir/build.make CMakeFiles/cmTC_8ab45.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ab45.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8ab45.dir/CheckIncludeFile.c.o   -c /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_8ab45
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ab45.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ab45.dir/CheckIncludeFile.c.o  -o cmTC_8ab45 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f2e41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2e41.dir/build.make CMakeFiles/cmTC_f2e41.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2e41.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2e41.dir/CheckIncludeFile.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f2e41
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2e41.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f2e41.dir/CheckIncludeFile.c.o  -o cmTC_f2e41 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76017/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76017.dir/build.make CMakeFiles/cmTC_76017.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_76017.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_76017.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_76017
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76017.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_76017.dir/CheckFunctionExists.c.o  -o cmTC_76017 -lpthread 
-make[1]: Leaving directory '/home/chris/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0ad69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ad69.dir/build.make CMakeFiles/cmTC_0ad69.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ad69.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0ad69.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ad69
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ad69.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0ad69.dir/CheckFunctionExists.c.o  -o cmTC_0ad69 -lpthread 
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/mav_state_machine_msgs/CMakeFiles/CMakeTmp'
 
 

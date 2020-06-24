@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/waypoint_filter.dir/src/library/waypoint_filter.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/bebop_simulator/lib/libwaypoint_filter.pdb"
-  "/home/chris/bebop_ws/devel/.private/bebop_simulator/lib/libwaypoint_filter.so"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/lib/libwaypoint_filter.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/lib/libwaypoint_filter.so"
 )
 
 # Per-language clean rules from dependency scanning.

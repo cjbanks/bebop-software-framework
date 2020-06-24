@@ -1,3 +1,4 @@
+set(wiimote_SETUP_PY_SETUP_MODULE "distutils.core")
 set(wiimote_SETUP_PY_VERSION "1.13.0")
 set(wiimote_SETUP_PY_SCRIPTS "")
 set(wiimote_SETUP_PY_PACKAGES "wiimote")

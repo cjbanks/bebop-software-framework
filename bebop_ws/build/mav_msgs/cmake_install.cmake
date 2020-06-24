@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/bebop_ws/src/mav_comm/mav_msgs
+# Install script for directory: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/bebop_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chris/bebop-software-framework/bebop_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,156 +49,156 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/_setup_util.py")
+   "/home/chris/bebop-software-framework/bebop_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/env.sh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.bash;/home/chris/bebop_ws/install/local_setup.bash")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.bash;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/setup.bash"
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/setup.bash"
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.sh;/home/chris/bebop_ws/install/local_setup.sh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.sh;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/setup.sh"
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/setup.sh"
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.zsh;/home/chris/bebop_ws/install/local_setup.zsh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.zsh;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/setup.zsh"
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/setup.zsh"
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/.rosinstall")
+   "/home/chris/bebop-software-framework/bebop_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_msgs/msg" TYPE FILE FILES
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/Actuators.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/RateThrust.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrust.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/TorqueThrust.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/FilteredSensorData.msg"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg/GpsWaypoint.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Actuators.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RateThrust.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrust.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/TorqueThrust.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/FilteredSensorData.msg"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/GpsWaypoint.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_msgs/cmake" TYPE FILE FILES "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_msgs/cmake" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/chris/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/chris/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/chris/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/chris/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/chris/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_msgs/cmake" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgs-msg-extras.cmake"
-    "/home/chris/bebop_ws/src/mav_comm/mav_msgs/cmake/export_flags.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgs-msg-extras.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/cmake/export_flags.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_msgs/cmake" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgsConfig.cmake"
-    "/home/chris/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgsConfig-version.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgsConfig.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/installspace/mav_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_msgs" TYPE FILE FILES "/home/chris/bebop_ws/src/mav_comm/mav_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_msgs" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mav_msgs" TYPE DIRECTORY FILES "/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mav_msgs" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/bebop_ws/build/mav_msgs/gtest/cmake_install.cmake")
+  include("/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -210,5 +210,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chris/bebop_ws/build/mav_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

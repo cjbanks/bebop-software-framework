@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/rotors_gazebo_plugins
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo_plugins
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/chris/bebop_ws/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins /home/chris/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins /home/chris/bebop_ws/build/rotors_gazebo_plugins /home/chris/bebop_ws/build/rotors_gazebo_plugins /home/chris/bebop_ws/build/rotors_gazebo_plugins/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo_plugins /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo_plugins /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo_plugins/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

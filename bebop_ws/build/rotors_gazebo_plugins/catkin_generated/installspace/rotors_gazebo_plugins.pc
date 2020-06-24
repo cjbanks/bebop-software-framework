@@ -1,4 +1,4 @@
-prefix=/home/chris/bebop_ws/install
+prefix=/home/chris/bebop-software-framework/bebop_ws/install
 
 Name: rotors_gazebo_plugins
 Description: Description of rotors_gazebo_plugins

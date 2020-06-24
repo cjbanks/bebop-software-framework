@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_comm_generate_messages_nodejs"
-  "/home/chris/bebop_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/msg/WindSpeed.js"
-  "/home/chris/bebop_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/RecordRosbag.js"
-  "/home/chris/bebop_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/Octomap.js"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/msg/WindSpeed.js"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/Octomap.js"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/srv/RecordRosbag.js"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/teleop_tools/joy_teleop
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/joy_teleop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/joy_teleop
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/joy_teleop
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/joy_teleop
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/chris/bebop_ws/build/joy_teleop/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/chris/bebop-software-framework/bebop_ws/build/joy_teleop/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/chris/bebop_ws/build/joy_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/teleop_tools/joy_teleop /home/chris/bebop_ws/src/teleop_tools/joy_teleop /home/chris/bebop_ws/build/joy_teleop /home/chris/bebop_ws/build/joy_teleop /home/chris/bebop_ws/build/joy_teleop/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/joy_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/joy_teleop /home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/joy_teleop /home/chris/bebop-software-framework/bebop_ws/build/joy_teleop /home/chris/bebop-software-framework/bebop_ws/build/joy_teleop /home/chris/bebop-software-framework/bebop_ws/build/joy_teleop/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

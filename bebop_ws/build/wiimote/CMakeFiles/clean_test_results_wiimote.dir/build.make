@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/joystick_drivers/wiimote
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/wiimote
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/wiimote
 
 # Utility rule file for clean_test_results_wiimote.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/wiimote
 include CMakeFiles/clean_test_results_wiimote.dir/progress.make
 
 CMakeFiles/clean_test_results_wiimote:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/chris/bebop_ws/build/wiimote/test_results/wiimote
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/chris/bebop-software-framework/bebop_ws/build/wiimote/test_results/wiimote
 
 clean_test_results_wiimote: CMakeFiles/clean_test_results_wiimote
 clean_test_results_wiimote: CMakeFiles/clean_test_results_wiimote.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_wiimote.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_wiimote.dir/clean
 
 CMakeFiles/clean_test_results_wiimote.dir/depend:
-	cd /home/chris/bebop_ws/build/wiimote && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop_ws/build/wiimote /home/chris/bebop_ws/build/wiimote /home/chris/bebop_ws/build/wiimote/CMakeFiles/clean_test_results_wiimote.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/wiimote && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote /home/chris/bebop-software-framework/bebop_ws/build/wiimote /home/chris/bebop-software-framework/bebop_ws/build/wiimote /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles/clean_test_results_wiimote.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_wiimote.dir/depend
 

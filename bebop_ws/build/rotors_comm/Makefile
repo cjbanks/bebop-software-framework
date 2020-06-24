@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/rotors_simulator/rotors_comm
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_comm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/rotors_comm
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop_ws/build/rotors_comm/CMakeFiles /home/chris/bebop_ws/build/rotors_comm/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm/CMakeFiles /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop_ws/build/rotors_comm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -259,17 +259,17 @@ rotors_comm_generate_messages_cpp/fast:
 .PHONY : rotors_comm_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named _rotors_comm_generate_messages_check_deps_Octomap
+# Target rules for targets named _rotors_comm_generate_messages_check_deps_RecordRosbag
 
 # Build rule for target.
-_rotors_comm_generate_messages_check_deps_Octomap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_Octomap
-.PHONY : _rotors_comm_generate_messages_check_deps_Octomap
+_rotors_comm_generate_messages_check_deps_RecordRosbag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_RecordRosbag
+.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag
 
 # fast build rule for target.
-_rotors_comm_generate_messages_check_deps_Octomap/fast:
-	$(MAKE) -f CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build.make CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build
-.PHONY : _rotors_comm_generate_messages_check_deps_Octomap/fast
+_rotors_comm_generate_messages_check_deps_RecordRosbag/fast:
+	$(MAKE) -f CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build.make CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build
+.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
@@ -597,17 +597,17 @@ octomap_msgs_generate_messages_py/fast:
 .PHONY : octomap_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named _rotors_comm_generate_messages_check_deps_RecordRosbag
+# Target rules for targets named _rotors_comm_generate_messages_check_deps_Octomap
 
 # Build rule for target.
-_rotors_comm_generate_messages_check_deps_RecordRosbag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_RecordRosbag
-.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag
+_rotors_comm_generate_messages_check_deps_Octomap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_Octomap
+.PHONY : _rotors_comm_generate_messages_check_deps_Octomap
 
 # fast build rule for target.
-_rotors_comm_generate_messages_check_deps_RecordRosbag/fast:
-	$(MAKE) -f CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build.make CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build
-.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag/fast
+_rotors_comm_generate_messages_check_deps_Octomap/fast:
+	$(MAKE) -f CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build.make CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build
+.PHONY : _rotors_comm_generate_messages_check_deps_Octomap/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -679,7 +679,7 @@ help:
 	@echo "... rotors_comm_gencpp"
 	@echo "... rotors_comm_generate_messages_nodejs"
 	@echo "... rotors_comm_generate_messages_cpp"
-	@echo "... _rotors_comm_generate_messages_check_deps_Octomap"
+	@echo "... _rotors_comm_generate_messages_check_deps_RecordRosbag"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... octomap_msgs_generate_messages_cpp"
 	@echo "... test"
@@ -707,7 +707,7 @@ help:
 	@echo "... octomap_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... octomap_msgs_generate_messages_py"
-	@echo "... _rotors_comm_generate_messages_check_deps_RecordRosbag"
+	@echo "... _rotors_comm_generate_messages_check_deps_Octomap"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

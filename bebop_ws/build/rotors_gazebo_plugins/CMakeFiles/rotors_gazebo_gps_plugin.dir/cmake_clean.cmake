@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotors_gazebo_gps_plugin.dir/src/gazebo_gps_plugin.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.pdb"
-  "/home/chris/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

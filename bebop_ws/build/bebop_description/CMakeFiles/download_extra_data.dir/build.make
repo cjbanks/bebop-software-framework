@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/bebop_autonomy/bebop_description
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/bebop_description
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/bebop_description
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/chris/bebop_ws/build/bebop_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/bebop_autonomy/bebop_description /home/chris/bebop_ws/src/bebop_autonomy/bebop_description /home/chris/bebop_ws/build/bebop_description /home/chris/bebop_ws/build/bebop_description /home/chris/bebop_ws/build/bebop_description/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/bebop_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_description /home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_description /home/chris/bebop-software-framework/bebop_ws/build/bebop_description /home/chris/bebop-software-framework/bebop_ws/build/bebop_description /home/chris/bebop-software-framework/bebop_ws/build/bebop_description/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

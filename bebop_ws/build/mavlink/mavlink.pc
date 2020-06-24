@@ -1,5 +1,5 @@
-prefix=/home/chris/bebop_ws/devel
-exec_prefix=/home/chris/bebop_ws/devel
+prefix=/home/chris/bebop-software-framework/bebop_ws/devel
+exec_prefix=/home/chris/bebop-software-framework/bebop_ws/devel
 includedir=${prefix}/include
 
 Name: mavlink

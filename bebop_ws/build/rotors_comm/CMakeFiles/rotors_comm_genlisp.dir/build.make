@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/rotors_simulator/rotors_comm
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_comm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/rotors_comm
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm
 
 # Utility rule file for rotors_comm_genlisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rotors_comm_genlisp.dir/clean:
 .PHONY : CMakeFiles/rotors_comm_genlisp.dir/clean
 
 CMakeFiles/rotors_comm_genlisp.dir/depend:
-	cd /home/chris/bebop_ws/build/rotors_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop_ws/build/rotors_comm /home/chris/bebop_ws/build/rotors_comm /home/chris/bebop_ws/build/rotors_comm/CMakeFiles/rotors_comm_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm/CMakeFiles/rotors_comm_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rotors_comm_genlisp.dir/depend
 

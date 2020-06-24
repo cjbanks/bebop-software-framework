@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/vrpn_client_ros
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/vrpn_client_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/vrpn_client_ros
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/vrpn_client_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vrpn_client_ros.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/vrpn_client_ros.dir/progress.make
 include CMakeFiles/vrpn_client_ros.dir/flags.make
 
 CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o: CMakeFiles/vrpn_client_ros.dir/flags.make
-CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o: /home/chris/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop_ws/build/vrpn_client_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o -c /home/chris/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
+CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/vrpn_client_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o -c /home/chris/bebop-software-framework/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp
 
 CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chris/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp > CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chris/bebop-software-framework/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp > CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.i
 
 CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chris/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chris/bebop-software-framework/bebop_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.s
 
 # Object files for target vrpn_client_ros
 vrpn_client_ros_OBJECTS = \
@@ -77,39 +77,38 @@ vrpn_client_ros_OBJECTS = \
 # External object files for target vrpn_client_ros
 vrpn_client_ros_EXTERNAL_OBJECTS =
 
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: CMakeFiles/vrpn_client_ros.dir/build.make
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libtf2_ros.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libactionlib.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libmessage_filters.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libroscpp.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librosconsole.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libtf2.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librostime.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libvrpn.a
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libquat.a
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: CMakeFiles/vrpn_client_ros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop_ws/build/vrpn_client_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so"
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: CMakeFiles/vrpn_client_ros.dir/build.make
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libtf2_ros.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libactionlib.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libmessage_filters.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libroscpp.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librosconsole.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libtf2.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/librostime.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libvrpn.a
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: /opt/ros/melodic/lib/libquat.a
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so: CMakeFiles/vrpn_client_ros.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/vrpn_client_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vrpn_client_ros.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/vrpn_client_ros.dir/build: /home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so
+CMakeFiles/vrpn_client_ros.dir/build: /home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so
 
 .PHONY : CMakeFiles/vrpn_client_ros.dir/build
 
@@ -118,6 +117,6 @@ CMakeFiles/vrpn_client_ros.dir/clean:
 .PHONY : CMakeFiles/vrpn_client_ros.dir/clean
 
 CMakeFiles/vrpn_client_ros.dir/depend:
-	cd /home/chris/bebop_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/vrpn_client_ros /home/chris/bebop_ws/src/vrpn_client_ros /home/chris/bebop_ws/build/vrpn_client_ros /home/chris/bebop_ws/build/vrpn_client_ros /home/chris/bebop_ws/build/vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/vrpn_client_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/vrpn_client_ros /home/chris/bebop-software-framework/bebop_ws/src/vrpn_client_ros /home/chris/bebop-software-framework/bebop_ws/build/vrpn_client_ros /home/chris/bebop-software-framework/bebop_ws/build/vrpn_client_ros /home/chris/bebop-software-framework/bebop_ws/build/vrpn_client_ros/CMakeFiles/vrpn_client_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vrpn_client_ros.dir/depend
 

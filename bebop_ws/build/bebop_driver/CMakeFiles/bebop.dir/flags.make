@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"bebop_driver\" -Dbebop_EXPORTS
 
-CXX_INCLUDES = -I/home/chris/bebop_ws/devel/.private/bebop_driver/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/chris/bebop_ws/devel/.private/bebop_msgs/include -I/usr/include/eigen3 -I/opt/ros/melodic/include/parrot_arsdk -I/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include -I/usr/include/x86_64-linux-gnu 
+CXX_INCLUDES = -I/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/include -I/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/opt/ros/melodic/include/parrot_arsdk -I/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include -I/usr/include/x86_64-linux-gnu 
 

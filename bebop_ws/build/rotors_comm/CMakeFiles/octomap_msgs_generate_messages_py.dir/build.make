@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/rotors_simulator/rotors_comm
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_comm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/rotors_comm
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm
 
 # Utility rule file for octomap_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/octomap_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/octomap_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/octomap_msgs_generate_messages_py.dir/depend:
-	cd /home/chris/bebop_ws/build/rotors_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop_ws/build/rotors_comm /home/chris/bebop_ws/build/rotors_comm /home/chris/bebop_ws/build/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_comm /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm /home/chris/bebop-software-framework/bebop_ws/build/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/octomap_msgs_generate_messages_py.dir/depend
 

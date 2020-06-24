@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chris/bebop_ws/src/BebopS/src/library/extendedKalmanFilter.cpp" "/home/chris/bebop_ws/build/bebop_simulator/CMakeFiles/extendedKalmanFilter.dir/src/library/extendedKalmanFilter.cpp.o"
+  "/home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/library/extendedKalmanFilter.cpp" "/home/chris/bebop-software-framework/bebop_ws/build/bebop_simulator/CMakeFiles/extendedKalmanFilter.dir/src/library/extendedKalmanFilter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,11 +17,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/chris/bebop_ws/src/BebopS/include"
+  "/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include"
+  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/chris/bebop_ws/devel/.private/mav_msgs/include"
-  "/home/chris/bebop_ws/src/mav_comm/mav_msgs/include"
   "/usr/include/eigen3"
   )
 

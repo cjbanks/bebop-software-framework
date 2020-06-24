@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/wiimote/lib/wiimote/teleop_wiimote.pdb"
-  "/home/chris/bebop_ws/devel/.private/wiimote/lib/wiimote/teleop_wiimote"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/wiimote/teleop_wiimote.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/lib/wiimote/teleop_wiimote"
 )
 
 # Per-language clean rules from dependency scanning.

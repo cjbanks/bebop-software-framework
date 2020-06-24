@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Actuators.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Actuators.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 string
 -
 vector
@@ -46,7 +46,7 @@ geometry_msgs/Quaternion.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 string
 -
 vector
@@ -68,7 +68,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
 string
 -
 vector
@@ -88,7 +88,7 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 string
 -
 vector
@@ -106,7 +106,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 string
 -
 vector
@@ -128,7 +128,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h
 geometry_msgs/Point.h
 -
 geometry_msgs/Quaternion.h
@@ -140,7 +140,7 @@ Eigen/Geometry
 boost/algorithm/clamp.hpp
 -
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h
 geometry_msgs/Point.h
 -
 geometry_msgs/PoseStamped.h
@@ -158,31 +158,31 @@ ros/ros.h
 trajectory_msgs/MultiDOFJointTrajectory.h
 -
 mav_msgs/Actuators.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/Actuators.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/Actuators.h
 mav_msgs/AttitudeThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/AttitudeThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/AttitudeThrust.h
 mav_msgs/RateThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RateThrust.h
 mav_msgs/RollPitchYawrateThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrust.h
 mav_msgs/RollPitchYawrateThrustCrazyflie.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrustCrazyflie.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 mav_msgs/TorqueThrust.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/TorqueThrust.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/TorqueThrust.h
 mav_msgs/common.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
 mav_msgs/default_values.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/default_values.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/default_values.h
 mav_msgs/eigen_mav_msgs.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/eigen_mav_msgs.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/eigen_mav_msgs.h
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_values.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_values.h
 mav_msgs/common.h
 -
 
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/eigen_mav_msgs.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/eigen_mav_msgs.h
 Eigen/Eigen
 -
 deque
@@ -190,9 +190,9 @@ deque
 iostream
 -
 mav_msgs/common.h
-/home/chris/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/common.h
 
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/common.h
 assert.h
 -
 mav_msgs/conversions.h
@@ -202,33 +202,33 @@ mav_msgs/default_topics.h
 nav_msgs/Odometry.h
 -
 rotors_control/parameters.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/parameters.h
 
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/parameters.h
 
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/parameters_ros.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/parameters_ros.h
 ros/ros.h
 -
 rotors_control/parameters.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/parameters.h
 
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/roll_pitch_yawrate_thrust_controller.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/roll_pitch_yawrate_thrust_controller.h
 mav_msgs/conversions.h
 -
 mav_msgs/eigen_mav_msgs.h
 -
 rotors_control/common.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/common.h
 rotors_control/parameters.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/parameters.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/include/rotors_control/rotors_control/parameters.h
 
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp
 roll_pitch_yawrate_thrust_controller_node.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.h
 rotors_control/parameters_ros.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/rotors_control/parameters_ros.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/rotors_control/parameters_ros.h
 
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/roll_pitch_yawrate_thrust_controller_node.h
 boost/bind.hpp
 -
 Eigen/Eigen
@@ -248,69 +248,9 @@ ros/ros.h
 ros/callback_queue.h
 -
 rotors_control/common.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/rotors_control/common.h
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/rotors_control/common.h
 rotors_control/roll_pitch_yawrate_thrust_controller.h
-/home/chris/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/rotors_control/roll_pitch_yawrate_thrust_controller.h
-
-/opt/ros/melodic/include/boost_161_condition_variable.h
-boost/thread/detail/platform.hpp
--
-boost/thread/win32/condition_variable.hpp
--
-boost_161_pthread_condition_variable.h
-/opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-
-/opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-boost_161_pthread_condition_variable_fwd.h
-/opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
-boost/thread/pthread/timespec.hpp
--
-boost/thread/pthread/pthread_mutex_scoped_lock.hpp
--
-boost/thread/pthread/thread_data.hpp
--
-boost/chrono/system_clocks.hpp
--
-boost/chrono/ceil.hpp
--
-boost/thread/detail/delete.hpp
--
-boost/config/abi_prefix.hpp
--
-boost/config/abi_suffix.hpp
--
-
-/opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
-boost/assert.hpp
--
-boost/throw_exception.hpp
--
-pthread.h
--
-boost/thread/cv_status.hpp
--
-boost/thread/mutex.hpp
--
-boost/thread/lock_types.hpp
--
-boost/thread/thread_time.hpp
--
-boost/thread/pthread/timespec.hpp
--
-boost/thread/xtime.hpp
--
-boost/chrono/system_clocks.hpp
--
-boost/chrono/ceil.hpp
--
-boost/thread/detail/delete.hpp
--
-boost/date_time/posix_time/posix_time_duration.hpp
--
-boost/config/abi_prefix.hpp
--
-boost/config/abi_suffix.hpp
--
+/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_control/src/nodes/rotors_control/roll_pitch_yawrate_thrust_controller.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string
@@ -555,14 +495,6 @@ ros/time.h
 /opt/ros/melodic/include/ros/ros/time.h
 
 /opt/ros/melodic/include/ros/callback_queue.h
-boost/version.hpp
--
-boost_161_condition_variable.h
-/opt/ros/melodic/include/ros/boost_161_condition_variable.h
-boost/thread/condition_variable.hpp
--
-boost/thread/condition_variable.hpp
--
 ros/callback_queue_interface.h
 /opt/ros/melodic/include/ros/ros/callback_queue_interface.h
 ros/time.h
@@ -570,6 +502,8 @@ ros/time.h
 common.h
 /opt/ros/melodic/include/ros/common.h
 boost/shared_ptr.hpp
+-
+boost/thread/condition_variable.hpp
 -
 boost/thread/mutex.hpp
 -

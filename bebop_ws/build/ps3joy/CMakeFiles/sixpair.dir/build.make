@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/joystick_drivers/ps3joy
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/ps3joy
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/ps3joy
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sixpair.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/sixpair.dir/progress.make
 include CMakeFiles/sixpair.dir/flags.make
 
 CMakeFiles/sixpair.dir/src/sixpair.c.o: CMakeFiles/sixpair.dir/flags.make
-CMakeFiles/sixpair.dir/src/sixpair.c.o: /home/chris/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop_ws/build/ps3joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sixpair.dir/src/sixpair.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sixpair.dir/src/sixpair.c.o   -c /home/chris/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c
+CMakeFiles/sixpair.dir/src/sixpair.c.o: /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sixpair.dir/src/sixpair.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sixpair.dir/src/sixpair.c.o   -c /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c
 
 CMakeFiles/sixpair.dir/src/sixpair.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sixpair.dir/src/sixpair.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c > CMakeFiles/sixpair.dir/src/sixpair.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c > CMakeFiles/sixpair.dir/src/sixpair.c.i
 
 CMakeFiles/sixpair.dir/src/sixpair.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sixpair.dir/src/sixpair.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c -o CMakeFiles/sixpair.dir/src/sixpair.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy/src/sixpair.c -o CMakeFiles/sixpair.dir/src/sixpair.c.s
 
 # Object files for target sixpair
 sixpair_OBJECTS = \
@@ -77,24 +77,24 @@ sixpair_OBJECTS = \
 # External object files for target sixpair
 sixpair_EXTERNAL_OBJECTS =
 
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: CMakeFiles/sixpair.dir/src/sixpair.c.o
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: CMakeFiles/sixpair.dir/build.make
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /opt/ros/melodic/lib/librostime.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /opt/ros/melodic/lib/libcpp_common.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: CMakeFiles/sixpair.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop_ws/build/ps3joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair"
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: CMakeFiles/sixpair.dir/src/sixpair.c.o
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: CMakeFiles/sixpair.dir/build.make
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /opt/ros/melodic/lib/librostime.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /opt/ros/melodic/lib/libcpp_common.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair: CMakeFiles/sixpair.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sixpair.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sixpair.dir/build: /home/chris/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair
+CMakeFiles/sixpair.dir/build: /home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/ps3joy/sixpair
 
 .PHONY : CMakeFiles/sixpair.dir/build
 
@@ -103,6 +103,6 @@ CMakeFiles/sixpair.dir/clean:
 .PHONY : CMakeFiles/sixpair.dir/clean
 
 CMakeFiles/sixpair.dir/depend:
-	cd /home/chris/bebop_ws/build/ps3joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop_ws/build/ps3joy /home/chris/bebop_ws/build/ps3joy /home/chris/bebop_ws/build/ps3joy/CMakeFiles/sixpair.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/ps3joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop-software-framework/bebop_ws/build/ps3joy /home/chris/bebop-software-framework/bebop_ws/build/ps3joy /home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/sixpair.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sixpair.dir/depend
 

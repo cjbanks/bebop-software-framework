@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/bebop_ws/devel/.private/wiimote/include/wiimote/IrSourceInfo.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/include/wiimote/IrSourceInfo.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/chris/bebop_ws/devel/.private/wiimote/include/wiimote/State.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/include/wiimote/State.h
 string
 -
 vector
@@ -54,23 +54,23 @@ geometry_msgs/Vector3.h
 wiimote/IrSourceInfo.h
 -
 
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/teleop_wiimote.h
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/teleop_wiimote.h
 ros/ros.h
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/ros/ros.h
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/ros/ros.h
 sensor_msgs/Joy.h
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/sensor_msgs/Joy.h
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/sensor_msgs/Joy.h
 wiimote/State.h
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/wiimote/State.h
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/include/wiimote/wiimote/State.h
 math.h
 -
 
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/src/teleop_wiimote.cpp
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/src/teleop_wiimote.cpp
 wiimote/teleop_wiimote.h
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/src/wiimote/teleop_wiimote.h
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/src/wiimote/teleop_wiimote.h
 geometry_msgs/Twist.h
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/src/geometry_msgs/Twist.h
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/src/geometry_msgs/Twist.h
 sensor_msgs/JoyFeedbackArray.h
-/home/chris/bebop_ws/src/joystick_drivers/wiimote/src/sensor_msgs/JoyFeedbackArray.h
+/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/src/sensor_msgs/JoyFeedbackArray.h
 string
 -
 

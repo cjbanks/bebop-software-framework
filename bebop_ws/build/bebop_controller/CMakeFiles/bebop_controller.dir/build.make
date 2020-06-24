@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/bebop_controller
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/bebop_controller
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/bebop_controller
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bebop_controller.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/bebop_controller.dir/progress.make
 include CMakeFiles/bebop_controller.dir/flags.make
 
 CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o: CMakeFiles/bebop_controller.dir/flags.make
-CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o: /home/chris/bebop_ws/src/bebop_controller/scripts/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop_ws/build/bebop_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o -c /home/chris/bebop_ws/src/bebop_controller/scripts/controller.cpp
+CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/bebop_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o -c /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller.cpp
 
 CMakeFiles/bebop_controller.dir/scripts/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bebop_controller.dir/scripts/controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chris/bebop_ws/src/bebop_controller/scripts/controller.cpp > CMakeFiles/bebop_controller.dir/scripts/controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller.cpp > CMakeFiles/bebop_controller.dir/scripts/controller.cpp.i
 
 CMakeFiles/bebop_controller.dir/scripts/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bebop_controller.dir/scripts/controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chris/bebop_ws/src/bebop_controller/scripts/controller.cpp -o CMakeFiles/bebop_controller.dir/scripts/controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller.cpp -o CMakeFiles/bebop_controller.dir/scripts/controller.cpp.s
 
 # Object files for target bebop_controller
 bebop_controller_OBJECTS = \
@@ -77,38 +77,37 @@ bebop_controller_OBJECTS = \
 # External object files for target bebop_controller
 bebop_controller_EXTERNAL_OBJECTS =
 
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: CMakeFiles/bebop_controller.dir/build.make
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libtf.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libtf2_ros.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libactionlib.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libmessage_filters.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libroscpp.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libtf2.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librosconsole.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librostime.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libcpp_common.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: CMakeFiles/bebop_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop_ws/build/bebop_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller"
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: CMakeFiles/bebop_controller.dir/build.make
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libtf.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libtf2_ros.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libactionlib.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libmessage_filters.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libroscpp.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libtf2.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librosconsole.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/librostime.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /opt/ros/melodic/lib/libcpp_common.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller: CMakeFiles/bebop_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/bebop_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bebop_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/bebop_controller.dir/build: /home/chris/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller
+CMakeFiles/bebop_controller.dir/build: /home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller
 
 .PHONY : CMakeFiles/bebop_controller.dir/build
 
@@ -117,6 +116,6 @@ CMakeFiles/bebop_controller.dir/clean:
 .PHONY : CMakeFiles/bebop_controller.dir/clean
 
 CMakeFiles/bebop_controller.dir/depend:
-	cd /home/chris/bebop_ws/build/bebop_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/bebop_controller /home/chris/bebop_ws/src/bebop_controller /home/chris/bebop_ws/build/bebop_controller /home/chris/bebop_ws/build/bebop_controller /home/chris/bebop_ws/build/bebop_controller/CMakeFiles/bebop_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/bebop_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller /home/chris/bebop-software-framework/bebop_ws/src/bebop_controller /home/chris/bebop-software-framework/bebop_ws/build/bebop_controller /home/chris/bebop-software-framework/bebop_ws/build/bebop_controller /home/chris/bebop-software-framework/bebop_ws/build/bebop_controller/CMakeFiles/bebop_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bebop_controller.dir/depend
 

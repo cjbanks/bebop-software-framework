@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d2c46/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d2c46.dir/build.make CMakeFiles/cmTC_d2c46.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2c46.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d2c46.dir/CheckSymbolExists.c.o   -c /home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d2c46
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2c46.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d2c46.dir/CheckSymbolExists.c.o  -o cmTC_d2c46 
-CMakeFiles/cmTC_d2c46.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_88c4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88c4a.dir/build.make CMakeFiles/cmTC_88c4a.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88c4a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88c4a.dir/CheckSymbolExists.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_88c4a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c4a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_88c4a.dir/CheckSymbolExists.c.o  -o cmTC_88c4a 
+CMakeFiles/cmTC_88c4a.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d2c46.dir/build.make:86: recipe for target 'cmTC_d2c46' failed
-make[1]: *** [cmTC_d2c46] Error 1
-make[1]: Leaving directory '/home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d2c46/fast' failed
-make: *** [cmTC_d2c46/fast] Error 2
+CMakeFiles/cmTC_88c4a.dir/build.make:86: recipe for target 'cmTC_88c4a' failed
+make[1]: *** [cmTC_88c4a] Error 1
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_88c4a/fast' failed
+make: *** [cmTC_88c4a/fast] Error 2
 
-File /home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp
+Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3253d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3253d.dir/build.make CMakeFiles/cmTC_3253d.dir/build
-make[1]: Entering directory '/home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3253d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3253d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3253d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3253d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3253d.dir/CheckFunctionExists.c.o  -o cmTC_3253d -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_15d69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15d69.dir/build.make CMakeFiles/cmTC_15d69.dir/build
+make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15d69.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_15d69.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15d69
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15d69.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_15d69.dir/CheckFunctionExists.c.o  -o cmTC_15d69 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3253d.dir/build.make:86: recipe for target 'cmTC_3253d' failed
-make[1]: *** [cmTC_3253d] Error 1
-make[1]: Leaving directory '/home/chris/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3253d/fast' failed
-make: *** [cmTC_3253d/fast] Error 2
+CMakeFiles/cmTC_15d69.dir/build.make:86: recipe for target 'cmTC_15d69' failed
+make[1]: *** [cmTC_15d69] Error 1
+make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15d69/fast' failed
+make: *** [cmTC_15d69/fast] Error 2
 
 

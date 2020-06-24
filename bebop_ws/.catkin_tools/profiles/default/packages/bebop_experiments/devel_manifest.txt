@@ -1,5 +1,5 @@
 bebop_experiments
-/home/chris/bebop_ws/devel/.private/bebop_experiments/cmake.lock /home/chris/bebop_ws/devel/./cmake.lock
-/home/chris/bebop_ws/devel/.private/bebop_experiments/lib/pkgconfig/bebop_experiments.pc /home/chris/bebop_ws/devel/lib/pkgconfig/bebop_experiments.pc
-/home/chris/bebop_ws/devel/.private/bebop_experiments/share/bebop_experiments/cmake/bebop_experimentsConfig-version.cmake /home/chris/bebop_ws/devel/share/bebop_experiments/cmake/bebop_experimentsConfig-version.cmake
-/home/chris/bebop_ws/devel/.private/bebop_experiments/share/bebop_experiments/cmake/bebop_experimentsConfig.cmake /home/chris/bebop_ws/devel/share/bebop_experiments/cmake/bebop_experimentsConfig.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments/cmake.lock /home/chris/bebop-software-framework/bebop_ws/devel/./cmake.lock
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments/lib/pkgconfig/bebop_experiments.pc /home/chris/bebop-software-framework/bebop_ws/devel/lib/pkgconfig/bebop_experiments.pc
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments/share/bebop_experiments/cmake/bebop_experimentsConfig-version.cmake /home/chris/bebop-software-framework/bebop_ws/devel/share/bebop_experiments/cmake/bebop_experimentsConfig-version.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments/share/bebop_experiments/cmake/bebop_experimentsConfig.cmake /home/chris/bebop-software-framework/bebop_ws/devel/share/bebop_experiments/cmake/bebop_experimentsConfig.cmake

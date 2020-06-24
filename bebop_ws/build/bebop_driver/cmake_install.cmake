@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/bebop_ws/src/bebop_autonomy/bebop_driver
+# Install script for directory: /home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/bebop_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chris/bebop-software-framework/bebop_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,119 +49,119 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/_setup_util.py")
+   "/home/chris/bebop-software-framework/bebop_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/env.sh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.bash;/home/chris/bebop_ws/install/local_setup.bash")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.bash;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/setup.bash"
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/setup.bash"
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.sh;/home/chris/bebop_ws/install/local_setup.sh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.sh;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/setup.sh"
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/setup.sh"
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/setup.zsh;/home/chris/bebop_ws/install/local_setup.zsh")
+   "/home/chris/bebop-software-framework/bebop_ws/install/setup.zsh;/home/chris/bebop-software-framework/bebop_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/setup.zsh"
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/setup.zsh"
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chris/bebop_ws/install/.rosinstall")
+   "/home/chris/bebop-software-framework/bebop_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/chris/bebop_ws/install" TYPE FILE FILES "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/chris/bebop-software-framework/bebop_ws/install" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/bebop_driver" TYPE FILE FILES "/home/chris/bebop_ws/devel/.private/bebop_driver/include/bebop_driver/BebopArdrone3Config.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/bebop_driver" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/include/bebop_driver/BebopArdrone3Config.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/bebop_driver" TYPE FILE FILES "/home/chris/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/bebop_driver" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/chris/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/bebop_driver" TYPE DIRECTORY FILES "/home/chris/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/bebop_driver" TYPE DIRECTORY FILES "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/lib/python2.7/dist-packages/bebop_driver/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/bebop_driver.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/bebop_driver.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bebop_driver/cmake" TYPE FILE FILES
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/bebop_driverConfig.cmake"
-    "/home/chris/bebop_ws/build/bebop_driver/catkin_generated/installspace/bebop_driverConfig-version.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/bebop_driverConfig.cmake"
+    "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/catkin_generated/installspace/bebop_driverConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bebop_driver" TYPE FILE FILES "/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bebop_driver" TYPE FILE FILES "/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/bebop_ws/build/bebop_driver/gtest/cmake_install.cmake")
+  include("/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/gtest/cmake_install.cmake")
 
 endif()
 
@@ -173,5 +173,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chris/bebop_ws/build/bebop_driver/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chris/bebop-software-framework/bebop_ws/build/bebop_driver/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

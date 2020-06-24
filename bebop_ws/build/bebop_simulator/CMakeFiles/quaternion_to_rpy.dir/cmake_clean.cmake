@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/bebop_simulator/lib/bebop_simulator/quaternion_to_rpy.pdb"
-  "/home/chris/bebop_ws/devel/.private/bebop_simulator/lib/bebop_simulator/quaternion_to_rpy"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/lib/bebop_simulator/quaternion_to_rpy.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/lib/bebop_simulator/quaternion_to_rpy"
 )
 
 # Per-language clean rules from dependency scanning.

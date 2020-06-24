@@ -1,6 +1,0 @@
-Linked: (/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so, /home/chris/bebop_ws/devel/lib/libvrpn_client_ros.so)
-Linked: (/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc, /home/chris/bebop_ws/devel/lib/pkgconfig/vrpn_client_ros.pc)
-Linked: (/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node, /home/chris/bebop_ws/devel/lib/vrpn_client_ros/vrpn_client_node)
-Linked: (/home/chris/bebop_ws/devel/.private/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node, /home/chris/bebop_ws/devel/lib/vrpn_client_ros/vrpn_tracker_node)
-Linked: (/home/chris/bebop_ws/devel/.private/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake, /home/chris/bebop_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake)
-Linked: (/home/chris/bebop_ws/devel/.private/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake, /home/chris/bebop_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake)

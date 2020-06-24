@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/mav_comm/mav_planning_msgs
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/mav_planning_msgs
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs
 
 # Utility rule file for trajectory_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend:
-	cd /home/chris/bebop_ws/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/mav_comm/mav_planning_msgs /home/chris/bebop_ws/src/mav_comm/mav_planning_msgs /home/chris/bebop_ws/build/mav_planning_msgs /home/chris/bebop_ws/build/mav_planning_msgs /home/chris/bebop_ws/build/mav_planning_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend
 

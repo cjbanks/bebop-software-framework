@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chris/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp" "/home/chris/bebop_ws/build/spacenav_node/CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o"
+  "/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp" "/home/chris/bebop-software-framework/bebop_ws/build/spacenav_node/CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

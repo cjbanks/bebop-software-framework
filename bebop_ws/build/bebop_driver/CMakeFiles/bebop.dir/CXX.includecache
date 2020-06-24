@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/bebop_ws/devel/.private/bebop_driver/include/bebop_driver/BebopArdrone3Config.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/include/bebop_driver/BebopArdrone3Config.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3AccessoryStateConnectedAccessories.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3AccessoryStateConnectedAccessories.h
 string
 -
 vector
@@ -42,7 +42,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3AntiflickeringStateelectricFrequencyChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3AntiflickeringStateelectricFrequencyChanged.h
 string
 -
 vector
@@ -60,7 +60,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3AntiflickeringStatemodeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3AntiflickeringStatemodeChanged.h
 string
 -
 vector
@@ -78,7 +78,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStateOrientation.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStateOrientation.h
 string
 -
 vector
@@ -96,7 +96,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStateOrientationV2.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStateOrientationV2.h
 string
 -
 vector
@@ -114,7 +114,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStateVelocityRange.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStateVelocityRange.h
 string
 -
 vector
@@ -132,7 +132,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientation.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientation.h
 string
 -
 vector
@@ -150,7 +150,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientationV2.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientationV2.h
 string
 -
 vector
@@ -168,7 +168,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3GPSStateHomeTypeAvailabilityChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3GPSStateHomeTypeAvailabilityChanged.h
 string
 -
 vector
@@ -186,7 +186,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3GPSStateHomeTypeChosenChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3GPSStateHomeTypeChosenChanged.h
 string
 -
 vector
@@ -204,7 +204,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3GPSStateNumberOfSatelliteChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3GPSStateNumberOfSatelliteChanged.h
 string
 -
 vector
@@ -222,7 +222,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStatePictureStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStatePictureStateChanged.h
 string
 -
 vector
@@ -240,7 +240,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStatePictureStateChangedV2.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStatePictureStateChangedV2.h
 string
 -
 vector
@@ -258,7 +258,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStateVideoResolutionState.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStateVideoResolutionState.h
 string
 -
 vector
@@ -276,7 +276,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStateVideoStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStateVideoStateChanged.h
 string
 -
 vector
@@ -294,7 +294,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStateVideoStateChangedV2.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaRecordStateVideoStateChangedV2.h
 string
 -
 vector
@@ -312,7 +312,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaStreamingStateVideoEnableChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaStreamingStateVideoEnableChanged.h
 string
 -
 vector
@@ -330,7 +330,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaStreamingStateVideoStreamModeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3MediaStreamingStateVideoStreamModeChanged.h
 string
 -
 vector
@@ -348,7 +348,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateAllWifiAuthChannelChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateAllWifiAuthChannelChanged.h
 string
 -
 vector
@@ -366,7 +366,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateAllWifiScanChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateAllWifiScanChanged.h
 string
 -
 vector
@@ -384,7 +384,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateWifiAuthChannelListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateWifiAuthChannelListChanged.h
 string
 -
 vector
@@ -402,7 +402,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateWifiScanListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3NetworkStateWifiScanListChanged.h
 string
 -
 vector
@@ -420,7 +420,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PROStateFeatures.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PROStateFeatures.h
 string
 -
 vector
@@ -438,7 +438,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAirSpeedChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAirSpeedChanged.h
 string
 -
 vector
@@ -456,7 +456,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAlertStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAlertStateChanged.h
 string
 -
 vector
@@ -474,7 +474,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAltitudeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAltitudeChanged.h
 string
 -
 vector
@@ -492,7 +492,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAttitudeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAttitudeChanged.h
 string
 -
 vector
@@ -510,7 +510,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAutoTakeOffModeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateAutoTakeOffModeChanged.h
 string
 -
 vector
@@ -528,7 +528,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateFlatTrimChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateFlatTrimChanged.h
 string
 -
 vector
@@ -546,7 +546,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateFlyingStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateFlyingStateChanged.h
 string
 -
 vector
@@ -564,7 +564,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateGpsLocationChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateGpsLocationChanged.h
 string
 -
 vector
@@ -582,7 +582,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateLandingStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateLandingStateChanged.h
 string
 -
 vector
@@ -600,7 +600,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateNavigateHomeStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateNavigateHomeStateChanged.h
 string
 -
 vector
@@ -618,7 +618,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStatePositionChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStatePositionChanged.h
 string
 -
 vector
@@ -636,7 +636,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateSpeedChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStateSpeedChanged.h
 string
 -
 vector
@@ -654,7 +654,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStatemoveToChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/Ardrone3PilotingStatemoveToChanged.h
 string
 -
 vector
@@ -672,7 +672,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonARLibsVersionsStateControllerLibARCommandsVersion.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonARLibsVersionsStateControllerLibARCommandsVersion.h
 string
 -
 vector
@@ -690,7 +690,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonARLibsVersionsStateDeviceLibARCommandsVersion.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonARLibsVersionsStateDeviceLibARCommandsVersion.h
 string
 -
 vector
@@ -708,7 +708,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonARLibsVersionsStateSkyControllerLibARCommandsVersion.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonARLibsVersionsStateSkyControllerLibARCommandsVersion.h
 string
 -
 vector
@@ -726,7 +726,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAccessoryStateAccessoryConfigChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAccessoryStateAccessoryConfigChanged.h
 string
 -
 vector
@@ -744,7 +744,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAccessoryStateAccessoryConfigModificationEnabled.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAccessoryStateAccessoryConfigModificationEnabled.h
 string
 -
 vector
@@ -762,7 +762,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAccessoryStateSupportedAccessoriesListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAccessoryStateSupportedAccessoriesListChanged.h
 string
 -
 vector
@@ -780,7 +780,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAnimationsStateList.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAnimationsStateList.h
 string
 -
 vector
@@ -798,7 +798,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAudioStateAudioStreamingRunning.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonAudioStateAudioStreamingRunning.h
 string
 -
 vector
@@ -816,7 +816,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationAxisToCalibrateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationAxisToCalibrateChanged.h
 string
 -
 vector
@@ -834,7 +834,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationRequiredState.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationRequiredState.h
 string
 -
 vector
@@ -852,7 +852,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStartedChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStartedChanged.h
 string
 -
 vector
@@ -870,7 +870,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStateChanged.h
 string
 -
 vector
@@ -888,7 +888,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStatePitotCalibrationStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCalibrationStatePitotCalibrationStateChanged.h
 string
 -
 vector
@@ -906,7 +906,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateChargingInfo.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateChargingInfo.h
 string
 -
 vector
@@ -924,7 +924,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateCurrentChargeStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateCurrentChargeStateChanged.h
 string
 -
 vector
@@ -942,7 +942,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateLastChargeRateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateLastChargeRateChanged.h
 string
 -
 vector
@@ -960,7 +960,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateMaxChargeRateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateMaxChargeRateChanged.h
 string
 -
 vector
@@ -978,7 +978,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateAllStatesChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateAllStatesChanged.h
 string
 -
 vector
@@ -996,7 +996,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateBatteryStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateBatteryStateChanged.h
 string
 -
 vector
@@ -1014,7 +1014,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateCountryListKnown.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateCountryListKnown.h
 string
 -
 vector
@@ -1032,7 +1032,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateCurrentDateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateCurrentDateChanged.h
 string
 -
 vector
@@ -1050,7 +1050,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateCurrentTimeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateCurrentTimeChanged.h
 string
 -
 vector
@@ -1068,7 +1068,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateDeprecatedMassStorageContentChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateDeprecatedMassStorageContentChanged.h
 string
 -
 vector
@@ -1086,7 +1086,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageContent.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageContent.h
 string
 -
 vector
@@ -1104,7 +1104,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageContentForCurrentRun.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageContentForCurrentRun.h
 string
 -
 vector
@@ -1122,7 +1122,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageInfoRemainingListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageInfoRemainingListChanged.h
 string
 -
 vector
@@ -1140,7 +1140,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageInfoStateListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageInfoStateListChanged.h
 string
 -
 vector
@@ -1158,7 +1158,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageStateListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateMassStorageStateListChanged.h
 string
 -
 vector
@@ -1176,7 +1176,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateProductModel.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateProductModel.h
 string
 -
 vector
@@ -1194,7 +1194,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateSensorsStatesListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateSensorsStatesListChanged.h
 string
 -
 vector
@@ -1212,7 +1212,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateVideoRecordingTimestamp.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateVideoRecordingTimestamp.h
 string
 -
 vector
@@ -1230,7 +1230,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateWifiSignalChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonCommonStateWifiSignalChanged.h
 string
 -
 vector
@@ -1248,7 +1248,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonFlightPlanStateAvailabilityStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonFlightPlanStateAvailabilityStateChanged.h
 string
 -
 vector
@@ -1266,7 +1266,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonFlightPlanStateComponentStateListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonFlightPlanStateComponentStateListChanged.h
 string
 -
 vector
@@ -1284,7 +1284,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonFlightPlanStateLockStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonFlightPlanStateLockStateChanged.h
 string
 -
 vector
@@ -1302,7 +1302,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonHeadlightsStateintensityChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonHeadlightsStateintensityChanged.h
 string
 -
 vector
@@ -1320,7 +1320,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonMavlinkStateMavlinkFilePlayingStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonMavlinkStateMavlinkFilePlayingStateChanged.h
 string
 -
 vector
@@ -1338,7 +1338,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonMavlinkStateMavlinkPlayErrorStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonMavlinkStateMavlinkPlayErrorStateChanged.h
 string
 -
 vector
@@ -1356,7 +1356,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonMavlinkStateMissionItemExecuted.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonMavlinkStateMissionItemExecuted.h
 string
 -
 vector
@@ -1374,7 +1374,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonOverHeatStateOverHeatChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonOverHeatStateOverHeatChanged.h
 string
 -
 vector
@@ -1392,7 +1392,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonOverHeatStateOverHeatRegulationChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonOverHeatStateOverHeatRegulationChanged.h
 string
 -
 vector
@@ -1410,7 +1410,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonRunStateRunIdChanged.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonRunStateRunIdChanged.h
 string
 -
 vector
@@ -1428,103 +1428,103 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_setting_callbacks.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_setting_callbacks.h
 libARSAL/ARSAL.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARSAL/ARSAL.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARSAL/ARSAL.h
 libARController/ARController.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARController/ARController.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARController/ARController.h
 bebop_driver/autogenerated/callbacks_common.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/autogenerated/callbacks_common.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/autogenerated/callbacks_common.h
 bebop_driver/BebopArdrone3Config.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/BebopArdrone3Config.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/BebopArdrone3Config.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_state_callbacks.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/ardrone3_state_callbacks.h
 libARSAL/ARSAL.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARSAL/ARSAL.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARSAL/ARSAL.h
 libARController/ARController.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARController/ARController.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARController/ARController.h
 bebop_driver/autogenerated/callbacks_common.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/autogenerated/callbacks_common.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/autogenerated/callbacks_common.h
 bebop_driver/BebopArdrone3Config.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/BebopArdrone3Config.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/BebopArdrone3Config.h
 bebop_msgs/Ardrone3MediaRecordStatePictureStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStatePictureStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStatePictureStateChanged.h
 bebop_msgs/Ardrone3MediaRecordStateVideoStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStateVideoStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStateVideoStateChanged.h
 bebop_msgs/Ardrone3MediaRecordStatePictureStateChangedV2.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStatePictureStateChangedV2.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStatePictureStateChangedV2.h
 bebop_msgs/Ardrone3MediaRecordStateVideoStateChangedV2.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStateVideoStateChangedV2.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStateVideoStateChangedV2.h
 bebop_msgs/Ardrone3MediaRecordStateVideoResolutionState.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStateVideoResolutionState.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaRecordStateVideoResolutionState.h
 bebop_msgs/Ardrone3PilotingStateFlatTrimChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateFlatTrimChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateFlatTrimChanged.h
 bebop_msgs/Ardrone3PilotingStateFlyingStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateFlyingStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateFlyingStateChanged.h
 bebop_msgs/Ardrone3PilotingStateAlertStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAlertStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAlertStateChanged.h
 bebop_msgs/Ardrone3PilotingStateNavigateHomeStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateNavigateHomeStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateNavigateHomeStateChanged.h
 bebop_msgs/Ardrone3PilotingStatePositionChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStatePositionChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStatePositionChanged.h
 bebop_msgs/Ardrone3PilotingStateSpeedChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateSpeedChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateSpeedChanged.h
 bebop_msgs/Ardrone3PilotingStateAttitudeChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAttitudeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAttitudeChanged.h
 bebop_msgs/Ardrone3PilotingStateAutoTakeOffModeChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAutoTakeOffModeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAutoTakeOffModeChanged.h
 bebop_msgs/Ardrone3PilotingStateAltitudeChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAltitudeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAltitudeChanged.h
 bebop_msgs/Ardrone3PilotingStateGpsLocationChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateGpsLocationChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateGpsLocationChanged.h
 bebop_msgs/Ardrone3PilotingStateLandingStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateLandingStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateLandingStateChanged.h
 bebop_msgs/Ardrone3PilotingStateAirSpeedChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAirSpeedChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStateAirSpeedChanged.h
 bebop_msgs/Ardrone3PilotingStatemoveToChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStatemoveToChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PilotingStatemoveToChanged.h
 bebop_msgs/Ardrone3NetworkStateWifiScanListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateWifiScanListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateWifiScanListChanged.h
 bebop_msgs/Ardrone3NetworkStateAllWifiScanChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateAllWifiScanChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateAllWifiScanChanged.h
 bebop_msgs/Ardrone3NetworkStateWifiAuthChannelListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateWifiAuthChannelListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateWifiAuthChannelListChanged.h
 bebop_msgs/Ardrone3NetworkStateAllWifiAuthChannelChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateAllWifiAuthChannelChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3NetworkStateAllWifiAuthChannelChanged.h
 bebop_msgs/Ardrone3MediaStreamingStateVideoEnableChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaStreamingStateVideoEnableChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaStreamingStateVideoEnableChanged.h
 bebop_msgs/Ardrone3MediaStreamingStateVideoStreamModeChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaStreamingStateVideoStreamModeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3MediaStreamingStateVideoStreamModeChanged.h
 bebop_msgs/Ardrone3CameraStateOrientation.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStateOrientation.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStateOrientation.h
 bebop_msgs/Ardrone3CameraStatedefaultCameraOrientation.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientation.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientation.h
 bebop_msgs/Ardrone3CameraStateOrientationV2.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStateOrientationV2.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStateOrientationV2.h
 bebop_msgs/Ardrone3CameraStatedefaultCameraOrientationV2.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientationV2.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStatedefaultCameraOrientationV2.h
 bebop_msgs/Ardrone3CameraStateVelocityRange.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStateVelocityRange.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3CameraStateVelocityRange.h
 bebop_msgs/Ardrone3AntiflickeringStateelectricFrequencyChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3AntiflickeringStateelectricFrequencyChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3AntiflickeringStateelectricFrequencyChanged.h
 bebop_msgs/Ardrone3AntiflickeringStatemodeChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3AntiflickeringStatemodeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3AntiflickeringStatemodeChanged.h
 bebop_msgs/Ardrone3GPSStateNumberOfSatelliteChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3GPSStateNumberOfSatelliteChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3GPSStateNumberOfSatelliteChanged.h
 bebop_msgs/Ardrone3GPSStateHomeTypeAvailabilityChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3GPSStateHomeTypeAvailabilityChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3GPSStateHomeTypeAvailabilityChanged.h
 bebop_msgs/Ardrone3GPSStateHomeTypeChosenChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3GPSStateHomeTypeChosenChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3GPSStateHomeTypeChosenChanged.h
 bebop_msgs/Ardrone3PROStateFeatures.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PROStateFeatures.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3PROStateFeatures.h
 bebop_msgs/Ardrone3AccessoryStateConnectedAccessories.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3AccessoryStateConnectedAccessories.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/Ardrone3AccessoryStateConnectedAccessories.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/callbacks_common.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/callbacks_common.h
 string
 -
 ros/ros.h
@@ -1534,103 +1534,103 @@ boost/thread/mutex.hpp
 boost/thread/lock_guard.hpp
 -
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/common_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/common_state_callback_includes.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/common_state_callbacks.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/common_state_callbacks.h
 libARSAL/ARSAL.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARSAL/ARSAL.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARSAL/ARSAL.h
 libARController/ARController.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARController/ARController.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/libARController/ARController.h
 bebop_driver/autogenerated/callbacks_common.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/autogenerated/callbacks_common.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/autogenerated/callbacks_common.h
 bebop_driver/BebopArdrone3Config.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/BebopArdrone3Config.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_driver/BebopArdrone3Config.h
 bebop_msgs/CommonCommonStateAllStatesChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateAllStatesChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateAllStatesChanged.h
 bebop_msgs/CommonCommonStateBatteryStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateBatteryStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateBatteryStateChanged.h
 bebop_msgs/CommonCommonStateMassStorageStateListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageStateListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageStateListChanged.h
 bebop_msgs/CommonCommonStateMassStorageInfoStateListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageInfoStateListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageInfoStateListChanged.h
 bebop_msgs/CommonCommonStateCurrentDateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateCurrentDateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateCurrentDateChanged.h
 bebop_msgs/CommonCommonStateCurrentTimeChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateCurrentTimeChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateCurrentTimeChanged.h
 bebop_msgs/CommonCommonStateMassStorageInfoRemainingListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageInfoRemainingListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageInfoRemainingListChanged.h
 bebop_msgs/CommonCommonStateWifiSignalChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateWifiSignalChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateWifiSignalChanged.h
 bebop_msgs/CommonCommonStateSensorsStatesListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateSensorsStatesListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateSensorsStatesListChanged.h
 bebop_msgs/CommonCommonStateProductModel.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateProductModel.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateProductModel.h
 bebop_msgs/CommonCommonStateCountryListKnown.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateCountryListKnown.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateCountryListKnown.h
 bebop_msgs/CommonCommonStateDeprecatedMassStorageContentChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateDeprecatedMassStorageContentChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateDeprecatedMassStorageContentChanged.h
 bebop_msgs/CommonCommonStateMassStorageContent.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageContent.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageContent.h
 bebop_msgs/CommonCommonStateMassStorageContentForCurrentRun.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageContentForCurrentRun.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateMassStorageContentForCurrentRun.h
 bebop_msgs/CommonCommonStateVideoRecordingTimestamp.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateVideoRecordingTimestamp.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCommonStateVideoRecordingTimestamp.h
 bebop_msgs/CommonOverHeatStateOverHeatChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonOverHeatStateOverHeatChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonOverHeatStateOverHeatChanged.h
 bebop_msgs/CommonOverHeatStateOverHeatRegulationChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonOverHeatStateOverHeatRegulationChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonOverHeatStateOverHeatRegulationChanged.h
 bebop_msgs/CommonMavlinkStateMavlinkFilePlayingStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonMavlinkStateMavlinkFilePlayingStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonMavlinkStateMavlinkFilePlayingStateChanged.h
 bebop_msgs/CommonMavlinkStateMavlinkPlayErrorStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonMavlinkStateMavlinkPlayErrorStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonMavlinkStateMavlinkPlayErrorStateChanged.h
 bebop_msgs/CommonMavlinkStateMissionItemExecuted.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonMavlinkStateMissionItemExecuted.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonMavlinkStateMissionItemExecuted.h
 bebop_msgs/CommonCalibrationStateMagnetoCalibrationStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStateChanged.h
 bebop_msgs/CommonCalibrationStateMagnetoCalibrationRequiredState.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationRequiredState.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationRequiredState.h
 bebop_msgs/CommonCalibrationStateMagnetoCalibrationAxisToCalibrateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationAxisToCalibrateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationAxisToCalibrateChanged.h
 bebop_msgs/CommonCalibrationStateMagnetoCalibrationStartedChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStartedChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStateMagnetoCalibrationStartedChanged.h
 bebop_msgs/CommonCalibrationStatePitotCalibrationStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStatePitotCalibrationStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonCalibrationStatePitotCalibrationStateChanged.h
 bebop_msgs/CommonFlightPlanStateAvailabilityStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonFlightPlanStateAvailabilityStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonFlightPlanStateAvailabilityStateChanged.h
 bebop_msgs/CommonFlightPlanStateComponentStateListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonFlightPlanStateComponentStateListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonFlightPlanStateComponentStateListChanged.h
 bebop_msgs/CommonFlightPlanStateLockStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonFlightPlanStateLockStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonFlightPlanStateLockStateChanged.h
 bebop_msgs/CommonARLibsVersionsStateControllerLibARCommandsVersion.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonARLibsVersionsStateControllerLibARCommandsVersion.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonARLibsVersionsStateControllerLibARCommandsVersion.h
 bebop_msgs/CommonARLibsVersionsStateSkyControllerLibARCommandsVersion.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonARLibsVersionsStateSkyControllerLibARCommandsVersion.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonARLibsVersionsStateSkyControllerLibARCommandsVersion.h
 bebop_msgs/CommonARLibsVersionsStateDeviceLibARCommandsVersion.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonARLibsVersionsStateDeviceLibARCommandsVersion.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonARLibsVersionsStateDeviceLibARCommandsVersion.h
 bebop_msgs/CommonAudioStateAudioStreamingRunning.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAudioStateAudioStreamingRunning.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAudioStateAudioStreamingRunning.h
 bebop_msgs/CommonHeadlightsStateintensityChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonHeadlightsStateintensityChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonHeadlightsStateintensityChanged.h
 bebop_msgs/CommonAnimationsStateList.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAnimationsStateList.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAnimationsStateList.h
 bebop_msgs/CommonAccessoryStateSupportedAccessoriesListChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAccessoryStateSupportedAccessoriesListChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAccessoryStateSupportedAccessoriesListChanged.h
 bebop_msgs/CommonAccessoryStateAccessoryConfigChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAccessoryStateAccessoryConfigChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAccessoryStateAccessoryConfigChanged.h
 bebop_msgs/CommonAccessoryStateAccessoryConfigModificationEnabled.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAccessoryStateAccessoryConfigModificationEnabled.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonAccessoryStateAccessoryConfigModificationEnabled.h
 bebop_msgs/CommonChargerStateMaxChargeRateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateMaxChargeRateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateMaxChargeRateChanged.h
 bebop_msgs/CommonChargerStateCurrentChargeStateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateCurrentChargeStateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateCurrentChargeStateChanged.h
 bebop_msgs/CommonChargerStateLastChargeRateChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateLastChargeRateChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateLastChargeRateChanged.h
 bebop_msgs/CommonChargerStateChargingInfo.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateChargingInfo.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonChargerStateChargingInfo.h
 bebop_msgs/CommonRunStateRunIdChanged.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonRunStateRunIdChanged.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/autogenerated/bebop_msgs/CommonRunStateRunIdChanged.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop.h
 sys/syscall.h
 -
 sys/types.h
@@ -1652,27 +1652,27 @@ boost/thread/mutex.hpp
 boost/thread/condition_variable.hpp
 -
 libARSAL/ARSAL.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARSAL/ARSAL.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARSAL/ARSAL.h
 libARController/ARController.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARController/ARController.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARController/ARController.h
 bebop_driver/autogenerated/common_state_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/common_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/common_state_callback_includes.h
 bebop_driver/autogenerated/ardrone3_state_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
 bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
 bebop_driver/autogenerated/common_state_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/common_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/common_state_callback_includes.h
 bebop_driver/autogenerated/ardrone3_state_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
 bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_video_decoder.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/bebop_video_decoder.h
 libARController/ARCONTROLLER_Error.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARController/ARCONTROLLER_Error.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARController/ARCONTROLLER_Error.h
 libARController/ARCONTROLLER_Frame.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARController/ARCONTROLLER_Frame.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/include/bebop_driver/libARController/ARCONTROLLER_Frame.h
 libavcodec/avcodec.h
 -
 libavformat/avformat.h
@@ -1686,7 +1686,7 @@ string
 vector
 -
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop.cpp
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop.cpp
 stdexcept
 -
 cmath
@@ -1704,33 +1704,33 @@ boost/thread/locks.hpp
 boost/make_shared.hpp
 -
 libARCommands/ARCommands.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/libARCommands/ARCommands.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/libARCommands/ARCommands.h
 libARDiscovery/ARDiscovery.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/libARDiscovery/ARDiscovery.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/libARDiscovery/ARDiscovery.h
 libARController/ARController.h
 -
 bebop_driver/bebop.h
 -
 bebop_driver/BebopArdrone3Config.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/BebopArdrone3Config.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/BebopArdrone3Config.h
 bebop_driver/bebop_video_decoder.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/bebop_video_decoder.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/bebop_video_decoder.h
 bebop_driver/autogenerated/ardrone3_state_callbacks.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_state_callbacks.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_state_callbacks.h
 bebop_driver/autogenerated/common_state_callbacks.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/common_state_callbacks.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/common_state_callbacks.h
 bebop_driver/autogenerated/ardrone3_setting_callbacks.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_setting_callbacks.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_setting_callbacks.h
 bebop_driver/autogenerated/ardrone3_state_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_state_callback_includes.h
 bebop_driver/autogenerated/common_state_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/common_state_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/common_state_callback_includes.h
 bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/autogenerated/ardrone3_setting_callback_includes.h
 
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_video_decoder.cpp
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_video_decoder.cpp
 bebop_driver/bebop_video_decoder.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/bebop_video_decoder.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/bebop_driver/bebop_video_decoder.h
 stdexcept
 -
 algorithm
@@ -1740,7 +1740,7 @@ string
 boost/lexical_cast.hpp
 -
 libARSAL/ARSAL_Print.h
-/home/chris/bebop_ws/src/bebop_autonomy/bebop_driver/src/libARSAL/ARSAL_Print.h
+/home/chris/bebop-software-framework/bebop_ws/src/bebop_autonomy/bebop_driver/src/libARSAL/ARSAL_Print.h
 
 /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
 string

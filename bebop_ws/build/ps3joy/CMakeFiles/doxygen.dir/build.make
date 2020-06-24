@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/joystick_drivers/ps3joy
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/ps3joy
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/ps3joy
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/chris/bebop_ws/build/ps3joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop_ws/build/ps3joy /home/chris/bebop_ws/build/ps3joy /home/chris/bebop_ws/build/ps3joy/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/ps3joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy /home/chris/bebop-software-framework/bebop_ws/build/ps3joy /home/chris/bebop-software-framework/bebop_ws/build/ps3joy /home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

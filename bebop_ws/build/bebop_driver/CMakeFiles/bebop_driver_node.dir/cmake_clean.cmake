@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bebop_driver_node.dir/src/bebop_driver_node.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/bebop_driver/lib/bebop_driver/bebop_driver_node.pdb"
-  "/home/chris/bebop_ws/devel/.private/bebop_driver/lib/bebop_driver/bebop_driver_node"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/lib/bebop_driver/bebop_driver_node.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_driver/lib/bebop_driver/bebop_driver_node"
 )
 
 # Per-language clean rules from dependency scanning.

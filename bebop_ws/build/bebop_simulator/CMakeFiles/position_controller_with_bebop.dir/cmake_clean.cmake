@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/position_controller_with_bebop.dir/src/library/position_controller_with_bebop.cpp.o"
-  "/home/chris/bebop_ws/devel/.private/bebop_simulator/lib/libposition_controller_with_bebop.pdb"
-  "/home/chris/bebop_ws/devel/.private/bebop_simulator/lib/libposition_controller_with_bebop.so"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/lib/libposition_controller_with_bebop.pdb"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/lib/libposition_controller_with_bebop.so"
 )
 
 # Per-language clean rules from dependency scanning.

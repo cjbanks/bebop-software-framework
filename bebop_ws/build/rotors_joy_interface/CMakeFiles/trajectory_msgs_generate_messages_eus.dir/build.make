@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/bebop_ws/src/rotors_simulator/rotors_joy_interface
+CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_joy_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/bebop_ws/build/rotors_joy_interface
+CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_joy_interface
 
 # Utility rule file for trajectory_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend:
-	cd /home/chris/bebop_ws/build/rotors_joy_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop_ws/src/rotors_simulator/rotors_joy_interface /home/chris/bebop_ws/src/rotors_simulator/rotors_joy_interface /home/chris/bebop_ws/build/rotors_joy_interface /home/chris/bebop_ws/build/rotors_joy_interface /home/chris/bebop_ws/build/rotors_joy_interface/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/bebop-software-framework/bebop_ws/build/rotors_joy_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_joy_interface /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_joy_interface /home/chris/bebop-software-framework/bebop_ws/build/rotors_joy_interface /home/chris/bebop-software-framework/bebop_ws/build/rotors_joy_interface /home/chris/bebop-software-framework/bebop_ws/build/rotors_joy_interface/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend
 

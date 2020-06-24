@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/melodic/lib;/home/chris/bebop_ws/devel/.private/rotors_control/lib")
+set(ORDERED_PATHS "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_control/lib;/opt/ros/melodic/lib")
