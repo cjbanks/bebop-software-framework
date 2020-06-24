@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake

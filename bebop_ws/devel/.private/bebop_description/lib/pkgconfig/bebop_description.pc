@@ -1,4 +1,4 @@
-prefix=/home/chris/bebop_ws/devel/.private/bebop_description
+prefix=/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_description
 
 Name: bebop_description
 Description: Description of bebop_description

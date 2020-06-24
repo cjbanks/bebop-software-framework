@@ -1,4 +1,4 @@
-prefix=/home/chris/bebop_ws/devel/.private/ps3joy
+prefix=/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy
 
 Name: ps3joy
 Description: Description of ps3joy

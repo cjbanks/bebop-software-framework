@@ -5,15 +5,15 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
-import wiimote.msg
-import geometry_msgs.msg
 import genpy
+import geometry_msgs.msg
 import std_msgs.msg
+import wiimote.msg
 
 class State(genpy.Message):
   _md5sum = "a69651e8129655c6ed3c5039e468362c"
   _type = "wiimote/State"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """#
 #          Wiimote State message containing one complete Wiimote state
 
@@ -256,7 +256,7 @@ int64 ir_size
     """
     if args or kwds:
       super(State, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.angular_velocity_zeroed is None:
@@ -352,7 +352,8 @@ int64 ir_size
       buff.write(_get_struct_11B().pack(*self.buttons))
       buff.write(_get_struct_2B().pack(*self.nunchuk_buttons))
       buff.write(_get_struct_4B().pack(*self.LEDs))
-      buff.write(_get_struct_B().pack(self.rumble))
+      _x = self.rumble
+      buff.write(_get_struct_B().pack(_x))
       length = len(self.ir_tracking)
       buff.write(_struct_I.pack(length))
       for val1 in self.ir_tracking:
@@ -459,7 +460,7 @@ int64 ir_size
       self.zeroing_time.canon()
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -490,7 +491,8 @@ int64 ir_size
       buff.write(self.buttons.tostring())
       buff.write(self.nunchuk_buttons.tostring())
       buff.write(self.LEDs.tostring())
-      buff.write(_get_struct_B().pack(self.rumble))
+      _x = self.rumble
+      buff.write(_get_struct_B().pack(_x))
       length = len(self.ir_tracking)
       buff.write(_struct_I.pack(length))
       for val1 in self.ir_tracking:
@@ -598,69 +600,69 @@ int64 ir_size
       self.zeroing_time.canon()
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_B = None
-def _get_struct_B():
-    global _struct_B
-    if _struct_B is None:
-        _struct_B = struct.Struct("<B")
-    return _struct_B
-_struct_6d = None
-def _get_struct_6d():
-    global _struct_6d
-    if _struct_6d is None:
-        _struct_6d = struct.Struct("<6d")
-    return _struct_6d
 _struct_11B = None
 def _get_struct_11B():
     global _struct_11B
     if _struct_11B is None:
         _struct_11B = struct.Struct("<11B")
     return _struct_11B
-_struct_9d = None
-def _get_struct_9d():
-    global _struct_9d
-    if _struct_9d is None:
-        _struct_9d = struct.Struct("<9d")
-    return _struct_9d
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
-_struct_2f = None
-def _get_struct_2f():
-    global _struct_2f
-    if _struct_2f is None:
-        _struct_2f = struct.Struct("<2f")
-    return _struct_2f
 _struct_2B = None
 def _get_struct_2B():
     global _struct_2B
     if _struct_2B is None:
         _struct_2B = struct.Struct("<2B")
     return _struct_2B
-_struct_2f2IQ = None
-def _get_struct_2f2IQ():
-    global _struct_2f2IQ
-    if _struct_2f2IQ is None:
-        _struct_2f2IQ = struct.Struct("<2f2IQ")
-    return _struct_2f2IQ
 _struct_2dq = None
 def _get_struct_2dq():
     global _struct_2dq
     if _struct_2dq is None:
         _struct_2dq = struct.Struct("<2dq")
     return _struct_2dq
+_struct_2f = None
+def _get_struct_2f():
+    global _struct_2f
+    if _struct_2f is None:
+        _struct_2f = struct.Struct("<2f")
+    return _struct_2f
+_struct_2f2IQ = None
+def _get_struct_2f2IQ():
+    global _struct_2f2IQ
+    if _struct_2f2IQ is None:
+        _struct_2f2IQ = struct.Struct("<2f2IQ")
+    return _struct_2f2IQ
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I
 _struct_4B = None
 def _get_struct_4B():
     global _struct_4B
     if _struct_4B is None:
         _struct_4B = struct.Struct("<4B")
     return _struct_4B
+_struct_6d = None
+def _get_struct_6d():
+    global _struct_6d
+    if _struct_6d is None:
+        _struct_6d = struct.Struct("<6d")
+    return _struct_6d
+_struct_9d = None
+def _get_struct_9d():
+    global _struct_9d
+    if _struct_9d is None:
+        _struct_9d = struct.Struct("<9d")
+    return _struct_9d
+_struct_B = None
+def _get_struct_B():
+    global _struct_B
+    if _struct_B is None:
+        _struct_B = struct.Struct("<B")
+    return _struct_B

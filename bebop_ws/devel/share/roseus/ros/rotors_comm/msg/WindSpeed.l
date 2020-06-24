@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/msg/WindSpeed.l
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/msg/WindSpeed.l

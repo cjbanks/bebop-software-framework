@@ -54,6 +54,74 @@ struct CommonAnimationsStateList_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(anim_HEADLIGHTS_FLASH)
+  #undef anim_HEADLIGHTS_FLASH
+#endif
+#if defined(_WIN32) && defined(anim_HEADLIGHTS_BLINK)
+  #undef anim_HEADLIGHTS_BLINK
+#endif
+#if defined(_WIN32) && defined(anim_HEADLIGHTS_OSCILLATION)
+  #undef anim_HEADLIGHTS_OSCILLATION
+#endif
+#if defined(_WIN32) && defined(anim_SPIN)
+  #undef anim_SPIN
+#endif
+#if defined(_WIN32) && defined(anim_TAP)
+  #undef anim_TAP
+#endif
+#if defined(_WIN32) && defined(anim_SLOW_SHAKE)
+  #undef anim_SLOW_SHAKE
+#endif
+#if defined(_WIN32) && defined(anim_METRONOME)
+  #undef anim_METRONOME
+#endif
+#if defined(_WIN32) && defined(anim_ONDULATION)
+  #undef anim_ONDULATION
+#endif
+#if defined(_WIN32) && defined(anim_SPIN_JUMP)
+  #undef anim_SPIN_JUMP
+#endif
+#if defined(_WIN32) && defined(anim_SPIN_TO_POSTURE)
+  #undef anim_SPIN_TO_POSTURE
+#endif
+#if defined(_WIN32) && defined(anim_SPIRAL)
+  #undef anim_SPIRAL
+#endif
+#if defined(_WIN32) && defined(anim_SLALOM)
+  #undef anim_SLALOM
+#endif
+#if defined(_WIN32) && defined(anim_BOOST)
+  #undef anim_BOOST
+#endif
+#if defined(_WIN32) && defined(anim_LOOPING)
+  #undef anim_LOOPING
+#endif
+#if defined(_WIN32) && defined(anim_BARREL_ROLL_180_RIGHT)
+  #undef anim_BARREL_ROLL_180_RIGHT
+#endif
+#if defined(_WIN32) && defined(anim_BARREL_ROLL_180_LEFT)
+  #undef anim_BARREL_ROLL_180_LEFT
+#endif
+#if defined(_WIN32) && defined(anim_BACKSWAP)
+  #undef anim_BACKSWAP
+#endif
+#if defined(_WIN32) && defined(state_stopped)
+  #undef state_stopped
+#endif
+#if defined(_WIN32) && defined(state_started)
+  #undef state_started
+#endif
+#if defined(_WIN32) && defined(state_notAvailable)
+  #undef state_notAvailable
+#endif
+#if defined(_WIN32) && defined(error_ok)
+  #undef error_ok
+#endif
+#if defined(_WIN32) && defined(error_unknown)
+  #undef error_unknown
+#endif
+
   enum {
     anim_HEADLIGHTS_FLASH = 0u,
     anim_HEADLIGHTS_BLINK = 1u,
@@ -145,6 +213,23 @@ ros::message_operations::Printer< ::bebop_msgs::CommonAnimationsStateList_<Conta
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::bebop_msgs::CommonAnimationsStateList_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonAnimationsStateList_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.anim == rhs.anim &&
+    lhs.state == rhs.state &&
+    lhs.error == rhs.error;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::bebop_msgs::CommonAnimationsStateList_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonAnimationsStateList_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace bebop_msgs
 
 namespace ros
@@ -152,12 +237,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'bebop_msgs': ['/home/chris/bebop_ws/src/bebop_autonomy/bebop_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

@@ -67,14 +67,14 @@ set(bebop_simulator_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(bebop_simulator_SOURCE_PREFIX /home/chris/bebop_ws/src/BebopS)
-  set(bebop_simulator_DEVEL_PREFIX /home/chris/bebop_ws/devel/.private/bebop_simulator)
+  set(bebop_simulator_SOURCE_PREFIX /home/chris/bebop-software-framework/bebop_ws/src/BebopS)
+  set(bebop_simulator_DEVEL_PREFIX /home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator)
   set(bebop_simulator_INSTALL_PREFIX "")
   set(bebop_simulator_PREFIX ${bebop_simulator_DEVEL_PREFIX})
 else()
   set(bebop_simulator_SOURCE_PREFIX "")
   set(bebop_simulator_DEVEL_PREFIX "")
-  set(bebop_simulator_INSTALL_PREFIX /home/chris/bebop_ws/install)
+  set(bebop_simulator_INSTALL_PREFIX /home/chris/bebop-software-framework/bebop_ws/install)
   set(bebop_simulator_PREFIX ${bebop_simulator_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(bebop_simulator_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/chris/bebop_ws/src/BebopS/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include;/usr/include/eigen3 " STREQUAL " ")
   set(bebop_simulator_INCLUDE_DIRS "")
-  set(_include_dirs "/home/chris/bebop_ws/src/BebopS/include;/usr/include/eigen3")
+  set(_include_dirs "/home/chris/bebop-software-framework/bebop_ws/src/BebopS/include;/usr/include/eigen3")
   if(NOT "https://github.com/gsilano/BebopS/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/gsilano/BebopS/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "https://github.com/gsilano/BebopS " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/chris/bebop_ws/src/BebopS/include;/usr/include/eigen3 " STREQUAL "
         message(FATAL_ERROR "Project 'bebop_simulator' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'bebop_simulator' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/chris/bebop_ws/src/BebopS/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'bebop_simulator' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/chris/bebop-software-framework/bebop_ws/src/BebopS/${idir}'.  ${_report}")
     endif()
     _list_append_unique(bebop_simulator_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chris/bebop_ws/devel/.private/bebop_simulator/lib;/opt/ros/melodic/lib;/home/chris/bebop_ws/devel/lib)
+    foreach(path /home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_simulator/lib;/home/chris/bebop-software-framework/bebop_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

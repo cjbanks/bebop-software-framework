@@ -61,6 +61,20 @@ ros::message_operations::Printer< ::teleop_tools_msgs::IncrementGoal_<ContainerA
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::teleop_tools_msgs::IncrementGoal_<ContainerAllocator1> & lhs, const ::teleop_tools_msgs::IncrementGoal_<ContainerAllocator2> & rhs)
+{
+  return lhs.increment_by == rhs.increment_by;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::teleop_tools_msgs::IncrementGoal_<ContainerAllocator1> & lhs, const ::teleop_tools_msgs::IncrementGoal_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace teleop_tools_msgs
 
 namespace ros
@@ -68,12 +82,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'actionlib_msgs': ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'teleop_tools_msgs': ['/home/chris/bebop_ws/devel/.private/teleop_tools_msgs/share/teleop_tools_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

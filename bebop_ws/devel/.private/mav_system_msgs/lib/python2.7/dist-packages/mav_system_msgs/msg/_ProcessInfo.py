@@ -9,7 +9,7 @@ import struct
 class ProcessInfo(genpy.Message):
   _md5sum = "e230da576ecad86012b88749ce2ed125"
   _type = "mav_system_msgs/ProcessInfo"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """# Miscellaneous information about process status.
 # Written by Marco Tranzatto (see: https://github.com/ethz-asl/mav_eurathlon/blob/master/mav_eurathlon_msgs/msg/ProcessInfo.msg)
 
@@ -37,7 +37,7 @@ float32 cpu_percent     # Process CPU utilization as a percentage
     """
     if args or kwds:
       super(ProcessInfo, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.pid is None:
         self.pid = 0
       if self.name is None:
@@ -64,7 +64,8 @@ float32 cpu_percent     # Process CPU utilization as a percentage
     :param buff: buffer, ``StringIO``
     """
     try:
-      buff.write(_get_struct_I().pack(self.pid))
+      _x = self.pid
+      buff.write(_get_struct_I().pack(_x))
       _x = self.name
       length = len(_x)
       if python3 or type(_x) == unicode:
@@ -77,7 +78,8 @@ float32 cpu_percent     # Process CPU utilization as a percentage
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_f().pack(self.cpu_percent))
+      _x = self.cpu_percent
+      buff.write(_get_struct_f().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -114,7 +116,7 @@ float32 cpu_percent     # Process CPU utilization as a percentage
       (self.cpu_percent,) = _get_struct_f().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -124,7 +126,8 @@ float32 cpu_percent     # Process CPU utilization as a percentage
     :param numpy: numpy python module
     """
     try:
-      buff.write(_get_struct_I().pack(self.pid))
+      _x = self.pid
+      buff.write(_get_struct_I().pack(_x))
       _x = self.name
       length = len(_x)
       if python3 or type(_x) == unicode:
@@ -137,7 +140,8 @@ float32 cpu_percent     # Process CPU utilization as a percentage
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_f().pack(self.cpu_percent))
+      _x = self.cpu_percent
+      buff.write(_get_struct_f().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -175,7 +179,7 @@ float32 cpu_percent     # Process CPU utilization as a percentage
       (self.cpu_percent,) = _get_struct_f().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

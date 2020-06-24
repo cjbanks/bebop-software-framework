@@ -1,8 +1,8 @@
-prefix=/home/chris/bebop_ws/devel/.private/teleop_tools_msgs
+prefix=/home/chris/bebop-software-framework/bebop_ws/devel/.private/teleop_tools_msgs
 
 Name: teleop_tools_msgs
 Description: Description of teleop_tools_msgs
 Version: 0.3.1
-Cflags: -I/home/chris/bebop_ws/devel/.private/teleop_tools_msgs/include
+Cflags: -I/home/chris/bebop-software-framework/bebop_ws/devel/.private/teleop_tools_msgs/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime actionlib_msgs

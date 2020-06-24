@@ -11,10 +11,10 @@ import std_msgs.msg
 class PolygonServiceRequest(genpy.Message):
   _md5sum = "b72bf7542ebf0f998ff6de9ed6f90873"
   _type = "mav_planning_msgs/PolygonServiceRequest"
-  _has_header = False #flag to mark the presence of a Header object
-  _full_text = """
-
-mav_planning_msgs/PolygonWithHolesStamped polygon
+  _has_header = False  # flag to mark the presence of a Header object
+  _full_text = """# A service to set a new polygon with holes.
+# Request fields:
+mav_planning_msgs/PolygonWithHolesStamped polygon # The new polygon.
 
 ================================================================================
 MSG: mav_planning_msgs/PolygonWithHolesStamped
@@ -75,7 +75,7 @@ float64 y
     """
     if args or kwds:
       super(PolygonServiceRequest, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.polygon is None:
         self.polygon = mav_planning_msgs.msg.PolygonWithHolesStamped()
     else:
@@ -101,7 +101,8 @@ float64 y
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_d().pack(self.polygon.altitude))
+      _x = self.polygon.altitude
+      buff.write(_get_struct_d().pack(_x))
       length = len(self.polygon.polygon.hull.points)
       buff.write(_struct_I.pack(length))
       for val1 in self.polygon.polygon.hull.points:
@@ -174,7 +175,7 @@ float64 y
         self.polygon.polygon.holes.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -192,7 +193,8 @@ float64 y
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_d().pack(self.polygon.altitude))
+      _x = self.polygon.altitude
+      buff.write(_get_struct_d().pack(_x))
       length = len(self.polygon.polygon.hull.points)
       buff.write(_struct_I.pack(length))
       for val1 in self.polygon.polygon.hull.points:
@@ -266,7 +268,7 @@ float64 y
         self.polygon.polygon.holes.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -301,9 +303,9 @@ import struct
 class PolygonServiceResponse(genpy.Message):
   _md5sum = "358e233cde0c8a8bcfea4ce193f8fc15"
   _type = "mav_planning_msgs/PolygonServiceResponse"
-  _has_header = False #flag to mark the presence of a Header object
-  _full_text = """
-bool success
+  _has_header = False  # flag to mark the presence of a Header object
+  _full_text = """# Response fields:
+bool success # True on success, false on polygon error.
 
 """
   __slots__ = ['success']
@@ -325,7 +327,7 @@ bool success
     """
     if args or kwds:
       super(PolygonServiceResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.success is None:
         self.success = False
     else:
@@ -343,7 +345,8 @@ bool success
     :param buff: buffer, ``StringIO``
     """
     try:
-      buff.write(_get_struct_B().pack(self.success))
+      _x = self.success
+      buff.write(_get_struct_B().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -360,7 +363,7 @@ bool success
       self.success = bool(self.success)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -370,7 +373,8 @@ bool success
     :param numpy: numpy python module
     """
     try:
-      buff.write(_get_struct_B().pack(self.success))
+      _x = self.success
+      buff.write(_get_struct_B().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -388,7 +392,7 @@ bool success
       self.success = bool(self.success)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

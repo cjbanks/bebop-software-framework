@@ -49,6 +49,32 @@ struct Ardrone3MediaRecordStateVideoStateChangedV2_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(state_stopped)
+  #undef state_stopped
+#endif
+#if defined(_WIN32) && defined(state_started)
+  #undef state_started
+#endif
+#if defined(_WIN32) && defined(state_notAvailable)
+  #undef state_notAvailable
+#endif
+#if defined(_WIN32) && defined(error_ok)
+  #undef error_ok
+#endif
+#if defined(_WIN32) && defined(error_unknown)
+  #undef error_unknown
+#endif
+#if defined(_WIN32) && defined(error_camera_ko)
+  #undef error_camera_ko
+#endif
+#if defined(_WIN32) && defined(error_memoryFull)
+  #undef error_memoryFull
+#endif
+#if defined(_WIN32) && defined(error_lowBattery)
+  #undef error_lowBattery
+#endif
+
   enum {
     state_stopped = 0u,
     state_started = 1u,
@@ -98,6 +124,22 @@ ros::message_operations::Printer< ::bebop_msgs::Ardrone3MediaRecordStateVideoSta
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::bebop_msgs::Ardrone3MediaRecordStateVideoStateChangedV2_<ContainerAllocator1> & lhs, const ::bebop_msgs::Ardrone3MediaRecordStateVideoStateChangedV2_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.state == rhs.state &&
+    lhs.error == rhs.error;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::bebop_msgs::Ardrone3MediaRecordStateVideoStateChangedV2_<ContainerAllocator1> & lhs, const ::bebop_msgs::Ardrone3MediaRecordStateVideoStateChangedV2_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace bebop_msgs
 
 namespace ros
@@ -105,12 +147,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'bebop_msgs': ['/home/chris/bebop_ws/src/bebop_autonomy/bebop_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

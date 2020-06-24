@@ -220,10 +220,10 @@
 (setf (get mav_planning_msgs::PlannerServiceRequest :md5sum-) "118771e195038ced9b4ddec299814131")
 (setf (get mav_planning_msgs::PlannerServiceRequest :datatype-) "mav_planning_msgs/PlannerServiceRequest")
 (setf (get mav_planning_msgs::PlannerServiceRequest :definition-)
-      "
-geometry_msgs/PoseStamped start_pose
+      "#request fields
+geometry_msgs/PoseStamped start_pose #start pose for the planner
 geometry_msgs/Vector3 start_velocity
-geometry_msgs/PoseStamped goal_pose
+geometry_msgs/PoseStamped goal_pose #start pose for the planner
 geometry_msgs/Vector3 goal_velocity
 geometry_msgs/Vector3 bounding_box
 
@@ -283,14 +283,14 @@ MSG: geometry_msgs/Vector3
 float64 x
 float64 y
 ---
-
+# True on success, false on planning failure
 bool success
-
+# Either contains a polynomial trajectory:
 mav_planning_msgs/PolynomialTrajectory polynomial_plan
 mav_planning_msgs/PolynomialTrajectory4D polynomial_plan_4D
-
-
-
+# or a MultiDOFJointTrajectory containing a sampled path (or straight-line
+# waypoints, depending on the planner).
+# Only one of these should be non-empty.
 trajectory_msgs/MultiDOFJointTrajectory sampled_plan
 
 
@@ -409,10 +409,10 @@ Vector3  angular
 (setf (get mav_planning_msgs::PlannerServiceResponse :md5sum-) "118771e195038ced9b4ddec299814131")
 (setf (get mav_planning_msgs::PlannerServiceResponse :datatype-) "mav_planning_msgs/PlannerServiceResponse")
 (setf (get mav_planning_msgs::PlannerServiceResponse :definition-)
-      "
-geometry_msgs/PoseStamped start_pose
+      "#request fields
+geometry_msgs/PoseStamped start_pose #start pose for the planner
 geometry_msgs/Vector3 start_velocity
-geometry_msgs/PoseStamped goal_pose
+geometry_msgs/PoseStamped goal_pose #start pose for the planner
 geometry_msgs/Vector3 goal_velocity
 geometry_msgs/Vector3 bounding_box
 
@@ -472,14 +472,14 @@ MSG: geometry_msgs/Vector3
 float64 x
 float64 y
 ---
-
+# True on success, false on planning failure
 bool success
-
+# Either contains a polynomial trajectory:
 mav_planning_msgs/PolynomialTrajectory polynomial_plan
 mav_planning_msgs/PolynomialTrajectory4D polynomial_plan_4D
-
-
-
+# or a MultiDOFJointTrajectory containing a sampled path (or straight-line
+# waypoints, depending on the planner).
+# Only one of these should be non-empty.
 trajectory_msgs/MultiDOFJointTrajectory sampled_plan
 
 

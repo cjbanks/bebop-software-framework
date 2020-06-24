@@ -69,9 +69,9 @@ class PolygonServiceRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
-    
-    mav_planning_msgs/PolygonWithHolesStamped polygon
+    # A service to set a new polygon with holes.
+    # Request fields:
+    mav_planning_msgs/PolygonWithHolesStamped polygon # The new polygon.
     
     ================================================================================
     MSG: mav_planning_msgs/PolygonWithHolesStamped
@@ -182,8 +182,8 @@ class PolygonServiceResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
-    bool success
+    # Response fields:
+    bool success # True on success, false on polygon error.
     
     
     `;

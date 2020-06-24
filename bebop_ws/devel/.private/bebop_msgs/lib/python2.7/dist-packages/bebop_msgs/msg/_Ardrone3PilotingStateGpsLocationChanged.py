@@ -10,7 +10,7 @@ import std_msgs.msg
 class Ardrone3PilotingStateGpsLocationChanged(genpy.Message):
   _md5sum = "ac3eedcc2193887dd8d2257bf807fbae"
   _type = "bebop_msgs/Ardrone3PilotingStateGpsLocationChanged"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# Ardrone3PilotingStateGpsLocationChanged
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -69,7 +69,7 @@ string frame_id
     """
     if args or kwds:
       super(Ardrone3PilotingStateGpsLocationChanged, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.latitude is None:
@@ -146,7 +146,7 @@ string frame_id
       (_x.latitude, _x.longitude, _x.altitude, _x.latitude_accuracy, _x.longitude_accuracy, _x.altitude_accuracy,) = _get_struct_3d3b().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -198,7 +198,7 @@ string frame_id
       (_x.latitude, _x.longitude, _x.altitude, _x.latitude_accuracy, _x.longitude_accuracy, _x.altitude_accuracy,) = _get_struct_3d3b().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

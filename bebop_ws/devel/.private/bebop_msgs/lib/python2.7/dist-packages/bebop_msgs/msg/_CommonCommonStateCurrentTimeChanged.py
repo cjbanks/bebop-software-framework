@@ -10,7 +10,7 @@ import std_msgs.msg
 class CommonCommonStateCurrentTimeChanged(genpy.Message):
   _md5sum = "5efc9584d0b45a4422ec41d222235ff2"
   _type = "bebop_msgs/CommonCommonStateCurrentTimeChanged"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# CommonCommonStateCurrentTimeChanged
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -59,7 +59,7 @@ string frame_id
     """
     if args or kwds:
       super(CommonCommonStateCurrentTimeChanged, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.time is None:
@@ -130,7 +130,7 @@ string frame_id
         self.time = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -191,7 +191,7 @@ string frame_id
         self.time = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

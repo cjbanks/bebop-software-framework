@@ -11,7 +11,7 @@ import std_msgs.msg
 class FilteredSensorData(genpy.Message):
   _md5sum = "a9b51fae1f4ed3a8a0522b4ffe61659f"
   _type = "mav_msgs/FilteredSensorData"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 
 geometry_msgs/Vector3 accelerometer	# acceleration in vehicle frame [m/s^2]
@@ -66,7 +66,7 @@ float64 z"""
     """
     if args or kwds:
       super(FilteredSensorData, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.accelerometer is None:
@@ -143,7 +143,7 @@ float64 z"""
       (_x.accelerometer.x, _x.accelerometer.y, _x.accelerometer.z, _x.gyroscope.x, _x.gyroscope.y, _x.gyroscope.z, _x.magnetometer.x, _x.magnetometer.y, _x.magnetometer.z, _x.barometer,) = _get_struct_10d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -201,21 +201,21 @@ float64 z"""
       (_x.accelerometer.x, _x.accelerometer.y, _x.accelerometer.z, _x.gyroscope.x, _x.gyroscope.y, _x.gyroscope.z, _x.magnetometer.x, _x.magnetometer.y, _x.magnetometer.z, _x.barometer,) = _get_struct_10d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
 _struct_10d = None
 def _get_struct_10d():
     global _struct_10d
     if _struct_10d is None:
         _struct_10d = struct.Struct("<10d")
     return _struct_10d
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I

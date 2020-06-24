@@ -10,7 +10,7 @@ import std_msgs.msg
 class Ardrone3NetworkStateWifiScanListChanged(genpy.Message):
   _md5sum = "887b79816b1cfc1c69c34200f03104a8"
   _type = "bebop_msgs/Ardrone3NetworkStateWifiScanListChanged"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# Ardrone3NetworkStateWifiScanListChanged
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -71,7 +71,7 @@ string frame_id
     """
     if args or kwds:
       super(Ardrone3NetworkStateWifiScanListChanged, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.ssid is None:
@@ -157,7 +157,7 @@ string frame_id
       (_x.rssi, _x.band, _x.channel,) = _get_struct_h2B().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -224,7 +224,7 @@ string frame_id
       (_x.rssi, _x.band, _x.channel,) = _get_struct_h2B().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

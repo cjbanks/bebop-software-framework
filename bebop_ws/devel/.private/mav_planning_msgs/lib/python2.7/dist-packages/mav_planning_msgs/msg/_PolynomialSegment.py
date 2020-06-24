@@ -11,7 +11,7 @@ import std_msgs.msg
 class PolynomialSegment(genpy.Message):
   _md5sum = "1bfc920140297f14773c46c1eacc4c1d"
   _type = "mav_planning_msgs/PolynomialSegment"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 int32 num_coeffs        # order of the polynomial + 1, should match size of x[]
 duration segment_time   # duration of the segment
@@ -60,7 +60,7 @@ string frame_id
     """
     if args or kwds:
       super(PolynomialSegment, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.num_coeffs is None:
@@ -226,7 +226,7 @@ string frame_id
       self.segment_time.canon()
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -358,7 +358,7 @@ string frame_id
       self.segment_time.canon()
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

@@ -167,6 +167,98 @@ struct State_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(INVALID)
+  #undef INVALID
+#endif
+#if defined(_WIN32) && defined(INVALID_FLOAT)
+  #undef INVALID_FLOAT
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_1)
+  #undef MSG_BTN_1
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_2)
+  #undef MSG_BTN_2
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_A)
+  #undef MSG_BTN_A
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_B)
+  #undef MSG_BTN_B
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_PLUS)
+  #undef MSG_BTN_PLUS
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_MINUS)
+  #undef MSG_BTN_MINUS
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_LEFT)
+  #undef MSG_BTN_LEFT
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_RIGHT)
+  #undef MSG_BTN_RIGHT
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_UP)
+  #undef MSG_BTN_UP
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_DOWN)
+  #undef MSG_BTN_DOWN
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_HOME)
+  #undef MSG_BTN_HOME
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_Z)
+  #undef MSG_BTN_Z
+#endif
+#if defined(_WIN32) && defined(MSG_BTN_C)
+  #undef MSG_BTN_C
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_X)
+  #undef MSG_CLASSIC_BTN_X
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_Y)
+  #undef MSG_CLASSIC_BTN_Y
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_A)
+  #undef MSG_CLASSIC_BTN_A
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_B)
+  #undef MSG_CLASSIC_BTN_B
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_PLUS)
+  #undef MSG_CLASSIC_BTN_PLUS
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_MINUS)
+  #undef MSG_CLASSIC_BTN_MINUS
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_LEFT)
+  #undef MSG_CLASSIC_BTN_LEFT
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_RIGHT)
+  #undef MSG_CLASSIC_BTN_RIGHT
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_UP)
+  #undef MSG_CLASSIC_BTN_UP
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_DOWN)
+  #undef MSG_CLASSIC_BTN_DOWN
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_HOME)
+  #undef MSG_CLASSIC_BTN_HOME
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_L)
+  #undef MSG_CLASSIC_BTN_L
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_R)
+  #undef MSG_CLASSIC_BTN_R
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_ZL)
+  #undef MSG_CLASSIC_BTN_ZL
+#endif
+#if defined(_WIN32) && defined(MSG_CLASSIC_BTN_ZR)
+  #undef MSG_CLASSIC_BTN_ZR
+#endif
+
   enum {
     INVALID = -1,
     MSG_BTN_1 = 0,
@@ -289,6 +381,39 @@ ros::message_operations::Printer< ::wiimote::State_<ContainerAllocator> >::strea
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::wiimote::State_<ContainerAllocator1> & lhs, const ::wiimote::State_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.angular_velocity_zeroed == rhs.angular_velocity_zeroed &&
+    lhs.angular_velocity_raw == rhs.angular_velocity_raw &&
+    lhs.angular_velocity_covariance == rhs.angular_velocity_covariance &&
+    lhs.linear_acceleration_zeroed == rhs.linear_acceleration_zeroed &&
+    lhs.linear_acceleration_raw == rhs.linear_acceleration_raw &&
+    lhs.linear_acceleration_covariance == rhs.linear_acceleration_covariance &&
+    lhs.nunchuk_acceleration_zeroed == rhs.nunchuk_acceleration_zeroed &&
+    lhs.nunchuk_acceleration_raw == rhs.nunchuk_acceleration_raw &&
+    lhs.nunchuk_joystick_zeroed == rhs.nunchuk_joystick_zeroed &&
+    lhs.nunchuk_joystick_raw == rhs.nunchuk_joystick_raw &&
+    lhs.buttons == rhs.buttons &&
+    lhs.nunchuk_buttons == rhs.nunchuk_buttons &&
+    lhs.LEDs == rhs.LEDs &&
+    lhs.rumble == rhs.rumble &&
+    lhs.ir_tracking == rhs.ir_tracking &&
+    lhs.raw_battery == rhs.raw_battery &&
+    lhs.percent_battery == rhs.percent_battery &&
+    lhs.zeroing_time == rhs.zeroing_time &&
+    lhs.errors == rhs.errors;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::wiimote::State_<ContainerAllocator1> & lhs, const ::wiimote::State_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace wiimote
 
 namespace ros
@@ -296,12 +421,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'sensor_msgs': ['/opt/ros/melodic/share/sensor_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'wiimote': ['/home/chris/bebop_ws/src/joystick_drivers/wiimote/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

@@ -73,10 +73,10 @@
   "9747b4394bb34892a142eb2e3c96cd29")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<RunTaskService-request>)))
   "Returns full string definition for message of type '<RunTaskService-request>"
-  (cl:format cl:nil "~%~%string task_name~%~%bool start~%~%~%"))
+  (cl:format cl:nil "#request fields~%# Name of task ~%string task_name~%# True to start task, False to stop/abort~%bool start~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'RunTaskService-request)))
   "Returns full string definition for message of type 'RunTaskService-request"
-  (cl:format cl:nil "~%~%string task_name~%~%bool start~%~%~%"))
+  (cl:format cl:nil "#request fields~%# Name of task ~%string task_name~%# True to start task, False to stop/abort~%bool start~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <RunTaskService-request>))
   (cl:+ 0
      4 (cl:length (cl:slot-value msg 'task_name))
@@ -133,10 +133,10 @@
   "9747b4394bb34892a142eb2e3c96cd29")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<RunTaskService-response>)))
   "Returns full string definition for message of type '<RunTaskService-response>"
-  (cl:format cl:nil "~%bool success~%~%~%~%"))
+  (cl:format cl:nil "# True on success, false on failure to start task~%bool success~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'RunTaskService-response)))
   "Returns full string definition for message of type 'RunTaskService-response"
-  (cl:format cl:nil "~%bool success~%~%~%~%"))
+  (cl:format cl:nil "# True on success, false on failure to start task~%bool success~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <RunTaskService-response>))
   (cl:+ 0
      1

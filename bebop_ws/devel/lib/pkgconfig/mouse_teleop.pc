@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/mouse_teleop/lib/pkgconfig/mouse_teleop.pc
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mouse_teleop/lib/pkgconfig/mouse_teleop.pc

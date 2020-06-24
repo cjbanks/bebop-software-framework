@@ -44,6 +44,17 @@ struct Ardrone3MediaStreamingStateVideoStreamModeChanged_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(mode_low_latency)
+  #undef mode_low_latency
+#endif
+#if defined(_WIN32) && defined(mode_high_reliability)
+  #undef mode_high_reliability
+#endif
+#if defined(_WIN32) && defined(mode_high_reliability_low_framerate)
+  #undef mode_high_reliability_low_framerate
+#endif
+
   enum {
     mode_low_latency = 0u,
     mode_high_reliability = 1u,
@@ -78,6 +89,21 @@ ros::message_operations::Printer< ::bebop_msgs::Ardrone3MediaStreamingStateVideo
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::bebop_msgs::Ardrone3MediaStreamingStateVideoStreamModeChanged_<ContainerAllocator1> & lhs, const ::bebop_msgs::Ardrone3MediaStreamingStateVideoStreamModeChanged_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.mode == rhs.mode;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::bebop_msgs::Ardrone3MediaStreamingStateVideoStreamModeChanged_<ContainerAllocator1> & lhs, const ::bebop_msgs::Ardrone3MediaStreamingStateVideoStreamModeChanged_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace bebop_msgs
 
 namespace ros
@@ -85,12 +111,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'bebop_msgs': ['/home/chris/bebop_ws/src/bebop_autonomy/bebop_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

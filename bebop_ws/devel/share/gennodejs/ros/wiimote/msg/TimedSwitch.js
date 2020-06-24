@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/wiimote/share/gennodejs/ros/wiimote/msg/TimedSwitch.js
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/share/gennodejs/ros/wiimote/msg/TimedSwitch.js

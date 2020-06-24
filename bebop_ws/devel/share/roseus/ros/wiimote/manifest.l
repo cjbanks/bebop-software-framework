@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/wiimote/share/roseus/ros/wiimote/manifest.l
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/share/roseus/ros/wiimote/manifest.l

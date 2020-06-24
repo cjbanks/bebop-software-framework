@@ -10,7 +10,7 @@ import std_msgs.msg
 class CommonARLibsVersionsStateControllerLibARCommandsVersion(genpy.Message):
   _md5sum = "5c334c4f3ab8d1ba8b608eeadaa52a06"
   _type = "bebop_msgs/CommonARLibsVersionsStateControllerLibARCommandsVersion"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# CommonARLibsVersionsStateControllerLibARCommandsVersion
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -59,7 +59,7 @@ string frame_id
     """
     if args or kwds:
       super(CommonARLibsVersionsStateControllerLibARCommandsVersion, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.version is None:
@@ -130,7 +130,7 @@ string frame_id
         self.version = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -191,7 +191,7 @@ string frame_id
         self.version = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

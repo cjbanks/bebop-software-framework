@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/ps3joy/lib/pkgconfig/ps3joy.pc
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/pkgconfig/ps3joy.pc

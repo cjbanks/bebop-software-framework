@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/rotors_gazebo/lib/pkgconfig/rotors_gazebo.pc
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo/lib/pkgconfig/rotors_gazebo.pc

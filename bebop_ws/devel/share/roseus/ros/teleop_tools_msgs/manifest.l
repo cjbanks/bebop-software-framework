@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/teleop_tools_msgs/share/roseus/ros/teleop_tools_msgs/manifest.l
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/teleop_tools_msgs/share/roseus/ros/teleop_tools_msgs/manifest.l

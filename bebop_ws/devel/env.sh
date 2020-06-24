@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/catkin_tools_prebuild/env.sh
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/catkin_tools_prebuild/env.sh

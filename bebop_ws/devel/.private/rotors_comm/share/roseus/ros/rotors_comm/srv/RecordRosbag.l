@@ -107,7 +107,7 @@
 (setf (get rotors_comm::RecordRosbagRequest :md5sum-) "5504376d5b4669d33bfb29107c817d83")
 (setf (get rotors_comm::RecordRosbagRequest :datatype-) "rotors_comm/RecordRosbagRequest")
 (setf (get rotors_comm::RecordRosbagRequest :definition-)
-      "
+      "# Whether to record the rosbag or not
 bool record
 ---
 bool success
@@ -117,7 +117,7 @@ bool success
 (setf (get rotors_comm::RecordRosbagResponse :md5sum-) "5504376d5b4669d33bfb29107c817d83")
 (setf (get rotors_comm::RecordRosbagResponse :datatype-) "rotors_comm/RecordRosbagResponse")
 (setf (get rotors_comm::RecordRosbagResponse :definition-)
-      "
+      "# Whether to record the rosbag or not
 bool record
 ---
 bool success

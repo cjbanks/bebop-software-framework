@@ -118,13 +118,13 @@
 (setf (get mav_state_machine_msgs::RunTaskServiceRequest :md5sum-) "9747b4394bb34892a142eb2e3c96cd29")
 (setf (get mav_state_machine_msgs::RunTaskServiceRequest :datatype-) "mav_state_machine_msgs/RunTaskServiceRequest")
 (setf (get mav_state_machine_msgs::RunTaskServiceRequest :definition-)
-      "
-
+      "#request fields
+# Name of task 
 string task_name
-
+# True to start task, False to stop/abort
 bool start
 ---
-
+# True on success, false on failure to start task
 bool success
 
 ")
@@ -132,13 +132,13 @@ bool success
 (setf (get mav_state_machine_msgs::RunTaskServiceResponse :md5sum-) "9747b4394bb34892a142eb2e3c96cd29")
 (setf (get mav_state_machine_msgs::RunTaskServiceResponse :datatype-) "mav_state_machine_msgs/RunTaskServiceResponse")
 (setf (get mav_state_machine_msgs::RunTaskServiceResponse :definition-)
-      "
-
+      "#request fields
+# Name of task 
 string task_name
-
+# True to start task, False to stop/abort
 bool start
 ---
-
+# True on success, false on failure to start task
 bool success
 
 ")

@@ -10,7 +10,7 @@ import std_msgs.msg
 class CommonCommonStateCountryListKnown(genpy.Message):
   _md5sum = "86539e5f9157f2f0855dd0d95cb534f2"
   _type = "bebop_msgs/CommonCommonStateCountryListKnown"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# CommonCommonStateCountryListKnown
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -61,7 +61,7 @@ string frame_id
     """
     if args or kwds:
       super(CommonCommonStateCountryListKnown, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.listFlags is None:
@@ -93,7 +93,8 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.listFlags))
+      _x = self.listFlags
+      buff.write(_get_struct_B().pack(_x))
       _x = self.countryCodes
       length = len(_x)
       if python3 or type(_x) == unicode:
@@ -139,7 +140,7 @@ string frame_id
         self.countryCodes = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -157,7 +158,8 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.listFlags))
+      _x = self.listFlags
+      buff.write(_get_struct_B().pack(_x))
       _x = self.countryCodes
       length = len(_x)
       if python3 or type(_x) == unicode:
@@ -204,7 +206,7 @@ string frame_id
         self.countryCodes = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

@@ -49,6 +49,32 @@ struct Ardrone3MediaRecordStateVideoResolutionState_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(streaming_res360p)
+  #undef streaming_res360p
+#endif
+#if defined(_WIN32) && defined(streaming_res480p)
+  #undef streaming_res480p
+#endif
+#if defined(_WIN32) && defined(streaming_res720p)
+  #undef streaming_res720p
+#endif
+#if defined(_WIN32) && defined(streaming_res1080p)
+  #undef streaming_res1080p
+#endif
+#if defined(_WIN32) && defined(recording_res360p)
+  #undef recording_res360p
+#endif
+#if defined(_WIN32) && defined(recording_res480p)
+  #undef recording_res480p
+#endif
+#if defined(_WIN32) && defined(recording_res720p)
+  #undef recording_res720p
+#endif
+#if defined(_WIN32) && defined(recording_res1080p)
+  #undef recording_res1080p
+#endif
+
   enum {
     streaming_res360p = 0u,
     streaming_res480p = 1u,
@@ -98,6 +124,22 @@ ros::message_operations::Printer< ::bebop_msgs::Ardrone3MediaRecordStateVideoRes
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::bebop_msgs::Ardrone3MediaRecordStateVideoResolutionState_<ContainerAllocator1> & lhs, const ::bebop_msgs::Ardrone3MediaRecordStateVideoResolutionState_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.streaming == rhs.streaming &&
+    lhs.recording == rhs.recording;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::bebop_msgs::Ardrone3MediaRecordStateVideoResolutionState_<ContainerAllocator1> & lhs, const ::bebop_msgs::Ardrone3MediaRecordStateVideoResolutionState_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace bebop_msgs
 
 namespace ros
@@ -105,12 +147,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'bebop_msgs': ['/home/chris/bebop_ws/src/bebop_autonomy/bebop_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

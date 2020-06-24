@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake

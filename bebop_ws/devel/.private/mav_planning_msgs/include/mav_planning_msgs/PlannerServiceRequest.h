@@ -86,6 +86,24 @@ ros::message_operations::Printer< ::mav_planning_msgs::PlannerServiceRequest_<Co
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::mav_planning_msgs::PlannerServiceRequest_<ContainerAllocator1> & lhs, const ::mav_planning_msgs::PlannerServiceRequest_<ContainerAllocator2> & rhs)
+{
+  return lhs.start_pose == rhs.start_pose &&
+    lhs.start_velocity == rhs.start_velocity &&
+    lhs.goal_pose == rhs.goal_pose &&
+    lhs.goal_velocity == rhs.goal_velocity &&
+    lhs.bounding_box == rhs.bounding_box;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::mav_planning_msgs::PlannerServiceRequest_<ContainerAllocator1> & lhs, const ::mav_planning_msgs::PlannerServiceRequest_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace mav_planning_msgs
 
 namespace ros
@@ -93,12 +111,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'mav_msgs': ['/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'trajectory_msgs': ['/opt/ros/melodic/share/trajectory_msgs/cmake/../msg'], 'sensor_msgs': ['/opt/ros/melodic/share/sensor_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'mav_planning_msgs': ['/home/chris/bebop_ws/src/mav_comm/mav_planning_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 
@@ -163,10 +175,10 @@ struct Definition< ::mav_planning_msgs::PlannerServiceRequest_<ContainerAllocato
 {
   static const char* value()
   {
-    return "\n"
-"geometry_msgs/PoseStamped start_pose\n"
+    return "#request fields\n"
+"geometry_msgs/PoseStamped start_pose #start pose for the planner\n"
 "geometry_msgs/Vector3 start_velocity\n"
-"geometry_msgs/PoseStamped goal_pose\n"
+"geometry_msgs/PoseStamped goal_pose #start pose for the planner\n"
 "geometry_msgs/Vector3 goal_velocity\n"
 "geometry_msgs/Vector3 bounding_box\n"
 "\n"

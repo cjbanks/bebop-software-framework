@@ -10,7 +10,7 @@ import std_msgs.msg
 class Status(genpy.Message):
   _md5sum = "e191265664a5f7c1871338dc13be0958"
   _type = "mav_msgs/Status"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 
 # If values are not known / available, set to -1 or empty string.
@@ -87,7 +87,7 @@ string frame_id
     """
     if args or kwds:
       super(Status, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.vehicle_name is None:
@@ -161,7 +161,8 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_f().pack(self.battery_voltage))
+      _x = self.battery_voltage
+      buff.write(_get_struct_f().pack(_x))
       _x = self.rc_command_mode
       length = len(_x)
       if python3 or type(_x) == unicode:
@@ -176,14 +177,16 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.in_air))
+      _x = self.in_air
+      buff.write(_get_struct_B().pack(_x))
       _x = self.gps_status
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_i().pack(self.gps_num_satellites))
+      _x = self.gps_num_satellites
+      buff.write(_get_struct_i().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -271,7 +274,7 @@ string frame_id
       (self.gps_num_satellites,) = _get_struct_i().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -301,7 +304,8 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_f().pack(self.battery_voltage))
+      _x = self.battery_voltage
+      buff.write(_get_struct_f().pack(_x))
       _x = self.rc_command_mode
       length = len(_x)
       if python3 or type(_x) == unicode:
@@ -316,14 +320,16 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.in_air))
+      _x = self.in_air
+      buff.write(_get_struct_B().pack(_x))
       _x = self.gps_status
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_i().pack(self.gps_num_satellites))
+      _x = self.gps_num_satellites
+      buff.write(_get_struct_i().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -412,18 +418,12 @@ string frame_id
       (self.gps_num_satellites,) = _get_struct_i().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_i = None
-def _get_struct_i():
-    global _struct_i
-    if _struct_i is None:
-        _struct_i = struct.Struct("<i")
-    return _struct_i
 _struct_3I = None
 def _get_struct_3I():
     global _struct_3I
@@ -448,3 +448,9 @@ def _get_struct_f():
     if _struct_f is None:
         _struct_f = struct.Struct("<f")
     return _struct_f
+_struct_i = None
+def _get_struct_i():
+    global _struct_i
+    if _struct_i is None:
+        _struct_i = struct.Struct("<i")
+    return _struct_i

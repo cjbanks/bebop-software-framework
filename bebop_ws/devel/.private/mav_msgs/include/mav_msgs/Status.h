@@ -99,6 +99,35 @@ struct Status_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(RC_COMMAND_ATTITUDE)
+  #undef RC_COMMAND_ATTITUDE
+#endif
+#if defined(_WIN32) && defined(RC_COMMAND_ATTITUDE_HEIGHT)
+  #undef RC_COMMAND_ATTITUDE_HEIGHT
+#endif
+#if defined(_WIN32) && defined(RC_COMMAND_POSITION)
+  #undef RC_COMMAND_POSITION
+#endif
+#if defined(_WIN32) && defined(MOTOR_STATUS_RUNNING)
+  #undef MOTOR_STATUS_RUNNING
+#endif
+#if defined(_WIN32) && defined(MOTOR_STATUS_STOPPED)
+  #undef MOTOR_STATUS_STOPPED
+#endif
+#if defined(_WIN32) && defined(MOTOR_STATUS_STARTING)
+  #undef MOTOR_STATUS_STARTING
+#endif
+#if defined(_WIN32) && defined(MOTOR_STATUS_STOPPING)
+  #undef MOTOR_STATUS_STOPPING
+#endif
+#if defined(_WIN32) && defined(GPS_STATUS_LOCK)
+  #undef GPS_STATUS_LOCK
+#endif
+#if defined(_WIN32) && defined(GPS_STATUS_NO_LOCK)
+  #undef GPS_STATUS_NO_LOCK
+#endif
+
 
   static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  RC_COMMAND_ATTITUDE;
   static const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  RC_COMMAND_ATTITUDE_HEIGHT;
@@ -212,6 +241,32 @@ ros::message_operations::Printer< ::mav_msgs::Status_<ContainerAllocator> >::str
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::mav_msgs::Status_<ContainerAllocator1> & lhs, const ::mav_msgs::Status_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.vehicle_name == rhs.vehicle_name &&
+    lhs.vehicle_type == rhs.vehicle_type &&
+    lhs.battery_voltage == rhs.battery_voltage &&
+    lhs.rc_command_mode == rhs.rc_command_mode &&
+    lhs.command_interface_enabled == rhs.command_interface_enabled &&
+    lhs.flight_time == rhs.flight_time &&
+    lhs.system_uptime == rhs.system_uptime &&
+    lhs.cpu_load == rhs.cpu_load &&
+    lhs.motor_status == rhs.motor_status &&
+    lhs.in_air == rhs.in_air &&
+    lhs.gps_status == rhs.gps_status &&
+    lhs.gps_num_satellites == rhs.gps_num_satellites;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::mav_msgs::Status_<ContainerAllocator1> & lhs, const ::mav_msgs::Status_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace mav_msgs
 
 namespace ros
@@ -219,12 +274,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'mav_msgs': ['/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

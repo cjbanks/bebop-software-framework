@@ -79,10 +79,10 @@ class RunTaskServiceRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
-    
+    #request fields
+    # Name of task 
     string task_name
-    
+    # True to start task, False to stop/abort
     bool start
     
     `;
@@ -161,7 +161,7 @@ class RunTaskServiceResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
+    # True on success, false on failure to start task
     bool success
     
     

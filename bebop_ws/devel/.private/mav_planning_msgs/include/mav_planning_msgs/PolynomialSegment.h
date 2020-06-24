@@ -107,6 +107,29 @@ ros::message_operations::Printer< ::mav_planning_msgs::PolynomialSegment_<Contai
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator1> & lhs, const ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.num_coeffs == rhs.num_coeffs &&
+    lhs.segment_time == rhs.segment_time &&
+    lhs.x == rhs.x &&
+    lhs.y == rhs.y &&
+    lhs.z == rhs.z &&
+    lhs.rx == rhs.rx &&
+    lhs.ry == rhs.ry &&
+    lhs.rz == rhs.rz &&
+    lhs.yaw == rhs.yaw;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator1> & lhs, const ::mav_planning_msgs::PolynomialSegment_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace mav_planning_msgs
 
 namespace ros
@@ -114,12 +137,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'mav_msgs': ['/home/chris/bebop_ws/src/mav_comm/mav_msgs/msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'trajectory_msgs': ['/opt/ros/melodic/share/trajectory_msgs/cmake/../msg'], 'sensor_msgs': ['/opt/ros/melodic/share/sensor_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'mav_planning_msgs': ['/home/chris/bebop_ws/src/mav_comm/mav_planning_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

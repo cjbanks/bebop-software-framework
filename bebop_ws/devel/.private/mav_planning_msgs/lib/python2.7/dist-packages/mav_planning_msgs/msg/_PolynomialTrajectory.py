@@ -5,14 +5,14 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
-import mav_planning_msgs.msg
 import genpy
+import mav_planning_msgs.msg
 import std_msgs.msg
 
 class PolynomialTrajectory(genpy.Message):
   _md5sum = "2daf5d705534e84f80980f4673a0e62b"
   _type = "mav_planning_msgs/PolynomialTrajectory"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 PolynomialSegment[] segments
 
@@ -66,7 +66,7 @@ float64[] yaw           # coefficients for the yaw, INCREASING order
     """
     if args or kwds:
       super(PolynomialTrajectory, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.segments is None:
@@ -99,7 +99,8 @@ float64[] yaw           # coefficients for the yaw, INCREASING order
       buff.write(_struct_I.pack(length))
       for val1 in self.segments:
         _v1 = val1.header
-        buff.write(_get_struct_I().pack(_v1.seq))
+        _x = _v1.seq
+        buff.write(_get_struct_I().pack(_x))
         _v2 = _v1.stamp
         _x = _v2
         buff.write(_get_struct_2I().pack(_x.secs, _x.nsecs))
@@ -109,7 +110,8 @@ float64[] yaw           # coefficients for the yaw, INCREASING order
           _x = _x.encode('utf-8')
           length = len(_x)
         buff.write(struct.pack('<I%ss'%length, length, _x))
-        buff.write(_get_struct_i().pack(val1.num_coeffs))
+        _x = val1.num_coeffs
+        buff.write(_get_struct_i().pack(_x))
         _v3 = val1.segment_time
         _x = _v3
         buff.write(_get_struct_2i().pack(_x.secs, _x.nsecs))
@@ -252,7 +254,7 @@ float64[] yaw           # coefficients for the yaw, INCREASING order
         self.segments.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -274,7 +276,8 @@ float64[] yaw           # coefficients for the yaw, INCREASING order
       buff.write(_struct_I.pack(length))
       for val1 in self.segments:
         _v7 = val1.header
-        buff.write(_get_struct_I().pack(_v7.seq))
+        _x = _v7.seq
+        buff.write(_get_struct_I().pack(_x))
         _v8 = _v7.stamp
         _x = _v8
         buff.write(_get_struct_2I().pack(_x.secs, _x.nsecs))
@@ -284,7 +287,8 @@ float64[] yaw           # coefficients for the yaw, INCREASING order
           _x = _x.encode('utf-8')
           length = len(_x)
         buff.write(struct.pack('<I%ss'%length, length, _x))
-        buff.write(_get_struct_i().pack(val1.num_coeffs))
+        _x = val1.num_coeffs
+        buff.write(_get_struct_i().pack(_x))
         _v9 = val1.segment_time
         _x = _v9
         buff.write(_get_struct_2i().pack(_x.secs, _x.nsecs))
@@ -428,24 +432,12 @@ float64[] yaw           # coefficients for the yaw, INCREASING order
         self.segments.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_i = None
-def _get_struct_i():
-    global _struct_i
-    if _struct_i is None:
-        _struct_i = struct.Struct("<i")
-    return _struct_i
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
 _struct_2I = None
 def _get_struct_2I():
     global _struct_2I
@@ -458,3 +450,15 @@ def _get_struct_2i():
     if _struct_2i is None:
         _struct_2i = struct.Struct("<2i")
     return _struct_2i
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I
+_struct_i = None
+def _get_struct_i():
+    global _struct_i
+    if _struct_i is None:
+        _struct_i = struct.Struct("<i")
+    return _struct_i

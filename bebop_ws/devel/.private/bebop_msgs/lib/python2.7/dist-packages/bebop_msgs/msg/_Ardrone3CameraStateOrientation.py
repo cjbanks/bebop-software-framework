@@ -10,7 +10,7 @@ import std_msgs.msg
 class Ardrone3CameraStateOrientation(genpy.Message):
   _md5sum = "56079118c93b004f0ffa8a6f3b67bbf9"
   _type = "bebop_msgs/Ardrone3CameraStateOrientation"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# Ardrone3CameraStateOrientation
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -61,7 +61,7 @@ string frame_id
     """
     if args or kwds:
       super(Ardrone3CameraStateOrientation, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.tilt is None:
@@ -126,7 +126,7 @@ string frame_id
       (_x.tilt, _x.pan,) = _get_struct_2b().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -178,21 +178,21 @@ string frame_id
       (_x.tilt, _x.pan,) = _get_struct_2b().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
 _struct_2b = None
 def _get_struct_2b():
     global _struct_2b
     if _struct_2b is None:
         _struct_2b = struct.Struct("<2b")
     return _struct_2b
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I

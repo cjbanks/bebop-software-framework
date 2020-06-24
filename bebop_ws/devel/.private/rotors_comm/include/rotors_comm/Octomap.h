@@ -57,8 +57,8 @@ struct DataType< ::rotors_comm::Octomap > {
 };
 
 
-// service_traits::MD5Sum< ::rotors_comm::OctomapRequest> should match 
-// service_traits::MD5Sum< ::rotors_comm::Octomap > 
+// service_traits::MD5Sum< ::rotors_comm::OctomapRequest> should match
+// service_traits::MD5Sum< ::rotors_comm::Octomap >
 template<>
 struct MD5Sum< ::rotors_comm::OctomapRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::rotors_comm::OctomapRequest>
   }
 };
 
-// service_traits::DataType< ::rotors_comm::OctomapRequest> should match 
-// service_traits::DataType< ::rotors_comm::Octomap > 
+// service_traits::DataType< ::rotors_comm::OctomapRequest> should match
+// service_traits::DataType< ::rotors_comm::Octomap >
 template<>
 struct DataType< ::rotors_comm::OctomapRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::rotors_comm::OctomapRequest>
   }
 };
 
-// service_traits::MD5Sum< ::rotors_comm::OctomapResponse> should match 
-// service_traits::MD5Sum< ::rotors_comm::Octomap > 
+// service_traits::MD5Sum< ::rotors_comm::OctomapResponse> should match
+// service_traits::MD5Sum< ::rotors_comm::Octomap >
 template<>
 struct MD5Sum< ::rotors_comm::OctomapResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::rotors_comm::OctomapResponse>
   }
 };
 
-// service_traits::DataType< ::rotors_comm::OctomapResponse> should match 
-// service_traits::DataType< ::rotors_comm::Octomap > 
+// service_traits::DataType< ::rotors_comm::OctomapResponse> should match
+// service_traits::DataType< ::rotors_comm::Octomap >
 template<>
 struct DataType< ::rotors_comm::OctomapResponse>
 {

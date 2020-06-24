@@ -1,4 +1,4 @@
-prefix=/home/chris/bebop_ws/devel/.private/rotors_gazebo
+prefix=/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo
 
 Name: rotors_gazebo
 Description: Description of rotors_gazebo

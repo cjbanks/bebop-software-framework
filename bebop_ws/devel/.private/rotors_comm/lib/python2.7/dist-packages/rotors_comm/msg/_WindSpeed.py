@@ -11,7 +11,7 @@ import std_msgs.msg
 class WindSpeed(genpy.Message):
   _md5sum = "ae00d2a331b8545eaf96c531128ff0ef"
   _type = "rotors_comm/WindSpeed"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 
 # Message should be expressed in the frame_id specified in the header.
@@ -66,7 +66,7 @@ float64 z"""
     """
     if args or kwds:
       super(WindSpeed, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.velocity is None:
@@ -130,7 +130,7 @@ float64 z"""
       (_x.velocity.x, _x.velocity.y, _x.velocity.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -184,7 +184,7 @@ float64 z"""
       (_x.velocity.x, _x.velocity.y, _x.velocity.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

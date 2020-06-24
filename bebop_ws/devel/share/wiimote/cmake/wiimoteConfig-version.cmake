@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/wiimote/share/wiimote/cmake/wiimoteConfig-version.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/share/wiimote/cmake/wiimoteConfig-version.cmake

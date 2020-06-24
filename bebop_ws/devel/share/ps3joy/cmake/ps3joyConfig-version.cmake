@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/ps3joy/share/ps3joy/cmake/ps3joyConfig-version.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/share/ps3joy/cmake/ps3joyConfig-version.cmake

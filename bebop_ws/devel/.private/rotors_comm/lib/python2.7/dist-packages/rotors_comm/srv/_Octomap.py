@@ -10,16 +10,16 @@ import geometry_msgs.msg
 class OctomapRequest(genpy.Message):
   _md5sum = "75da936d054df9de7938d7041a8a6ef2"
   _type = "rotors_comm/OctomapRequest"
-  _has_header = False #flag to mark the presence of a Header object
-  _full_text = """
+  _has_header = False  # flag to mark the presence of a Header object
+  _full_text = """# The center point of the axis-aligned bounding box in the global frame
 geometry_msgs/Point bounding_box_origin
-
+# The 3 side lenghts of the axis-aligned bounding box
 geometry_msgs/Point bounding_box_lengths
-
+# The leaf size or resolution of the octomap
 float64 leaf_size
-
+# Indicate if the generated octomap should be published.
 bool publish_octomap
-
+# The filename under which the octomap should be stored (only stored if set)
 string filename
 
 ================================================================================
@@ -48,7 +48,7 @@ float64 z
     """
     if args or kwds:
       super(OctomapRequest, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.bounding_box_origin is None:
         self.bounding_box_origin = geometry_msgs.msg.Point()
       if self.bounding_box_lengths is None:
@@ -116,7 +116,7 @@ float64 z
         self.filename = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -165,7 +165,7 @@ float64 z
         self.filename = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -190,7 +190,7 @@ import std_msgs.msg
 class OctomapResponse(genpy.Message):
   _md5sum = "be9d2869d24fe40d6bc21ac21f6bb2c5"
   _type = "rotors_comm/OctomapResponse"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """octomap_msgs/Octomap map
 
 
@@ -246,7 +246,7 @@ string frame_id
     """
     if args or kwds:
       super(OctomapResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.map is None:
         self.map = octomap_msgs.msg.Octomap()
     else:
@@ -272,14 +272,16 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.map.binary))
+      _x = self.map.binary
+      buff.write(_get_struct_B().pack(_x))
       _x = self.map.id
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_d().pack(self.map.resolution))
+      _x = self.map.resolution
+      buff.write(_get_struct_d().pack(_x))
       length = len(self.map.data)
       buff.write(_struct_I.pack(length))
       pattern = '<%sb'%length
@@ -334,7 +336,7 @@ string frame_id
       self.map.data = struct.unpack(pattern, str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -352,14 +354,16 @@ string frame_id
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.map.binary))
+      _x = self.map.binary
+      buff.write(_get_struct_B().pack(_x))
       _x = self.map.id
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_d().pack(self.map.resolution))
+      _x = self.map.resolution
+      buff.write(_get_struct_d().pack(_x))
       length = len(self.map.data)
       buff.write(_struct_I.pack(length))
       pattern = '<%sb'%length
@@ -415,7 +419,7 @@ string frame_id
       self.map.data = numpy.frombuffer(str[start:end], dtype=numpy.int8, count=length)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

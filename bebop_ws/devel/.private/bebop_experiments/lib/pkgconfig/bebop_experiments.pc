@@ -1,4 +1,4 @@
-prefix=/home/chris/bebop_ws/devel/.private/bebop_experiments
+prefix=/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments
 
 Name: bebop_experiments
 Description: Description of bebop_experiments

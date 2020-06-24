@@ -5,14 +5,14 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
-import sensor_msgs.msg
 import geometry_msgs.msg
+import sensor_msgs.msg
 import std_msgs.msg
 
 class PointCloudWithPose(genpy.Message):
   _md5sum = "2a8b498d41262fbae6e2ab39e0965442"
   _type = "mav_planning_msgs/PointCloudWithPose"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 geometry_msgs/TransformStamped sensor_pose
 sensor_msgs/PointCloud2 cloud_in_sensor_frame
@@ -140,7 +140,7 @@ uint32 count     # How many elements in the field
     """
     if args or kwds:
       super(PointCloudWithPose, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.sensor_pose is None:
@@ -216,7 +216,8 @@ uint32 count     # How many elements in the field
         buff.write(struct.pack('<I%sB'%length, length, *_x))
       else:
         buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.cloud_in_sensor_frame.is_dense))
+      _x = self.cloud_in_sensor_frame.is_dense
+      buff.write(_get_struct_B().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -322,7 +323,7 @@ uint32 count     # How many elements in the field
       self.cloud_in_sensor_frame.is_dense = bool(self.cloud_in_sensor_frame.is_dense)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -384,7 +385,8 @@ uint32 count     # How many elements in the field
         buff.write(struct.pack('<I%sB'%length, length, *_x))
       else:
         buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_B().pack(self.cloud_in_sensor_frame.is_dense))
+      _x = self.cloud_in_sensor_frame.is_dense
+      buff.write(_get_struct_B().pack(_x))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -491,24 +493,12 @@ uint32 count     # How many elements in the field
       self.cloud_in_sensor_frame.is_dense = bool(self.cloud_in_sensor_frame.is_dense)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_IBI = None
-def _get_struct_IBI():
-    global _struct_IBI
-    if _struct_IBI is None:
-        _struct_IBI = struct.Struct("<IBI")
-    return _struct_IBI
-_struct_B = None
-def _get_struct_B():
-    global _struct_B
-    if _struct_B is None:
-        _struct_B = struct.Struct("<B")
-    return _struct_B
 _struct_2I = None
 def _get_struct_2I():
     global _struct_2I
@@ -521,15 +511,27 @@ def _get_struct_3I():
     if _struct_3I is None:
         _struct_3I = struct.Struct("<3I")
     return _struct_3I
-_struct_B2I = None
-def _get_struct_B2I():
-    global _struct_B2I
-    if _struct_B2I is None:
-        _struct_B2I = struct.Struct("<B2I")
-    return _struct_B2I
 _struct_7d3I = None
 def _get_struct_7d3I():
     global _struct_7d3I
     if _struct_7d3I is None:
         _struct_7d3I = struct.Struct("<7d3I")
     return _struct_7d3I
+_struct_B = None
+def _get_struct_B():
+    global _struct_B
+    if _struct_B is None:
+        _struct_B = struct.Struct("<B")
+    return _struct_B
+_struct_B2I = None
+def _get_struct_B2I():
+    global _struct_B2I
+    if _struct_B2I is None:
+        _struct_B2I = struct.Struct("<B2I")
+    return _struct_B2I
+_struct_IBI = None
+def _get_struct_IBI():
+    global _struct_IBI
+    if _struct_IBI is None:
+        _struct_IBI = struct.Struct("<IBI")
+    return _struct_IBI

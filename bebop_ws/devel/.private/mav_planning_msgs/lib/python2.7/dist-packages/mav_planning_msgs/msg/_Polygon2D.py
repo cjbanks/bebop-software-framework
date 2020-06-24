@@ -10,7 +10,7 @@ import mav_planning_msgs.msg
 class Polygon2D(genpy.Message):
   _md5sum = "8f02263beef99aa03117a577a3eb879d"
   _type = "mav_planning_msgs/Polygon2D"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """# A specification of a 2D polygon where the first and last points are assumed to be connected.
 mav_planning_msgs/Point2D[] points
 
@@ -39,7 +39,7 @@ float64 y
     """
     if args or kwds:
       super(Polygon2D, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.points is None:
         self.points = []
     else:
@@ -87,7 +87,7 @@ float64 y
         self.points.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -128,7 +128,7 @@ float64 y
         self.points.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

@@ -10,7 +10,7 @@ import std_msgs.msg
 class GpsWaypoint(genpy.Message):
   _md5sum = "61c3751c96f3b418f93879727f9a070a"
   _type = "mav_msgs/GpsWaypoint"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 
 float64 latitude     # latitude in degree
@@ -55,7 +55,7 @@ string frame_id
     """
     if args or kwds:
       super(GpsWaypoint, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.latitude is None:
@@ -132,7 +132,7 @@ string frame_id
       (_x.latitude, _x.longitude, _x.altitude, _x.heading, _x.maxSpeed, _x.maxAcc,) = _get_struct_6d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -184,7 +184,7 @@ string frame_id
       (_x.latitude, _x.longitude, _x.altitude, _x.heading, _x.maxSpeed, _x.maxAcc,) = _get_struct_6d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

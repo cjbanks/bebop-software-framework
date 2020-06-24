@@ -11,7 +11,7 @@ import std_msgs.msg
 class PolygonWithHolesStamped(genpy.Message):
   _md5sum = "75e2ac63509c016edab7c5a5ed67059b"
   _type = "mav_planning_msgs/PolygonWithHolesStamped"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# A message to define a 2D polygon with holes, stamp, and altitude above ground.
 Header header
 float64 altitude
@@ -69,7 +69,7 @@ float64 y
     """
     if args or kwds:
       super(PolygonWithHolesStamped, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.altitude is None:
@@ -101,7 +101,8 @@ float64 y
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_d().pack(self.altitude))
+      _x = self.altitude
+      buff.write(_get_struct_d().pack(_x))
       length = len(self.polygon.hull.points)
       buff.write(_struct_I.pack(length))
       for val1 in self.polygon.hull.points:
@@ -176,7 +177,7 @@ float64 y
         self.polygon.holes.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -194,7 +195,8 @@ float64 y
         _x = _x.encode('utf-8')
         length = len(_x)
       buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_get_struct_d().pack(self.altitude))
+      _x = self.altitude
+      buff.write(_get_struct_d().pack(_x))
       length = len(self.polygon.hull.points)
       buff.write(_struct_I.pack(length))
       for val1 in self.polygon.hull.points:
@@ -270,7 +272,7 @@ float64 y
         self.polygon.holes.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

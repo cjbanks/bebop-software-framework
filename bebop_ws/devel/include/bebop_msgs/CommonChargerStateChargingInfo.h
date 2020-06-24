@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateChargingInfo.h
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/include/bebop_msgs/CommonChargerStateChargingInfo.h

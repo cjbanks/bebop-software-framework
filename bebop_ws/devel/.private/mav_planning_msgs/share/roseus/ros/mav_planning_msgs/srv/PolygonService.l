@@ -111,9 +111,9 @@
 (setf (get mav_planning_msgs::PolygonServiceRequest :md5sum-) "7e5305932db903eed4a95dd3377ac6bc")
 (setf (get mav_planning_msgs::PolygonServiceRequest :datatype-) "mav_planning_msgs/PolygonServiceRequest")
 (setf (get mav_planning_msgs::PolygonServiceRequest :definition-)
-      "
-
-mav_planning_msgs/PolygonWithHolesStamped polygon
+      "# A service to set a new polygon with holes.
+# Request fields:
+mav_planning_msgs/PolygonWithHolesStamped polygon # The new polygon.
 
 ================================================================================
 MSG: mav_planning_msgs/PolygonWithHolesStamped
@@ -155,17 +155,17 @@ MSG: mav_planning_msgs/Point2D
 float64 x
 float64 y
 ---
-
-bool success
+# Response fields:
+bool success # True on success, false on polygon error.
 
 ")
 
 (setf (get mav_planning_msgs::PolygonServiceResponse :md5sum-) "7e5305932db903eed4a95dd3377ac6bc")
 (setf (get mav_planning_msgs::PolygonServiceResponse :datatype-) "mav_planning_msgs/PolygonServiceResponse")
 (setf (get mav_planning_msgs::PolygonServiceResponse :definition-)
-      "
-
-mav_planning_msgs/PolygonWithHolesStamped polygon
+      "# A service to set a new polygon with holes.
+# Request fields:
+mav_planning_msgs/PolygonWithHolesStamped polygon # The new polygon.
 
 ================================================================================
 MSG: mav_planning_msgs/PolygonWithHolesStamped
@@ -207,8 +207,8 @@ MSG: mav_planning_msgs/Point2D
 float64 x
 float64 y
 ---
-
-bool success
+# Response fields:
+bool success # True on success, false on polygon error.
 
 ")
 

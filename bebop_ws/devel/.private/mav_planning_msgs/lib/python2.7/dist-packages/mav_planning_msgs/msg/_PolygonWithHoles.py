@@ -10,7 +10,7 @@ import mav_planning_msgs.msg
 class PolygonWithHoles(genpy.Message):
   _md5sum = "df7f266352dfcf3e4d29156dd85febf9"
   _type = "mav_planning_msgs/PolygonWithHoles"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """# A message to define a 2D polygon with holes.
 mav_planning_msgs/Polygon2D hull
 mav_planning_msgs/Polygon2D[] holes
@@ -45,7 +45,7 @@ float64 y
     """
     if args or kwds:
       super(PolygonWithHoles, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.hull is None:
         self.hull = mav_planning_msgs.msg.Polygon2D()
       if self.holes is None:
@@ -124,7 +124,7 @@ float64 y
         self.holes.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -193,7 +193,7 @@ float64 y
         self.holes.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

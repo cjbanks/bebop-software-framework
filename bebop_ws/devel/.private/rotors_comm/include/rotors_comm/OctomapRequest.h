@@ -83,6 +83,24 @@ ros::message_operations::Printer< ::rotors_comm::OctomapRequest_<ContainerAlloca
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::rotors_comm::OctomapRequest_<ContainerAllocator1> & lhs, const ::rotors_comm::OctomapRequest_<ContainerAllocator2> & rhs)
+{
+  return lhs.bounding_box_origin == rhs.bounding_box_origin &&
+    lhs.bounding_box_lengths == rhs.bounding_box_lengths &&
+    lhs.leaf_size == rhs.leaf_size &&
+    lhs.publish_octomap == rhs.publish_octomap &&
+    lhs.filename == rhs.filename;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::rotors_comm::OctomapRequest_<ContainerAllocator1> & lhs, const ::rotors_comm::OctomapRequest_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace rotors_comm
 
 namespace ros
@@ -90,12 +108,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'rotors_comm': ['/home/chris/bebop_ws/src/rotors_simulator/rotors_comm/msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'octomap_msgs': ['/opt/ros/melodic/share/octomap_msgs/cmake/../msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 
@@ -160,15 +172,15 @@ struct Definition< ::rotors_comm::OctomapRequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "\n"
+    return "# The center point of the axis-aligned bounding box in the global frame\n"
 "geometry_msgs/Point bounding_box_origin\n"
-"\n"
+"# The 3 side lenghts of the axis-aligned bounding box\n"
 "geometry_msgs/Point bounding_box_lengths\n"
-"\n"
+"# The leaf size or resolution of the octomap\n"
 "float64 leaf_size\n"
-"\n"
+"# Indicate if the generated octomap should be published.\n"
 "bool publish_octomap\n"
-"\n"
+"# The filename under which the octomap should be stored (only stored if set)\n"
 "string filename\n"
 "\n"
 "================================================================================\n"

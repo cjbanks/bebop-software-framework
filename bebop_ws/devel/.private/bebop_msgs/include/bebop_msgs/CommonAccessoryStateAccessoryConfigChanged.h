@@ -49,6 +49,38 @@ struct CommonAccessoryStateAccessoryConfigChanged_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(newAccessory_UNCONFIGURED)
+  #undef newAccessory_UNCONFIGURED
+#endif
+#if defined(_WIN32) && defined(newAccessory_NO_ACCESSORY)
+  #undef newAccessory_NO_ACCESSORY
+#endif
+#if defined(_WIN32) && defined(newAccessory_STD_WHEELS)
+  #undef newAccessory_STD_WHEELS
+#endif
+#if defined(_WIN32) && defined(newAccessory_TRUCK_WHEELS)
+  #undef newAccessory_TRUCK_WHEELS
+#endif
+#if defined(_WIN32) && defined(newAccessory_HULL)
+  #undef newAccessory_HULL
+#endif
+#if defined(_WIN32) && defined(newAccessory_HYDROFOIL)
+  #undef newAccessory_HYDROFOIL
+#endif
+#if defined(_WIN32) && defined(newAccessory_IN_PROGRESS)
+  #undef newAccessory_IN_PROGRESS
+#endif
+#if defined(_WIN32) && defined(error_OK)
+  #undef error_OK
+#endif
+#if defined(_WIN32) && defined(error_UNKNOWN)
+  #undef error_UNKNOWN
+#endif
+#if defined(_WIN32) && defined(error_FLYING)
+  #undef error_FLYING
+#endif
+
   enum {
     newAccessory_UNCONFIGURED = 0u,
     newAccessory_NO_ACCESSORY = 1u,
@@ -104,6 +136,22 @@ ros::message_operations::Printer< ::bebop_msgs::CommonAccessoryStateAccessoryCon
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::bebop_msgs::CommonAccessoryStateAccessoryConfigChanged_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonAccessoryStateAccessoryConfigChanged_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.newAccessory == rhs.newAccessory &&
+    lhs.error == rhs.error;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::bebop_msgs::CommonAccessoryStateAccessoryConfigChanged_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonAccessoryStateAccessoryConfigChanged_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace bebop_msgs
 
 namespace ros
@@ -111,12 +159,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'bebop_msgs': ['/home/chris/bebop_ws/src/bebop_autonomy/bebop_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

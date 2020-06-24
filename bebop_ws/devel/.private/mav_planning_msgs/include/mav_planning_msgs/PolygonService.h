@@ -57,8 +57,8 @@ struct DataType< ::mav_planning_msgs::PolygonService > {
 };
 
 
-// service_traits::MD5Sum< ::mav_planning_msgs::PolygonServiceRequest> should match 
-// service_traits::MD5Sum< ::mav_planning_msgs::PolygonService > 
+// service_traits::MD5Sum< ::mav_planning_msgs::PolygonServiceRequest> should match
+// service_traits::MD5Sum< ::mav_planning_msgs::PolygonService >
 template<>
 struct MD5Sum< ::mav_planning_msgs::PolygonServiceRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::mav_planning_msgs::PolygonServiceRequest>
   }
 };
 
-// service_traits::DataType< ::mav_planning_msgs::PolygonServiceRequest> should match 
-// service_traits::DataType< ::mav_planning_msgs::PolygonService > 
+// service_traits::DataType< ::mav_planning_msgs::PolygonServiceRequest> should match
+// service_traits::DataType< ::mav_planning_msgs::PolygonService >
 template<>
 struct DataType< ::mav_planning_msgs::PolygonServiceRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::mav_planning_msgs::PolygonServiceRequest>
   }
 };
 
-// service_traits::MD5Sum< ::mav_planning_msgs::PolygonServiceResponse> should match 
-// service_traits::MD5Sum< ::mav_planning_msgs::PolygonService > 
+// service_traits::MD5Sum< ::mav_planning_msgs::PolygonServiceResponse> should match
+// service_traits::MD5Sum< ::mav_planning_msgs::PolygonService >
 template<>
 struct MD5Sum< ::mav_planning_msgs::PolygonServiceResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::mav_planning_msgs::PolygonServiceResponse>
   }
 };
 
-// service_traits::DataType< ::mav_planning_msgs::PolygonServiceResponse> should match 
-// service_traits::DataType< ::mav_planning_msgs::PolygonService > 
+// service_traits::DataType< ::mav_planning_msgs::PolygonServiceResponse> should match
+// service_traits::DataType< ::mav_planning_msgs::PolygonService >
 template<>
 struct DataType< ::mav_planning_msgs::PolygonServiceResponse>
 {

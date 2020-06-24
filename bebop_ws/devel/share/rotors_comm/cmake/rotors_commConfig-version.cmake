@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/rotors_comm/share/rotors_comm/cmake/rotors_commConfig-version.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_comm/share/rotors_comm/cmake/rotors_commConfig-version.cmake

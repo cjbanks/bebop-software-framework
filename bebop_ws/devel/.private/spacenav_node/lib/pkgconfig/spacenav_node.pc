@@ -1,4 +1,4 @@
-prefix=/home/chris/bebop_ws/devel/.private/spacenav_node
+prefix=/home/chris/bebop-software-framework/bebop_ws/devel/.private/spacenav_node
 
 Name: spacenav_node
 Description: Description of spacenav_node

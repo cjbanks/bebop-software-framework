@@ -10,7 +10,7 @@ import std_msgs.msg
 class CommonCommonStateSensorsStatesListChanged(genpy.Message):
   _md5sum = "21324261f7a8c1805999cb90c3c5949b"
   _type = "bebop_msgs/CommonCommonStateSensorsStatesListChanged"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# CommonCommonStateSensorsStatesListChanged
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -75,7 +75,7 @@ string frame_id
     """
     if args or kwds:
       super(CommonCommonStateSensorsStatesListChanged, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.sensorName is None:
@@ -140,7 +140,7 @@ string frame_id
       (_x.sensorName, _x.sensorState,) = _get_struct_2B().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -192,21 +192,21 @@ string frame_id
       (_x.sensorName, _x.sensorState,) = _get_struct_2B().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
 _struct_2B = None
 def _get_struct_2B():
     global _struct_2B
     if _struct_2B is None:
         _struct_2B = struct.Struct("<2B")
     return _struct_2B
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I

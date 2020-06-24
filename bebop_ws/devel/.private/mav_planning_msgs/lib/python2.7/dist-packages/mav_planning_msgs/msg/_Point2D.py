@@ -9,7 +9,7 @@ import struct
 class Point2D(genpy.Message):
   _md5sum = "209f516d3eb691f0663e25cb750d67c1"
   _type = "mav_planning_msgs/Point2D"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """# This contains the position of a 2D point.
 float64 x
 float64 y
@@ -33,7 +33,7 @@ float64 y
     """
     if args or kwds:
       super(Point2D, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.x is None:
         self.x = 0.
       if self.y is None:
@@ -72,7 +72,7 @@ float64 y
       (_x.x, _x.y,) = _get_struct_2d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -101,7 +101,7 @@ float64 y
       (_x.x, _x.y,) = _get_struct_2d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

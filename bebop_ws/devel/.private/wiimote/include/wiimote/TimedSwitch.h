@@ -48,6 +48,23 @@ struct TimedSwitch_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(ON)
+  #undef ON
+#endif
+#if defined(_WIN32) && defined(OFF)
+  #undef OFF
+#endif
+#if defined(_WIN32) && defined(NO_CHANGE)
+  #undef NO_CHANGE
+#endif
+#if defined(_WIN32) && defined(REPEAT)
+  #undef REPEAT
+#endif
+#if defined(_WIN32) && defined(FOREVER)
+  #undef FOREVER
+#endif
+
   enum {
     ON = 1,
     OFF = 0,
@@ -88,6 +105,22 @@ ros::message_operations::Printer< ::wiimote::TimedSwitch_<ContainerAllocator> >:
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::wiimote::TimedSwitch_<ContainerAllocator1> & lhs, const ::wiimote::TimedSwitch_<ContainerAllocator2> & rhs)
+{
+  return lhs.switch_mode == rhs.switch_mode &&
+    lhs.num_cycles == rhs.num_cycles &&
+    lhs.pulse_pattern == rhs.pulse_pattern;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::wiimote::TimedSwitch_<ContainerAllocator1> & lhs, const ::wiimote::TimedSwitch_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace wiimote
 
 namespace ros
@@ -95,12 +128,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'sensor_msgs': ['/opt/ros/melodic/share/sensor_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'wiimote': ['/home/chris/bebop_ws/src/joystick_drivers/wiimote/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

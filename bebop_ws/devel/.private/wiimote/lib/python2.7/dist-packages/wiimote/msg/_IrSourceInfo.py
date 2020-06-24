@@ -9,7 +9,7 @@ import struct
 class IrSourceInfo(genpy.Message):
   _md5sum = "95274ca88b9f008b99984b9a61d2772e"
   _type = "wiimote/IrSourceInfo"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """# Sensor data pertaining to the Wiimote infrared camera.
 # This message contains data for one of the four infrared 
 # light sources that the camera detects.
@@ -51,7 +51,7 @@ int64 ir_size
     """
     if args or kwds:
       super(IrSourceInfo, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.x is None:
         self.x = 0.
       if self.y is None:
@@ -93,7 +93,7 @@ int64 ir_size
       (_x.x, _x.y, _x.ir_size,) = _get_struct_2dq().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -122,7 +122,7 @@ int64 ir_size
       (_x.x, _x.y, _x.ir_size,) = _get_struct_2dq().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

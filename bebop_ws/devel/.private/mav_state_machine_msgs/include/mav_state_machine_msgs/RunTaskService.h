@@ -57,8 +57,8 @@ struct DataType< ::mav_state_machine_msgs::RunTaskService > {
 };
 
 
-// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskServiceRequest> should match 
-// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskService > 
+// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskServiceRequest> should match
+// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskService >
 template<>
 struct MD5Sum< ::mav_state_machine_msgs::RunTaskServiceRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::mav_state_machine_msgs::RunTaskServiceRequest>
   }
 };
 
-// service_traits::DataType< ::mav_state_machine_msgs::RunTaskServiceRequest> should match 
-// service_traits::DataType< ::mav_state_machine_msgs::RunTaskService > 
+// service_traits::DataType< ::mav_state_machine_msgs::RunTaskServiceRequest> should match
+// service_traits::DataType< ::mav_state_machine_msgs::RunTaskService >
 template<>
 struct DataType< ::mav_state_machine_msgs::RunTaskServiceRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::mav_state_machine_msgs::RunTaskServiceRequest>
   }
 };
 
-// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskServiceResponse> should match 
-// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskService > 
+// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskServiceResponse> should match
+// service_traits::MD5Sum< ::mav_state_machine_msgs::RunTaskService >
 template<>
 struct MD5Sum< ::mav_state_machine_msgs::RunTaskServiceResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::mav_state_machine_msgs::RunTaskServiceResponse>
   }
 };
 
-// service_traits::DataType< ::mav_state_machine_msgs::RunTaskServiceResponse> should match 
-// service_traits::DataType< ::mav_state_machine_msgs::RunTaskService > 
+// service_traits::DataType< ::mav_state_machine_msgs::RunTaskServiceResponse> should match
+// service_traits::DataType< ::mav_state_machine_msgs::RunTaskService >
 template<>
 struct DataType< ::mav_state_machine_msgs::RunTaskServiceResponse>
 {

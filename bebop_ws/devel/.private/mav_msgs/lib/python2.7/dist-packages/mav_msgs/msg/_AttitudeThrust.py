@@ -11,7 +11,7 @@ import std_msgs.msg
 class AttitudeThrust(genpy.Message):
   _md5sum = "7cee443b02735e42bda0ad5910302718"
   _type = "mav_msgs/AttitudeThrust"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 
 geometry_msgs/Quaternion attitude    # Attitude expressed in the header/frame_id frame.
@@ -76,7 +76,7 @@ float64 z"""
     """
     if args or kwds:
       super(AttitudeThrust, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.attitude is None:
@@ -145,7 +145,7 @@ float64 z"""
       (_x.attitude.x, _x.attitude.y, _x.attitude.z, _x.attitude.w, _x.thrust.x, _x.thrust.y, _x.thrust.z,) = _get_struct_7d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -201,7 +201,7 @@ float64 z"""
       (_x.attitude.x, _x.attitude.y, _x.attitude.z, _x.attitude.w, _x.thrust.x, _x.thrust.y, _x.thrust.z,) = _get_struct_7d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

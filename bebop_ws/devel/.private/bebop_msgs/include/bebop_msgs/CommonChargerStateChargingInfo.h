@@ -59,6 +59,38 @@ struct CommonChargerStateChargingInfo_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(phase_UNKNOWN)
+  #undef phase_UNKNOWN
+#endif
+#if defined(_WIN32) && defined(phase_CONSTANT_CURRENT_1)
+  #undef phase_CONSTANT_CURRENT_1
+#endif
+#if defined(_WIN32) && defined(phase_CONSTANT_CURRENT_2)
+  #undef phase_CONSTANT_CURRENT_2
+#endif
+#if defined(_WIN32) && defined(phase_CONSTANT_VOLTAGE)
+  #undef phase_CONSTANT_VOLTAGE
+#endif
+#if defined(_WIN32) && defined(phase_CHARGED)
+  #undef phase_CHARGED
+#endif
+#if defined(_WIN32) && defined(phase_DISCHARGING)
+  #undef phase_DISCHARGING
+#endif
+#if defined(_WIN32) && defined(rate_UNKNOWN)
+  #undef rate_UNKNOWN
+#endif
+#if defined(_WIN32) && defined(rate_SLOW)
+  #undef rate_SLOW
+#endif
+#if defined(_WIN32) && defined(rate_MODERATE)
+  #undef rate_MODERATE
+#endif
+#if defined(_WIN32) && defined(rate_FAST)
+  #undef rate_FAST
+#endif
+
   enum {
     phase_UNKNOWN = 0u,
     phase_CONSTANT_CURRENT_1 = 1u,
@@ -114,6 +146,24 @@ ros::message_operations::Printer< ::bebop_msgs::CommonChargerStateChargingInfo_<
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::bebop_msgs::CommonChargerStateChargingInfo_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonChargerStateChargingInfo_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.phase == rhs.phase &&
+    lhs.rate == rhs.rate &&
+    lhs.intensity == rhs.intensity &&
+    lhs.fullChargingTime == rhs.fullChargingTime;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::bebop_msgs::CommonChargerStateChargingInfo_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonChargerStateChargingInfo_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace bebop_msgs
 
 namespace ros
@@ -121,12 +171,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'bebop_msgs': ['/home/chris/bebop_ws/src/bebop_autonomy/bebop_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

@@ -67,14 +67,14 @@ set(mav_planning_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(mav_planning_msgs_SOURCE_PREFIX /home/chris/bebop_ws/src/mav_comm/mav_planning_msgs)
-  set(mav_planning_msgs_DEVEL_PREFIX /home/chris/bebop_ws/devel/.private/mav_planning_msgs)
+  set(mav_planning_msgs_SOURCE_PREFIX /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs)
+  set(mav_planning_msgs_DEVEL_PREFIX /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs)
   set(mav_planning_msgs_INSTALL_PREFIX "")
   set(mav_planning_msgs_PREFIX ${mav_planning_msgs_DEVEL_PREFIX})
 else()
   set(mav_planning_msgs_SOURCE_PREFIX "")
   set(mav_planning_msgs_DEVEL_PREFIX "")
-  set(mav_planning_msgs_INSTALL_PREFIX /home/chris/bebop_ws/install)
+  set(mav_planning_msgs_INSTALL_PREFIX /home/chris/bebop-software-framework/bebop_ws/install)
   set(mav_planning_msgs_PREFIX ${mav_planning_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mav_planning_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/chris/bebop_ws/devel/.private/mav_planning_msgs/include;/home/chris/bebop_ws/src/mav_comm/mav_planning_msgs/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/include;/usr/include/eigen3 " STREQUAL " ")
   set(mav_planning_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/home/chris/bebop_ws/devel/.private/mav_planning_msgs/include;/home/chris/bebop_ws/src/mav_comm/mav_planning_msgs/include;/usr/include/eigen3")
+  set(_include_dirs "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/include;/usr/include/eigen3")
   if(NOT "https://github.com/ethz-asl/mav_comm/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ethz-asl/mav_comm/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "https://github.com/ethz-asl/mav_comm " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/chris/bebop_ws/devel/.private/mav_planning_msgs/include;/home/chri
         message(FATAL_ERROR "Project 'mav_planning_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'mav_planning_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/chris/bebop_ws/src/mav_comm/mav_planning_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'mav_planning_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(mav_planning_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chris/bebop_ws/devel/.private/mav_planning_msgs/lib;/opt/ros/melodic/lib;/home/chris/bebop_ws/devel/lib)
+    foreach(path /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/lib;/home/chris/bebop-software-framework/bebop_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

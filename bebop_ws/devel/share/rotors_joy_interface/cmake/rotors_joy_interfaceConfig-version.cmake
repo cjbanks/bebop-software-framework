@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake

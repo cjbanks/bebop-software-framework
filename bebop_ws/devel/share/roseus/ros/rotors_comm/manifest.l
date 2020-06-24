@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/manifest.l
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_comm/share/roseus/ros/rotors_comm/manifest.l

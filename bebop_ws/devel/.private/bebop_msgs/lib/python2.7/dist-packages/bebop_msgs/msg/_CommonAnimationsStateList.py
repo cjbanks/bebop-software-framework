@@ -10,7 +10,7 @@ import std_msgs.msg
 class CommonAnimationsStateList(genpy.Message):
   _md5sum = "c89b289a8f935a33f0451effae3f9508"
   _type = "bebop_msgs/CommonAnimationsStateList"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# CommonAnimationsStateList
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -109,7 +109,7 @@ string frame_id
     """
     if args or kwds:
       super(CommonAnimationsStateList, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.anim is None:
@@ -177,7 +177,7 @@ string frame_id
       (_x.anim, _x.state, _x.error,) = _get_struct_3B().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -229,7 +229,7 @@ string frame_id
       (_x.anim, _x.state, _x.error,) = _get_struct_3B().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

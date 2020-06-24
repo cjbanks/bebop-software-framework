@@ -11,7 +11,7 @@ import std_msgs.msg
 class TorqueThrust(genpy.Message):
   _md5sum = "81293743ae52683b61e39c21bc0b30db"
   _type = "mav_msgs/TorqueThrust"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """Header header
 
 # We use the coordinate frames with the following convention:
@@ -72,7 +72,7 @@ float64 z"""
     """
     if args or kwds:
       super(TorqueThrust, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.torque is None:
@@ -141,7 +141,7 @@ float64 z"""
       (_x.torque.x, _x.torque.y, _x.torque.z, _x.thrust.x, _x.thrust.y, _x.thrust.z,) = _get_struct_6d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -197,7 +197,7 @@ float64 z"""
       (_x.torque.x, _x.torque.y, _x.torque.z, _x.thrust.x, _x.thrust.y, _x.thrust.z,) = _get_struct_6d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

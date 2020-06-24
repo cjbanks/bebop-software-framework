@@ -57,8 +57,8 @@ struct DataType< ::rotors_comm::RecordRosbag > {
 };
 
 
-// service_traits::MD5Sum< ::rotors_comm::RecordRosbagRequest> should match 
-// service_traits::MD5Sum< ::rotors_comm::RecordRosbag > 
+// service_traits::MD5Sum< ::rotors_comm::RecordRosbagRequest> should match
+// service_traits::MD5Sum< ::rotors_comm::RecordRosbag >
 template<>
 struct MD5Sum< ::rotors_comm::RecordRosbagRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::rotors_comm::RecordRosbagRequest>
   }
 };
 
-// service_traits::DataType< ::rotors_comm::RecordRosbagRequest> should match 
-// service_traits::DataType< ::rotors_comm::RecordRosbag > 
+// service_traits::DataType< ::rotors_comm::RecordRosbagRequest> should match
+// service_traits::DataType< ::rotors_comm::RecordRosbag >
 template<>
 struct DataType< ::rotors_comm::RecordRosbagRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::rotors_comm::RecordRosbagRequest>
   }
 };
 
-// service_traits::MD5Sum< ::rotors_comm::RecordRosbagResponse> should match 
-// service_traits::MD5Sum< ::rotors_comm::RecordRosbag > 
+// service_traits::MD5Sum< ::rotors_comm::RecordRosbagResponse> should match
+// service_traits::MD5Sum< ::rotors_comm::RecordRosbag >
 template<>
 struct MD5Sum< ::rotors_comm::RecordRosbagResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::rotors_comm::RecordRosbagResponse>
   }
 };
 
-// service_traits::DataType< ::rotors_comm::RecordRosbagResponse> should match 
-// service_traits::DataType< ::rotors_comm::RecordRosbag > 
+// service_traits::DataType< ::rotors_comm::RecordRosbagResponse> should match
+// service_traits::DataType< ::rotors_comm::RecordRosbag >
 template<>
 struct DataType< ::rotors_comm::RecordRosbagResponse>
 {

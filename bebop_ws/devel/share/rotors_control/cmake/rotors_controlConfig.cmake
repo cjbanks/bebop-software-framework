@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake

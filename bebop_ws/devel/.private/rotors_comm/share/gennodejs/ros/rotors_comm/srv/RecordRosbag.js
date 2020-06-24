@@ -66,7 +66,7 @@ class RecordRosbagRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
+    # Whether to record the rosbag or not
     bool record
     
     `;

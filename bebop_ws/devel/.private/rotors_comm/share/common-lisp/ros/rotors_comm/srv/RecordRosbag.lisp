@@ -49,10 +49,10 @@
   "5504376d5b4669d33bfb29107c817d83")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<RecordRosbag-request>)))
   "Returns full string definition for message of type '<RecordRosbag-request>"
-  (cl:format cl:nil "~%bool record~%~%~%"))
+  (cl:format cl:nil "# Whether to record the rosbag or not~%bool record~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'RecordRosbag-request)))
   "Returns full string definition for message of type 'RecordRosbag-request"
-  (cl:format cl:nil "~%bool record~%~%~%"))
+  (cl:format cl:nil "# Whether to record the rosbag or not~%bool record~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <RecordRosbag-request>))
   (cl:+ 0
      1

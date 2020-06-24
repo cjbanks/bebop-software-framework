@@ -9,7 +9,7 @@ import struct
 class TimedSwitch(genpy.Message):
   _md5sum = "e4c8d9327409cef6066fa6c368032c1e"
   _type = "wiimote/TimedSwitch"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """# TimedSwitch allows sender to:
 #    o turn a switch on,
 #    o turn a switch off, and
@@ -75,7 +75,7 @@ float32[] pulse_pattern
     """
     if args or kwds:
       super(TimedSwitch, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.switch_mode is None:
         self.switch_mode = 0
       if self.num_cycles is None:
@@ -128,7 +128,7 @@ float32[] pulse_pattern
       self.pulse_pattern = struct.unpack(pattern, str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -168,7 +168,7 @@ float32[] pulse_pattern
       self.pulse_pattern = numpy.frombuffer(str[start:end], dtype=numpy.float32, count=length)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

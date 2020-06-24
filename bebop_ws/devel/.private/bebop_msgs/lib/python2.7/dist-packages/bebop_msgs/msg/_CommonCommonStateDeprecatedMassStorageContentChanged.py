@@ -10,7 +10,7 @@ import std_msgs.msg
 class CommonCommonStateDeprecatedMassStorageContentChanged(genpy.Message):
   _md5sum = "54ba89d250643620665f04ab5991b8ef"
   _type = "bebop_msgs/CommonCommonStateDeprecatedMassStorageContentChanged"
-  _has_header = True #flag to mark the presence of a Header object
+  _has_header = True  # flag to mark the presence of a Header object
   _full_text = """# CommonCommonStateDeprecatedMassStorageContentChanged
 # auto-generated from up stream XML files at
 #   github.com/Parrot-Developers/libARCommands/tree/master/Xml
@@ -67,7 +67,7 @@ string frame_id
     """
     if args or kwds:
       super(CommonCommonStateDeprecatedMassStorageContentChanged, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.header is None:
         self.header = std_msgs.msg.Header()
       if self.mass_storage_id is None:
@@ -141,7 +141,7 @@ string frame_id
       (_x.mass_storage_id, _x.nbPhotos, _x.nbVideos, _x.nbPuds, _x.nbCrashLogs,) = _get_struct_B4H().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -193,7 +193,7 @@ string frame_id
       (_x.mass_storage_id, _x.nbPhotos, _x.nbVideos, _x.nbPuds, _x.nbCrashLogs,) = _get_struct_B4H().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

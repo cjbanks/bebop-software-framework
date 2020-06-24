@@ -54,6 +54,26 @@ struct CommonMavlinkStateMavlinkFilePlayingStateChanged_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(state_playing)
+  #undef state_playing
+#endif
+#if defined(_WIN32) && defined(state_stopped)
+  #undef state_stopped
+#endif
+#if defined(_WIN32) && defined(state_paused)
+  #undef state_paused
+#endif
+#if defined(_WIN32) && defined(state_loaded)
+  #undef state_loaded
+#endif
+#if defined(_WIN32) && defined(type_flightPlan)
+  #undef type_flightPlan
+#endif
+#if defined(_WIN32) && defined(type_mapMyHouse)
+  #undef type_mapMyHouse
+#endif
+
   enum {
     state_playing = 0u,
     state_stopped = 1u,
@@ -97,6 +117,23 @@ ros::message_operations::Printer< ::bebop_msgs::CommonMavlinkStateMavlinkFilePla
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::bebop_msgs::CommonMavlinkStateMavlinkFilePlayingStateChanged_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonMavlinkStateMavlinkFilePlayingStateChanged_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.state == rhs.state &&
+    lhs.filepath == rhs.filepath &&
+    lhs.type == rhs.type;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::bebop_msgs::CommonMavlinkStateMavlinkFilePlayingStateChanged_<ContainerAllocator1> & lhs, const ::bebop_msgs::CommonMavlinkStateMavlinkFilePlayingStateChanged_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace bebop_msgs
 
 namespace ros
@@ -104,12 +141,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'bebop_msgs': ['/home/chris/bebop_ws/src/bebop_autonomy/bebop_msgs/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

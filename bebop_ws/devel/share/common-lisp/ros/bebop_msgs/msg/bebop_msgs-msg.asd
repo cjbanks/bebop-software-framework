@@ -1,1 +1,1 @@
-/home/chris/bebop_ws/devel/.private/bebop_msgs/share/common-lisp/ros/bebop_msgs/msg/bebop_msgs-msg.asd
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_msgs/share/common-lisp/ros/bebop_msgs/msg/bebop_msgs-msg.asd
