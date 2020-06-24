@@ -1,3 +1,6 @@
 [submodule "bebop_ws/src/BebopS"]
 	path = bebop_ws/src/BebopS
 	url = https://github.com/gsilano/BebopS.git
+[submodule "bebop_ws/src/bebop_autonomy"]
+	path = bebop_ws/src/bebop_autonomy
+	url = https://github.com/AutonomyLab/bebop_autonomy
