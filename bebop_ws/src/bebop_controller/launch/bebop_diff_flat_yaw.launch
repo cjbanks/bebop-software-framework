@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="frame"/>
+  <arg name="worldFrame" default="world"/>
+
+  <node name="controller" pkg="bebop_controller" type="bebop_controller_diff_flat_yaw" output="screen">
+    <param name="frame" value="$(arg frame)" />
+    <param name="worldFrame" value="$(arg worldFrame)" />
+    <rosparam command="load" file="$(find bebop_controller)/config/bebop_diff_flat.yaml" />
+  </node>
+</launch>

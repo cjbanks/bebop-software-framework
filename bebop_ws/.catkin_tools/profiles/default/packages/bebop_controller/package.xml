@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bebop_controller</name>
+  <version>0.0.0</version>
+  <description>The bebop_controller package. Modeled after the Crazyfie controller package (dev. Wolfgang Hoenig) to fly Bebop with Motion Capture System,</description>
+  
+  <maintainer email="cbanks34@gatech.edu">Christopher Banks</maintainer>
+
+
+  <license>MIT</license>
+
+
+   <url type="website">https://bebop-autonomy.readthedocs.io/en/latest/index.html</url>
+
+   <author email="cbanks34@gatech.edu">Christopher Banks</author>
+   <buildtool_depend>catkin</buildtool_depend>
+</package>

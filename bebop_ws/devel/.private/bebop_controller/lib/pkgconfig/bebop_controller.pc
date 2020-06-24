@@ -1,0 +1,8 @@
+prefix=/home/chris/bebop_ws/devel/.private/bebop_controller
+
+Name: bebop_controller
+Description: Description of bebop_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

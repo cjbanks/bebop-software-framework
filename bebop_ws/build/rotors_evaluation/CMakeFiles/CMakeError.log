@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94ad2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94ad2.dir/build.make CMakeFiles/cmTC_94ad2.dir/build
+make[1]: Entering directory '/home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94ad2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_94ad2.dir/CheckSymbolExists.c.o   -c /home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_94ad2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94ad2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_94ad2.dir/CheckSymbolExists.c.o  -o cmTC_94ad2 
+CMakeFiles/cmTC_94ad2.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_94ad2.dir/build.make:86: recipe for target 'cmTC_94ad2' failed
+make[1]: *** [cmTC_94ad2] Error 1
+make[1]: Leaving directory '/home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_94ad2/fast' failed
+make: *** [cmTC_94ad2/fast] Error 2
+
+File /home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_093ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_093ca.dir/build.make CMakeFiles/cmTC_093ca.dir/build
+make[1]: Entering directory '/home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_093ca.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_093ca.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_093ca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_093ca.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_093ca.dir/CheckFunctionExists.c.o  -o cmTC_093ca -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_093ca.dir/build.make:86: recipe for target 'cmTC_093ca' failed
+make[1]: *** [cmTC_093ca] Error 1
+make[1]: Leaving directory '/home/chris/bebop_ws/build/rotors_evaluation/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_093ca/fast' failed
+make: *** [cmTC_093ca/fast] Error 2
+
+

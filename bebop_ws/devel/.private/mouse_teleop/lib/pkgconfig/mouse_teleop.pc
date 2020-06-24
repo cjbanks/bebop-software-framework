@@ -1,0 +1,8 @@
+prefix=/home/chris/bebop_ws/devel/.private/mouse_teleop
+
+Name: mouse_teleop
+Description: Description of mouse_teleop
+Version: 0.3.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
