@@ -22,6 +22,3 @@
 [submodule "bebop_ws/src/--force"]
 	path = bebop_ws/src/--force
 	url = https://github.com/AutonomyLab/bebop_autonomy
-[submodule "bebop_ws/src/bebop_autonomy"]
-	path = bebop_ws/src/bebop_autonomy
-	url = https://github.com/AutonomyLab/bebop_autonomy
