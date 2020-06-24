@@ -1,9 +1,6 @@
 [submodule "bebop_ws/src/BebopS"]
 	path = bebop_ws/src/BebopS
 	url = https://github.com/gsilano/BebopS.git
-[submodule "bebop_ws/src/bebop_autonomy"]
-	path = bebop_ws/src/bebop_autonomy
-	url = https://github.com/AutonomyLab/bebop_autonomy
 [submodule "bebop_ws/src/joystick_drivers"]
 	path = bebop_ws/src/joystick_drivers
 	url = https://github.com/ros-drivers/joystick_drivers
@@ -22,3 +19,9 @@
 [submodule "bebop_ws/src/vrpn_client_ros"]
 	path = bebop_ws/src/vrpn_client_ros
 	url = https://github.com/ros-drivers/vrpn_client_ros
+[submodule "bebop_ws/src/--force"]
+	path = bebop_ws/src/--force
+	url = https://github.com/AutonomyLab/bebop_autonomy
+[submodule "bebop_ws/src/bebop_autonomy"]
+	path = bebop_ws/src/bebop_autonomy
+	url = https://github.com/AutonomyLab/bebop_autonomy
