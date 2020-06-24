@@ -4,3 +4,21 @@
 [submodule "bebop_ws/src/bebop_autonomy"]
 	path = bebop_ws/src/bebop_autonomy
 	url = https://github.com/AutonomyLab/bebop_autonomy
+[submodule "bebop_ws/src/joystick_drivers"]
+	path = bebop_ws/src/joystick_drivers
+	url = https://github.com/ros-drivers/joystick_drivers
+[submodule "bebop_ws/src/mav_comm"]
+	path = bebop_ws/src/mav_comm
+	url = https://github.com/ethz-asl/mav_comm
+[submodule "bebop_ws/src/mavlink-gbp-release"]
+	path = bebop_ws/src/mavlink-gbp-release
+	url = https://github.com/mavlink/mavlink-gbp-release
+[submodule "bebop_ws/src/rotors_simulator"]
+	path = bebop_ws/src/rotors_simulator
+	url = https://github.com/ethz-asl/rotors_simulator
+[submodule "bebop_ws/src/teleop_tools"]
+	path = bebop_ws/src/teleop_tools
+	url = https://github.com/ros-teleop/teleop_tools
+[submodule "bebop_ws/src/vrpn_client_ros"]
+	path = bebop_ws/src/vrpn_client_ros
+	url = https://github.com/ros-drivers/vrpn_client_ros
