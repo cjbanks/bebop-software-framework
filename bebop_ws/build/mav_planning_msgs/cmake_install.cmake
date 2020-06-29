@@ -146,6 +146,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/srv" TYPE FILE FILES
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv"
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PolygonService.srv"
+    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
     )
 endif()
 

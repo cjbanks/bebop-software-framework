@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/msg/PolynomialSegment4D.js"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/PolygonService.js"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/PlannerService.js"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/ChangeNameService.js"
 )
 
 # Per-language clean rules from dependency scanning.

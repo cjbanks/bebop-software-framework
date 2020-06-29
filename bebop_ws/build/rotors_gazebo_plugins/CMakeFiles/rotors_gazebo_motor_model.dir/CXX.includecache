@@ -23,6 +23,8 @@ boost/bind.hpp
 -
 Eigen/Eigen
 -
+Eigen/Core
+-
 gazebo/common/common.hh
 -
 gazebo/common/Plugin.hh
@@ -51,8 +53,6 @@ Eigen/Eigen
 /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_motor_model.cpp
 rotors_gazebo_plugins/gazebo_motor_model.h
 /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/src/rotors_gazebo_plugins/gazebo_motor_model.h
-CommandMotorSpeed.pb.h
-/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/src/CommandMotorSpeed.pb.h
 ConnectGazeboToRosTopic.pb.h
 /home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/src/ConnectGazeboToRosTopic.pb.h
 ConnectRosToGazeboTopic.pb.h

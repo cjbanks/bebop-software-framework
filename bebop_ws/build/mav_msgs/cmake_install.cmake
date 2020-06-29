@@ -134,7 +134,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg"
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RateThrust.msg"
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrust.msg"
-    "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/TorqueThrust.msg"
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg"
     "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/FilteredSensorData.msg"

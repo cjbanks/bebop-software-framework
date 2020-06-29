@@ -188,10 +188,17 @@ import octomap_msgs.msg
 import std_msgs.msg
 
 class OctomapResponse(genpy.Message):
-  _md5sum = "be9d2869d24fe40d6bc21ac21f6bb2c5"
+  _md5sum = "57e29816a04b311c573d5337632a1156"
   _type = "rotors_comm/OctomapResponse"
   _has_header = False  # flag to mark the presence of a Header object
-  _full_text = """octomap_msgs/Octomap map
+  _full_text = """# The created octomap in gazebo coordinates
+octomap_msgs/Octomap map
+# The latitude of the gazebo coordinates origin [deg]
+float64 origin_latitude
+# The longitude of the gazebo coordinates origin [deg]
+float64 origin_longitude
+# The altitude of the gazebo coordinates origin [m]
+float64 origin_altitude
 
 
 ================================================================================
@@ -227,8 +234,8 @@ time stamp
 #Frame this data is associated with
 string frame_id
 """
-  __slots__ = ['map']
-  _slot_types = ['octomap_msgs/Octomap']
+  __slots__ = ['map','origin_latitude','origin_longitude','origin_altitude']
+  _slot_types = ['octomap_msgs/Octomap','float64','float64','float64']
 
   def __init__(self, *args, **kwds):
     """
@@ -238,7 +245,7 @@ string frame_id
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       map
+       map,origin_latitude,origin_longitude,origin_altitude
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -249,8 +256,17 @@ string frame_id
       # message fields cannot be None, assign default values for those that are
       if self.map is None:
         self.map = octomap_msgs.msg.Octomap()
+      if self.origin_latitude is None:
+        self.origin_latitude = 0.
+      if self.origin_longitude is None:
+        self.origin_longitude = 0.
+      if self.origin_altitude is None:
+        self.origin_altitude = 0.
     else:
       self.map = octomap_msgs.msg.Octomap()
+      self.origin_latitude = 0.
+      self.origin_longitude = 0.
+      self.origin_altitude = 0.
 
   def _get_types(self):
     """
@@ -286,6 +302,8 @@ string frame_id
       buff.write(_struct_I.pack(length))
       pattern = '<%sb'%length
       buff.write(struct.pack(pattern, *self.map.data))
+      _x = self
+      buff.write(_get_struct_3d().pack(_x.origin_latitude, _x.origin_longitude, _x.origin_altitude))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -334,6 +352,10 @@ string frame_id
       start = end
       end += struct.calcsize(pattern)
       self.map.data = struct.unpack(pattern, str[start:end])
+      _x = self
+      start = end
+      end += 24
+      (_x.origin_latitude, _x.origin_longitude, _x.origin_altitude,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -368,6 +390,8 @@ string frame_id
       buff.write(_struct_I.pack(length))
       pattern = '<%sb'%length
       buff.write(self.map.data.tostring())
+      _x = self
+      buff.write(_get_struct_3d().pack(_x.origin_latitude, _x.origin_longitude, _x.origin_altitude))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -417,6 +441,10 @@ string frame_id
       start = end
       end += struct.calcsize(pattern)
       self.map.data = numpy.frombuffer(str[start:end], dtype=numpy.int8, count=length)
+      _x = self
+      start = end
+      end += 24
+      (_x.origin_latitude, _x.origin_longitude, _x.origin_altitude,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -431,6 +459,12 @@ def _get_struct_3I():
     if _struct_3I is None:
         _struct_3I = struct.Struct("<3I")
     return _struct_3I
+_struct_3d = None
+def _get_struct_3d():
+    global _struct_3d
+    if _struct_3d is None:
+        _struct_3d = struct.Struct("<3d")
+    return _struct_3d
 _struct_B = None
 def _get_struct_B():
     global _struct_B
@@ -445,6 +479,6 @@ def _get_struct_d():
     return _struct_d
 class Octomap(object):
   _type          = 'rotors_comm/Octomap'
-  _md5sum = '7b66ab5bfca356ccfebdd11157126a9f'
+  _md5sum = 'a0b5f40a1676bf2554580b1ee723114a'
   _request_class  = OctomapRequest
   _response_class = OctomapResponse

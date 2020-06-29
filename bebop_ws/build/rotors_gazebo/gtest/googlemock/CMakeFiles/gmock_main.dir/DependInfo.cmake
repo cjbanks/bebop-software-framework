@@ -13,6 +13,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "GTEST_CREATE_SHARED_LIBRARY=1"
+  "LIBBULLET_VERSION=2.87"
+  "LIBBULLET_VERSION_GT_282"
   )
 
 # The include file search paths:

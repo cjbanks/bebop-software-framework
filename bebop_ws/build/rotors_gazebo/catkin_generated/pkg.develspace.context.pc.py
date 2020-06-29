@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "gazebo_msgs;geometry_msgs;mav_msgs;roscpp;sensor_msgs"
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rotors_gazebo"
 PROJECT_SPACE_DIR = "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo"
-PROJECT_VERSION = "2.0.1"
+PROJECT_VERSION = "2.2.3"

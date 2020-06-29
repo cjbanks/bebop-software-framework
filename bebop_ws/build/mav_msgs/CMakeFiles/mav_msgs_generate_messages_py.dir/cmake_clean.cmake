@@ -8,7 +8,6 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_TorqueThrust.py"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_Status.py"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RateThrust.py"
-  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py"
 )
 

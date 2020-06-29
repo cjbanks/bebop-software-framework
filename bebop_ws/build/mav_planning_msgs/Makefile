@@ -428,6 +428,32 @@ doxygen/fast:
 .PHONY : doxygen/fast
 
 #=============================================================================
+# Target rules for targets named mav_planning_msgs_generate_messages_lisp
+
+# Build rule for target.
+mav_planning_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages_lisp
+.PHONY : mav_planning_msgs_generate_messages_lisp
+
+# fast build rule for target.
+mav_planning_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build
+.PHONY : mav_planning_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_py
+
+# Build rule for target.
+trajectory_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -623,32 +649,6 @@ _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast:
 .PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast
 
 #=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_py
-
-# Build rule for target.
-trajectory_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named mav_planning_msgs_generate_messages_lisp
-
-# Build rule for target.
-mav_planning_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages_lisp
-.PHONY : mav_planning_msgs_generate_messages_lisp
-
-# fast build rule for target.
-mav_planning_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build
-.PHONY : mav_planning_msgs_generate_messages_lisp/fast
-
-#=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -686,6 +686,19 @@ _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped: cmake_c
 _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped/fast:
 	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/build
 .PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_ChangeNameService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast
 
 #=============================================================================
 # Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PlannerService
@@ -925,6 +938,8 @@ help:
 	@echo "... run_tests"
 	@echo "... mav_planning_msgs_generate_messages_nodejs"
 	@echo "... doxygen"
+	@echo "... mav_planning_msgs_generate_messages_lisp"
+	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -942,12 +957,11 @@ help:
 	@echo "... trajectory_msgs_generate_messages_lisp"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory"
-	@echo "... trajectory_msgs_generate_messages_py"
-	@echo "... mav_planning_msgs_generate_messages_lisp"
 	@echo "... install/local"
 	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... mav_planning_msgs_generate_messages"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_ChangeNameService"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PlannerService"
 	@echo "... clean_test_results"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_Point2D"

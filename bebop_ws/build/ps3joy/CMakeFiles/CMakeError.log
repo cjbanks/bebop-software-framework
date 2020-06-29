@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b614/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b614.dir/build.make CMakeFiles/cmTC_9b614.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_552bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_552bf.dir/build.make CMakeFiles/cmTC_552bf.dir/build
 make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b614.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9b614.dir/CheckSymbolExists.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_9b614
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b614.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9b614.dir/CheckSymbolExists.c.o  -o cmTC_9b614 
-CMakeFiles/cmTC_9b614.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_552bf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_552bf.dir/CheckSymbolExists.c.o   -c /home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_552bf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552bf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_552bf.dir/CheckSymbolExists.c.o  -o cmTC_552bf 
+CMakeFiles/cmTC_552bf.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9b614.dir/build.make:86: recipe for target 'cmTC_9b614' failed
-make[1]: *** [cmTC_9b614] Error 1
+CMakeFiles/cmTC_552bf.dir/build.make:86: recipe for target 'cmTC_552bf' failed
+make[1]: *** [cmTC_552bf] Error 1
 make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9b614/fast' failed
-make: *** [cmTC_9b614/fast] Error 2
+Makefile:126: recipe for target 'cmTC_552bf/fast' failed
+make: *** [cmTC_552bf/fast] Error 2
 
 File /home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea438/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea438.dir/build.make CMakeFiles/cmTC_ea438.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f76da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f76da.dir/build.make CMakeFiles/cmTC_f76da.dir/build
 make[1]: Entering directory '/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ea438.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ea438.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ea438
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea438.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ea438.dir/CheckFunctionExists.c.o  -o cmTC_ea438 -lpthreads 
+Building C object CMakeFiles/cmTC_f76da.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f76da.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f76da
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f76da.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f76da.dir/CheckFunctionExists.c.o  -o cmTC_f76da -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ea438.dir/build.make:86: recipe for target 'cmTC_ea438' failed
-make[1]: *** [cmTC_ea438] Error 1
+CMakeFiles/cmTC_f76da.dir/build.make:86: recipe for target 'cmTC_f76da' failed
+make[1]: *** [cmTC_f76da] Error 1
 make[1]: Leaving directory '/home/chris/bebop-software-framework/bebop_ws/build/ps3joy/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ea438/fast' failed
-make: *** [cmTC_ea438/fast] Error 2
+Makefile:126: recipe for target 'cmTC_f76da/fast' failed
+make: *** [cmTC_f76da/fast] Error 2
 
 

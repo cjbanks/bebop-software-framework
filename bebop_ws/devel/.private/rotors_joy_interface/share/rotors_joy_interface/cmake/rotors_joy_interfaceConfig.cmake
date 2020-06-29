@@ -99,7 +99,7 @@ if(NOT "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotor
   elseif(NOT "https://github.com/ethz-asl/rotors_simulator " STREQUAL " ")
     set(_report "Check the website 'https://github.com/ethz-asl/rotors_simulator' for information and consider reporting the problem.")
   else()
-    set(_report "Report the problem to the maintainer 'Fadri Furrer <fadri.furrer@mavt.ethz.ch>' and request to fix the problem.")
+    set(_report "Report the problem to the maintainer 'Fadri Furrer <fadri.furrer@mavt.ethz.ch>, Mina Kamel <mina.kamel@mavt.ethz.ch>' and request to fix the problem.")
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})

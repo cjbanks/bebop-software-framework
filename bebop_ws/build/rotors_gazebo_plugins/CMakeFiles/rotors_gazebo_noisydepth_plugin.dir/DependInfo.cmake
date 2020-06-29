@@ -45,7 +45,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
   "/usr/include/gazebo-9/gazebo/msgs"
-  "/opt/ros/melodic/include/mavlink/v1.0"
+  "/opt/ros/melodic/include/mavlink/v2.0"
   "/usr/include/uuid"
   "/usr/include/x86_64-linux-gnu"
   )

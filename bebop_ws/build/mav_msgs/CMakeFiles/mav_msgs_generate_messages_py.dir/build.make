@@ -61,7 +61,6 @@ CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/b
 CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_TorqueThrust.py
 CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_Status.py
 CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RateThrust.py
-CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py
 CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py
 
 
@@ -119,12 +118,6 @@ CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/b
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG mav_msgs/RateThrust"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RateThrust.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg
 
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG mav_msgs/RollPitchYawrateThrustCrazyflie"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg
-
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_AttitudeThrust.py
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_FilteredSensorData.py
@@ -134,8 +127,7 @@ CMakeFiles/mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/b
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_TorqueThrust.py
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_Status.py
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RateThrust.py
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for mav_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python msg __init__.py for mav_msgs"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg --initpy
 
 mav_msgs_generate_messages_py: CMakeFiles/mav_msgs_generate_messages_py
@@ -147,7 +139,6 @@ mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/dev
 mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_TorqueThrust.py
 mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_Status.py
 mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RateThrust.py
-mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py
 mav_msgs_generate_messages_py: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py
 mav_msgs_generate_messages_py: CMakeFiles/mav_msgs_generate_messages_py.dir/build.make
 

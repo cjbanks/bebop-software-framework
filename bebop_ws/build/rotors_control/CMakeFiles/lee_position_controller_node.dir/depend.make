@@ -5,7 +5,6 @@ CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_no
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
-CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h
 CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h

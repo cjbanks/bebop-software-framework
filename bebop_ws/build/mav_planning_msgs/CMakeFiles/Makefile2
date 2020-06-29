@@ -71,7 +71,7 @@ CMakeFiles/mav_planning_msgs_genpy.dir/all: CMakeFiles/mav_planning_msgs_generat
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_genpy.dir/rule
@@ -103,7 +103,7 @@ CMakeFiles/mav_planning_msgs_gennodejs.dir/all: CMakeFiles/mav_planning_msgs_gen
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_gennodejs.dir/rule
@@ -135,7 +135,7 @@ CMakeFiles/mav_planning_msgs_genlisp.dir/all: CMakeFiles/mav_planning_msgs_gener
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_genlisp.dir/rule
@@ -227,12 +227,13 @@ CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/mav_msgs_g
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Polygon2D.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/all
@@ -241,12 +242,12 @@ CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_plann
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/all
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_py.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_py.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69 "Built target mav_planning_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71,72,73,74 "Built target mav_planning_msgs_generate_messages_py"
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_py.dir/rule
@@ -664,6 +665,7 @@ CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_p
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/all
@@ -672,12 +674,12 @@ CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_p
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/all
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55,56 "Built target mav_planning_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60 "Built target mav_planning_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/rule
@@ -726,6 +728,86 @@ CMakeFiles/doxygen.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/doxygen.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/mav_msgs_generate_messages_lisp.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Polygon2D.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/all
+	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48 "Built target mav_planning_msgs_generate_messages_lisp"
+.PHONY : CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
+.PHONY : CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+mav_planning_msgs_generate_messages_lisp: CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : mav_planning_msgs_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/trajectory_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+CMakeFiles/trajectory_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_py"
+.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
+.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+trajectory_msgs_generate_messages_py: CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+
+.PHONY : trajectory_msgs_generate_messages_py
+
+# clean rule for target.
+CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
@@ -1210,85 +1292,6 @@ clean: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTraj
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/trajectory_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-CMakeFiles/trajectory_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_py"
-.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
-.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_py
-
-# clean rule for target.
-CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
-.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/mav_msgs_generate_messages_lisp.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Polygon2D.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/all
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/all
-	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45 "Built target mav_planning_msgs_generate_messages_lisp"
-.PHONY : CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 11
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
-.PHONY : CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-mav_planning_msgs_generate_messages_lisp: CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : mav_planning_msgs_generate_messages_lisp
-
-# clean rule for target.
-CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean
-.PHONY : CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -1341,7 +1344,7 @@ all: CMakeFiles/mav_planning_msgs_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages.dir/rule
@@ -1390,6 +1393,38 @@ CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamp
 
 # clean rule for target.
 clean: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir
+
+# All Build rule for target.
+CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/depend
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num= "Built target _mav_planning_msgs_generate_messages_check_deps_ChangeNameService"
+.PHONY : CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
+.PHONY : CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/rule
+
+# Convenience name for target.
+_mav_planning_msgs_generate_messages_check_deps_ChangeNameService: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/rule
+
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+
+# clean rule for target.
+CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/clean:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/clean
+.PHONY : CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/clean
 
 .PHONY : clean
 
@@ -1534,6 +1569,7 @@ CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_plan
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/all
@@ -1543,12 +1579,12 @@ CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_plan
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/all
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34 "Built target mav_planning_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target mav_planning_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/rule
@@ -1710,6 +1746,7 @@ CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_plan
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/all
+CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/all
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/all
@@ -1718,12 +1755,12 @@ CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_plan
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/all
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/build.make CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22 "Built target mav_planning_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23 "Built target mav_planning_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/rule
@@ -1755,7 +1792,7 @@ CMakeFiles/mav_planning_msgs_gencpp.dir/all: CMakeFiles/mav_planning_msgs_genera
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_gencpp.dir/rule
@@ -1787,7 +1824,7 @@ CMakeFiles/mav_planning_msgs_geneus.dir/all: CMakeFiles/mav_planning_msgs_genera
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mav_planning_msgs_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mav_planning_msgs_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/mav_planning_msgs_geneus.dir/rule

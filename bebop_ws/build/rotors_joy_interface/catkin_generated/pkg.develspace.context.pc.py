@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "roscpp;geometry_msgs;mav_msgs;sensor_msgs;trajectory_m
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rotors_joy_interface"
 PROJECT_SPACE_DIR = "/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_joy_interface"
-PROJECT_VERSION = "2.0.1"
+PROJECT_VERSION = "2.2.3"

@@ -8,7 +8,6 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Status.h"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h"
-  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h"
 )
 
 # Per-language clean rules from dependency scanning.

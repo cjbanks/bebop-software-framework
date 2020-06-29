@@ -5,7 +5,6 @@ CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/
 CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
-CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Matrix3x3.h
 CMakeFiles/quaternion_to_rpy.dir/src/nodes/quaternion_to_rpy.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h

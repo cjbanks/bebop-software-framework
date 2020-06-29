@@ -9,7 +9,6 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dis
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_msgs/msg/_GpsWaypoint.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_msgs/msg/_Actuators.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/TorqueThrust.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/mav_msgs-msg.asd
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package_GpsWaypoint.lisp
@@ -19,7 +18,6 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/Status.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package_RateThrust.lisp
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package_RollPitchYawrateThrustCrazyflie.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrust.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/FilteredSensorData.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package_TorqueThrust.lisp
@@ -28,14 +26,12 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/RateThrust.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package_AttitudeThrust.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package_Actuators.lisp
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_msgs/msg/_package_Status.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/mav_msgs/cmake/mav_msgs-msg-paths.cmake
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/mav_msgs/cmake/mav_msgsConfig.cmake
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/mav_msgs/cmake/mav_msgs-msg-extras.cmake
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/mav_msgs/cmake/mav_msgsConfig-version.cmake
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_msgs/manifest.l
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_msgs/msg/GpsWaypoint.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_msgs/msg/Actuators.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_msgs/msg/Status.l
@@ -54,12 +50,10 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/r
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_msgs/msg/AttitudeThrust.js
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_msgs/msg/FilteredSensorData.js
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_msgs/msg/RollPitchYawrateThrust.js
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.js
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/AttitudeThrust.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/Status.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/TorqueThrust.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/Actuators.h
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/FilteredSensorData.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/RateThrust.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_msgs/RollPitchYawrateThrust.h

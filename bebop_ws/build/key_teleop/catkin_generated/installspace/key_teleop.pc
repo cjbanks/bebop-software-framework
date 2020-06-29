@@ -2,7 +2,7 @@ prefix=/home/chris/bebop-software-framework/bebop_ws/install
 
 Name: key_teleop
 Description: Description of key_teleop
-Version: 0.3.1
+Version: 0.4.0
 Cflags: 
 Libs: -L${prefix}/lib 
 Requires: 

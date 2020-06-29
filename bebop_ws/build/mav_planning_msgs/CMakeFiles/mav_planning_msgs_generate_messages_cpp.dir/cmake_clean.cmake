@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialSegment4D.h"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonService.h"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PlannerService.h"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/ChangeNameService.h"
 )
 
 # Per-language clean rules from dependency scanning.

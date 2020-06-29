@@ -1,0 +1,1 @@
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc

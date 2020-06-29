@@ -144,7 +144,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mouse_teleop" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/mouse_teleop/scripts/mouse_teleop.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mouse_teleop" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/mouse_teleop/catkin_generated/installspace/mouse_teleop.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

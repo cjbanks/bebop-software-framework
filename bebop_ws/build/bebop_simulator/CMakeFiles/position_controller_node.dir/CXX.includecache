@@ -88,24 +88,6 @@ std_msgs/Header.h
 geometry_msgs/Vector3.h
 -
 
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 string
 -
@@ -387,8 +369,6 @@ mav_msgs/RateThrust.h
 /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RateThrust.h
 mav_msgs/RollPitchYawrateThrust.h
 /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrust.h
-mav_msgs/RollPitchYawrateThrustCrazyflie.h
-/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 mav_msgs/TorqueThrust.h
 /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/mav_msgs/TorqueThrust.h
 mav_msgs/common.h

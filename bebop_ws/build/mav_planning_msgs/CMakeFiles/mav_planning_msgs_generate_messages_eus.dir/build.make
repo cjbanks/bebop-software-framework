@@ -64,6 +64,7 @@ CMakeFiles/mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-f
 CMakeFiles/mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/msg/PolynomialSegment4D.l
 CMakeFiles/mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/PolygonService.l
 CMakeFiles/mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/PlannerService.l
+CMakeFiles/mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/ChangeNameService.l
 CMakeFiles/mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/manifest.l
 
 
@@ -161,8 +162,13 @@ CMakeFiles/mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from mav_planning_msgs/PlannerService.srv"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv -Imav_planning_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg -p mav_planning_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv
 
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/ChangeNameService.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/ChangeNameService.l: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from mav_planning_msgs/ChangeNameService.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv -Imav_planning_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg -p mav_planning_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv
+
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp manifest code for mav_planning_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating EusLisp manifest code for mav_planning_msgs"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs mav_planning_msgs geometry_msgs sensor_msgs std_msgs mav_msgs trajectory_msgs
 
 mav_planning_msgs_generate_messages_eus: CMakeFiles/mav_planning_msgs_generate_messages_eus
@@ -177,6 +183,7 @@ mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/be
 mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/msg/PolynomialSegment4D.l
 mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/PolygonService.l
 mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/PlannerService.l
+mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/srv/ChangeNameService.l
 mav_planning_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/roseus/ros/mav_planning_msgs/manifest.l
 mav_planning_msgs_generate_messages_eus: CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/build.make
 

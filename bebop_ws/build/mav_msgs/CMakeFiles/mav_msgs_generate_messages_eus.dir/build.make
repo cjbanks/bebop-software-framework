@@ -61,7 +61,6 @@ CMakeFiles/mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/
 CMakeFiles/mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/TorqueThrust.l
 CMakeFiles/mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/Status.l
 CMakeFiles/mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RateThrust.l
-CMakeFiles/mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l
 CMakeFiles/mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/manifest.l
 
 
@@ -119,14 +118,8 @@ CMakeFiles/mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from mav_msgs/RateThrust.msg"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RateThrust.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg
 
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from mav_msgs/RollPitchYawrateThrustCrazyflie.msg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg
-
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp manifest code for mav_msgs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp manifest code for mav_msgs"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs mav_msgs std_msgs geometry_msgs
 
 mav_msgs_generate_messages_eus: CMakeFiles/mav_msgs_generate_messages_eus
@@ -138,7 +131,6 @@ mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/de
 mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/TorqueThrust.l
 mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/Status.l
 mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RateThrust.l
-mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l
 mav_msgs_generate_messages_eus: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/manifest.l
 mav_msgs_generate_messages_eus: CMakeFiles/mav_msgs_generate_messages_eus.dir/build.make
 

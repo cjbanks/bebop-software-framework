@@ -144,7 +144,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/key_teleop" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/key_teleop/scripts/key_teleop.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/key_teleop" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/key_teleop/catkin_generated/installspace/key_teleop.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

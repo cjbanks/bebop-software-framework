@@ -5,4 +5,4 @@ Description: Description of ps3joy
 Version: 1.13.0
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: diagnostic_msgs sensor_msgs rospy rosgraph
+Requires: diagnostic_msgs sensor_msgs

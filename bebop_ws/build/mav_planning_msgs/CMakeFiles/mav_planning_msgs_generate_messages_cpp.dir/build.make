@@ -64,6 +64,7 @@ CMakeFiles/mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-f
 CMakeFiles/mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialSegment4D.h
 CMakeFiles/mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonService.h
 CMakeFiles/mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PlannerService.h
+CMakeFiles/mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/ChangeNameService.h
 
 
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonWithHolesStamped.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -173,6 +174,13 @@ CMakeFiles/mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from mav_planning_msgs/PlannerService.srv"
 	cd /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs && /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv -Imav_planning_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg -p mav_planning_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/ChangeNameService.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/ChangeNameService.h: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/ChangeNameService.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/ChangeNameService.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from mav_planning_msgs/ChangeNameService.srv"
+	cd /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs && /home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv -Imav_planning_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg -p mav_planning_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+
 mav_planning_msgs_generate_messages_cpp: CMakeFiles/mav_planning_msgs_generate_messages_cpp
 mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonWithHolesStamped.h
 mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialSegment.h
@@ -185,6 +193,7 @@ mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/be
 mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolynomialSegment4D.h
 mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PolygonService.h
 mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/PlannerService.h
+mav_planning_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/include/mav_planning_msgs/ChangeNameService.h
 mav_planning_msgs_generate_messages_cpp: CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : mav_planning_msgs_generate_messages_cpp

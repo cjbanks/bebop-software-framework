@@ -66,21 +66,24 @@ CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_ga
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/mav_msgs_generate_messages_eus.dir/all
@@ -93,7 +96,6 @@ CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/geometry_msgs_generate_me
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/std_srvs_generate_messages_eus.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/mav_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/mav_msgs_generate_messages_py.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
@@ -106,11 +108,9 @@ CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/mav_msgs_generate_message
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/mav_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
-CMakeFiles/waypoint_publisher_file.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/waypoint_publisher_file.dir/build.make CMakeFiles/waypoint_publisher_file.dir/depend
 	$(MAKE) -f CMakeFiles/waypoint_publisher_file.dir/build.make CMakeFiles/waypoint_publisher_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num=16,17 "Built target waypoint_publisher_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num=17,18 "Built target waypoint_publisher_file"
 .PHONY : CMakeFiles/waypoint_publisher_file.dir/all
 
 # Include target in all.
@@ -147,21 +147,24 @@ clean: CMakeFiles/waypoint_publisher_file.dir/clean
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/mav_msgs_generate_messages_eus.dir/all
@@ -174,7 +177,6 @@ CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/geometry_msgs_generate_message
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/std_srvs_generate_messages_eus.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/mav_msgs_generate_messages_lisp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/mav_msgs_generate_messages_py.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
@@ -187,11 +189,9 @@ CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/mav_msgs_generate_messages_cpp
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/mav_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
-CMakeFiles/waypoint_publisher.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/waypoint_publisher.dir/build.make CMakeFiles/waypoint_publisher.dir/depend
 	$(MAKE) -f CMakeFiles/waypoint_publisher.dir/build.make CMakeFiles/waypoint_publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num=14,15 "Built target waypoint_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num=15,16 "Built target waypoint_publisher"
 .PHONY : CMakeFiles/waypoint_publisher.dir/all
 
 # Include target in all.
@@ -314,102 +314,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/trajectory_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-CMakeFiles/trajectory_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_py"
-.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_py
-
-# clean rule for target.
-CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
-.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/run_tests.dir
-
-# All Build rule for target.
-CMakeFiles/run_tests.dir/all:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target run_tests"
-.PHONY : CMakeFiles/run_tests.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/run_tests.dir/rule
-
-# Convenience name for target.
-run_tests: CMakeFiles/run_tests.dir/rule
-
-.PHONY : run_tests
-
-# clean rule for target.
-CMakeFiles/run_tests.dir/clean:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/clean
-.PHONY : CMakeFiles/run_tests.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/run_tests.dir/clean
 
 .PHONY : clean
 
@@ -606,70 +510,6 @@ clean: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/std_srvs_generate_messages_lisp.dir
-
-# All Build rule for target.
-CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
-	$(MAKE) -f CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
-	$(MAKE) -f CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_lisp"
-.PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_lisp: CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-
-.PHONY : std_srvs_generate_messages_lisp
-
-# clean rule for target.
-CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
-.PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -698,38 +538,6 @@ CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/gazebo_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-CMakeFiles/gazebo_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_py"
-.PHONY : CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_py: CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_py
-
-# clean rule for target.
-CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean
-.PHONY : CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
@@ -798,6 +606,102 @@ clean: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_eus: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# clean rule for target.
+CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gazebo_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_eus"
+.PHONY : CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_eus: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_eus
+
+# clean rule for target.
+CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean
+.PHONY : CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gazebo_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+CMakeFiles/gazebo_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_py"
+.PHONY : CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_py: CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_py
+
+# clean rule for target.
+CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/gazebo_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -830,6 +734,38 @@ clean: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/clean_test_results.dir
 
 # All Build rule for target.
@@ -858,6 +794,166 @@ CMakeFiles/clean_test_results.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/clean_test_results.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/run_tests.dir
+
+# All Build rule for target.
+CMakeFiles/run_tests.dir/all:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target run_tests"
+.PHONY : CMakeFiles/run_tests.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/run_tests.dir/rule
+
+# Convenience name for target.
+run_tests: CMakeFiles/run_tests.dir/rule
+
+.PHONY : run_tests
+
+# clean rule for target.
+CMakeFiles/run_tests.dir/clean:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/clean
+.PHONY : CMakeFiles/run_tests.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/run_tests.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/trajectory_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+CMakeFiles/trajectory_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target trajectory_msgs_generate_messages_py"
+.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+trajectory_msgs_generate_messages_py: CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+
+.PHONY : trajectory_msgs_generate_messages_py
+
+# clean rule for target.
+CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/std_srvs_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_lisp"
+.PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+.PHONY : std_srvs_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
@@ -1050,6 +1146,43 @@ CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sdf.dir
+
+# All Build rule for target.
+CMakeFiles/sdf.dir/all:
+	$(MAKE) -f CMakeFiles/sdf.dir/build.make CMakeFiles/sdf.dir/depend
+	$(MAKE) -f CMakeFiles/sdf.dir/build.make CMakeFiles/sdf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num=14 "Built target sdf"
+.PHONY : CMakeFiles/sdf.dir/all
+
+# Include target in all.
+all: CMakeFiles/sdf.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sdf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sdf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
+.PHONY : CMakeFiles/sdf.dir/rule
+
+# Convenience name for target.
+sdf: CMakeFiles/sdf.dir/rule
+
+.PHONY : sdf
+
+# clean rule for target.
+CMakeFiles/sdf.dir/clean:
+	$(MAKE) -f CMakeFiles/sdf.dir/build.make CMakeFiles/sdf.dir/clean
+.PHONY : CMakeFiles/sdf.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sdf.dir/clean
 
 .PHONY : clean
 
@@ -1306,38 +1439,6 @@ CMakeFiles/mav_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/mav_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
@@ -1636,21 +1737,24 @@ clean: CMakeFiles/roscpp_generate_messages_eus.dir/clean
 CMakeFiles/hovering_example.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/gazebo_msgs_generate_messages_py.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+CMakeFiles/hovering_example.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/mav_msgs_generate_messages_eus.dir/all
@@ -1663,7 +1767,6 @@ CMakeFiles/hovering_example.dir/all: CMakeFiles/geometry_msgs_generate_messages_
 CMakeFiles/hovering_example.dir/all: CMakeFiles/std_srvs_generate_messages_eus.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/mav_msgs_generate_messages_lisp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/mav_msgs_generate_messages_py.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
@@ -1676,8 +1779,6 @@ CMakeFiles/hovering_example.dir/all: CMakeFiles/mav_msgs_generate_messages_cpp.d
 CMakeFiles/hovering_example.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/mav_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/hovering_example.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
-CMakeFiles/hovering_example.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/hovering_example.dir/build.make CMakeFiles/hovering_example.dir/depend
 	$(MAKE) -f CMakeFiles/hovering_example.dir/build.make CMakeFiles/hovering_example.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num=12,13 "Built target hovering_example"
@@ -1835,70 +1936,6 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/gazebo_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target gazebo_msgs_generate_messages_eus"
-.PHONY : CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gazebo_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_eus: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_eus
-
-# clean rule for target.
-CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean
-.PHONY : CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/gazebo_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo/CMakeFiles 0
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# clean rule for target.
-CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 

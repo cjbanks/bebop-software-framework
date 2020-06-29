@@ -5,7 +5,6 @@ CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-so
 CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
-CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h
 CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/conversions.h

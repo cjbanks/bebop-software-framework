@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chris/bebop-software-framework/bebop_ws/devel/.private/rqt_rotors/setup.sh

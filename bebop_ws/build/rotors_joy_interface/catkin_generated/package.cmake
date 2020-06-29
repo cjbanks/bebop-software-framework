@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "rotors_joy_interface")
-set(rotors_joy_interface_VERSION "2.0.1")
-set(rotors_joy_interface_MAINTAINER "Fadri Furrer <fadri.furrer@mavt.ethz.ch>")
+set(rotors_joy_interface_VERSION "2.2.3")
+set(rotors_joy_interface_MAINTAINER "Fadri Furrer <fadri.furrer@mavt.ethz.ch>, Mina Kamel <mina.kamel@mavt.ethz.ch>")
 set(rotors_joy_interface_PACKAGE_FORMAT "1")
 set(rotors_joy_interface_BUILD_DEPENDS "sensor_msgs" "geometry_msgs" "mav_msgs" "roscpp" "trajectory_msgs")
 set(rotors_joy_interface_BUILD_EXPORT_DEPENDS "sensor_msgs" "geometry_msgs" "mav_msgs" "roscpp" "trajectory_msgs")

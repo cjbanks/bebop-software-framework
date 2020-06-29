@@ -61,7 +61,6 @@ CMakeFiles/mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework
 CMakeFiles/mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/TorqueThrust.lisp
 CMakeFiles/mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/Status.lisp
 CMakeFiles/mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RateThrust.lisp
-CMakeFiles/mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp
 
 
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/AttitudeThrust.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
@@ -118,12 +117,6 @@ CMakeFiles/mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from mav_msgs/RateThrust.msg"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RateThrust.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg
 
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from mav_msgs/RollPitchYawrateThrustCrazyflie.msg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg
-
 mav_msgs_generate_messages_lisp: CMakeFiles/mav_msgs_generate_messages_lisp
 mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/AttitudeThrust.lisp
 mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/FilteredSensorData.lisp
@@ -133,7 +126,6 @@ mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/d
 mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/TorqueThrust.lisp
 mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/Status.lisp
 mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RateThrust.lisp
-mav_msgs_generate_messages_lisp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp
 mav_msgs_generate_messages_lisp: CMakeFiles/mav_msgs_generate_messages_lisp.dir/build.make
 
 .PHONY : mav_msgs_generate_messages_lisp

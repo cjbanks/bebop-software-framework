@@ -10,6 +10,7 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dis
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_planning_msgs/msg/_PolynomialSegment4D.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_planning_msgs/msg/_Polygon2D.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_planning_msgs/msg/_PolygonWithHolesStamped.py
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_planning_msgs/srv/_ChangeNameService.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_planning_msgs/srv/__init__.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_planning_msgs/srv/_PlannerService.py
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/python2.7/dist-packages/mav_planning_msgs/srv/_PolygonService.py
@@ -38,11 +39,13 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/msg/PolynomialSegment.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/msg/mav_planning_msgs-msg.asd
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/_package_PlannerService.lisp
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/ChangeNameService.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/mav_planning_msgs-srv.asd
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/PolygonService.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/_package.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/_package_PolygonService.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/PlannerService.lisp
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/common-lisp/ros/mav_planning_msgs/srv/_package_ChangeNameService.lisp
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/manifest.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/msg/PolynomialTrajectory.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/msg/PolynomialSegment4D.l
@@ -54,6 +57,7 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/msg/PolygonWithHoles.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/msg/PolygonWithHolesStamped.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/srv/PolygonService.l
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/srv/ChangeNameService.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/roseus/ros/mav_planning_msgs/srv/PlannerService.l
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_planning_msgs/_index.js
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_planning_msgs/msg/_index.js
@@ -69,13 +73,17 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/r
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_planning_msgs/srv/PlannerService.js
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_planning_msgs/srv/_index.js
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_planning_msgs/srv/PolygonService.js
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/gennodejs/ros/mav_planning_msgs/srv/ChangeNameService.js
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/ChangeNameServiceResponse.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PointCloudWithPose.h
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/ChangeNameServiceRequest.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PlannerService.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PolynomialTrajectory4D.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PolynomialSegment.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PlannerServiceResponse.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PolynomialTrajectory.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PolygonWithHoles.h
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/ChangeNameService.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PolygonServiceResponse.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PolygonServiceRequest.h
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/include/mav_planning_msgs/PolygonWithHolesStamped.h

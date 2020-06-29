@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/Point2D.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PointCloudWithPose.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/Polygon2D.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHoles.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg"
-services_str = "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PolygonService.srv"
+services_str = "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PolygonService.srv;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
 pkg_name = "mav_planning_msgs"
 dependencies_str = "geometry_msgs;sensor_msgs;std_msgs;mav_msgs;trajectory_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

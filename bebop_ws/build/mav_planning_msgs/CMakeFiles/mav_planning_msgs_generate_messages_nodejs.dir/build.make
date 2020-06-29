@@ -64,6 +64,7 @@ CMakeFiles/mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-softwar
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/msg/PolynomialSegment4D.js
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/PolygonService.js
 CMakeFiles/mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/PlannerService.js
+CMakeFiles/mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/ChangeNameService.js
 
 
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/msg/PolygonWithHolesStamped.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -160,6 +161,11 @@ CMakeFiles/mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-softwar
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from mav_planning_msgs/PlannerService.srv"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv -Imav_planning_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg -p mav_planning_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv
 
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/ChangeNameService.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/ChangeNameService.js: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_planning_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from mav_planning_msgs/ChangeNameService.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv -Imav_planning_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg -p mav_planning_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv
+
 mav_planning_msgs_generate_messages_nodejs: CMakeFiles/mav_planning_msgs_generate_messages_nodejs
 mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/msg/PolygonWithHolesStamped.js
 mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/msg/PolynomialSegment.js
@@ -172,6 +178,7 @@ mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework
 mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/msg/PolynomialSegment4D.js
 mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/PolygonService.js
 mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/PlannerService.js
+mav_planning_msgs_generate_messages_nodejs: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/gennodejs/ros/mav_planning_msgs/srv/ChangeNameService.js
 mav_planning_msgs_generate_messages_nodejs: CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : mav_planning_msgs_generate_messages_nodejs

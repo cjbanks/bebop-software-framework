@@ -25,10 +25,16 @@ struct OctomapResponse_
   typedef OctomapResponse_<ContainerAllocator> Type;
 
   OctomapResponse_()
-    : map()  {
+    : map()
+    , origin_latitude(0.0)
+    , origin_longitude(0.0)
+    , origin_altitude(0.0)  {
     }
   OctomapResponse_(const ContainerAllocator& _alloc)
-    : map(_alloc)  {
+    : map(_alloc)
+    , origin_latitude(0.0)
+    , origin_longitude(0.0)
+    , origin_altitude(0.0)  {
   (void)_alloc;
     }
 
@@ -36,6 +42,15 @@ struct OctomapResponse_
 
    typedef  ::octomap_msgs::Octomap_<ContainerAllocator>  _map_type;
   _map_type map;
+
+   typedef double _origin_latitude_type;
+  _origin_latitude_type origin_latitude;
+
+   typedef double _origin_longitude_type;
+  _origin_longitude_type origin_longitude;
+
+   typedef double _origin_altitude_type;
+  _origin_altitude_type origin_altitude;
 
 
 
@@ -66,7 +81,10 @@ return s;
 template<typename ContainerAllocator1, typename ContainerAllocator2>
 bool operator==(const ::rotors_comm::OctomapResponse_<ContainerAllocator1> & lhs, const ::rotors_comm::OctomapResponse_<ContainerAllocator2> & rhs)
 {
-  return lhs.map == rhs.map;
+  return lhs.map == rhs.map &&
+    lhs.origin_latitude == rhs.origin_latitude &&
+    lhs.origin_longitude == rhs.origin_longitude &&
+    lhs.origin_altitude == rhs.origin_altitude;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -123,12 +141,12 @@ struct MD5Sum< ::rotors_comm::OctomapResponse_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "be9d2869d24fe40d6bc21ac21f6bb2c5";
+    return "57e29816a04b311c573d5337632a1156";
   }
 
   static const char* value(const ::rotors_comm::OctomapResponse_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xbe9d2869d24fe40dULL;
-  static const uint64_t static_value2 = 0x6bc21ac21f6bb2c5ULL;
+  static const uint64_t static_value1 = 0x57e29816a04b311cULL;
+  static const uint64_t static_value2 = 0x573d5337632a1156ULL;
 };
 
 template<class ContainerAllocator>
@@ -147,7 +165,14 @@ struct Definition< ::rotors_comm::OctomapResponse_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "octomap_msgs/Octomap map\n"
+    return "# The created octomap in gazebo coordinates\n"
+"octomap_msgs/Octomap map\n"
+"# The latitude of the gazebo coordinates origin [deg]\n"
+"float64 origin_latitude\n"
+"# The longitude of the gazebo coordinates origin [deg]\n"
+"float64 origin_longitude\n"
+"# The altitude of the gazebo coordinates origin [m]\n"
+"float64 origin_altitude\n"
 "\n"
 "\n"
 "================================================================================\n"
@@ -201,6 +226,9 @@ namespace serialization
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
       stream.next(m.map);
+      stream.next(m.origin_latitude);
+      stream.next(m.origin_longitude);
+      stream.next(m.origin_altitude);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -222,6 +250,12 @@ struct Printer< ::rotors_comm::OctomapResponse_<ContainerAllocator> >
     s << indent << "map: ";
     s << std::endl;
     Printer< ::octomap_msgs::Octomap_<ContainerAllocator> >::stream(s, indent + "  ", v.map);
+    s << indent << "origin_latitude: ";
+    Printer<double>::stream(s, indent + "  ", v.origin_latitude);
+    s << indent << "origin_longitude: ";
+    Printer<double>::stream(s, indent + "  ", v.origin_longitude);
+    s << indent << "origin_altitude: ";
+    Printer<double>::stream(s, indent + "  ", v.origin_altitude);
   }
 };
 

@@ -11,6 +11,7 @@ rotors_simulator/rotors_gazebo_plugins
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so /home/chris/bebop-software-framework/bebop_ws/devel/lib/libgazebo_geotagged_images_plugin.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_controller_interface.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_motor_model.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so /home/chris/bebop-software-framework/bebop_ws/devel/lib/libLiftDragPlugin.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_lidar_plugin.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_magnetometer_plugin.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_ros_interface_plugin.so

@@ -8,7 +8,6 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/TorqueThrust.l"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/Status.l"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RateThrust.l"
-  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/manifest.l"
 )
 

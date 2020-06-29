@@ -1,1 +1,0 @@
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l

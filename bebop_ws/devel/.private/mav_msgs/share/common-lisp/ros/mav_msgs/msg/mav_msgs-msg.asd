@@ -18,8 +18,6 @@
     (:file "_package_RateThrust" :depends-on ("_package"))
     (:file "RollPitchYawrateThrust" :depends-on ("_package_RollPitchYawrateThrust"))
     (:file "_package_RollPitchYawrateThrust" :depends-on ("_package"))
-    (:file "RollPitchYawrateThrustCrazyflie" :depends-on ("_package_RollPitchYawrateThrustCrazyflie"))
-    (:file "_package_RollPitchYawrateThrustCrazyflie" :depends-on ("_package"))
     (:file "Status" :depends-on ("_package_Status"))
     (:file "_package_Status" :depends-on ("_package"))
     (:file "TorqueThrust" :depends-on ("_package_TorqueThrust"))

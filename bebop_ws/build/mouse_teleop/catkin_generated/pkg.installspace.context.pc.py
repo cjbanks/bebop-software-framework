@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "mouse_teleop"
 PROJECT_SPACE_DIR = "/home/chris/bebop-software-framework/bebop_ws/install"
-PROJECT_VERSION = "0.3.1"
+PROJECT_VERSION = "0.4.0"

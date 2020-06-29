@@ -9,6 +9,7 @@ Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gaz
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/libgazebo_geotagged_images_plugin.so
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_controller_interface.so
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_motor_model.so
+Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/libLiftDragPlugin.so
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_lidar_plugin.so
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_magnetometer_plugin.so
 Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/librotors_gazebo_ros_interface_plugin.so

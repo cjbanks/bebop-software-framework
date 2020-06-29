@@ -40,7 +40,7 @@ template<>
 struct MD5Sum< ::rotors_comm::Octomap > {
   static const char* value()
   {
-    return "7b66ab5bfca356ccfebdd11157126a9f";
+    return "a0b5f40a1676bf2554580b1ee723114a";
   }
 
   static const char* value(const ::rotors_comm::Octomap&) { return value(); }

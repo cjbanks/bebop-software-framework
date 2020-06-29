@@ -5,7 +5,6 @@ CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/
 CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
-CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/Matrix3x3.h
 CMakeFiles/position_controller.dir/src/library/position_controller.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/BebopS/include/bebop_simulator/MinMax.h

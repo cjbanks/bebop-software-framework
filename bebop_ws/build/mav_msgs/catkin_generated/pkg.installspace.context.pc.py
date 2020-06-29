@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "message_runtime;std_msgs;geometry_msgs;trajectory_msgs
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "mav_msgs"
 PROJECT_SPACE_DIR = "/home/chris/bebop-software-framework/bebop_ws/install"
-PROJECT_VERSION = "3.3.4"
+PROJECT_VERSION = "3.3.3"

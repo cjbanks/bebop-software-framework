@@ -8,7 +8,6 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/TorqueThrust.js"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/Status.js"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/RateThrust.js"
-  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.js"
 )
 
 # Per-language clean rules from dependency scanning.

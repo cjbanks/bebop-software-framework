@@ -60,80 +60,6 @@ CMAKE_SOURCE_DIR = /home/chris/bebop-software-framework/bebop_ws/src/joystick_dr
 CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/wiimote
 
 #=============================================================================
-# Target rules for target CMakeFiles/teleop_wiimote.dir
-
-# All Build rule for target.
-CMakeFiles/teleop_wiimote.dir/all: CMakeFiles/wiimote_generate_messages_cpp.dir/all
-	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/depend
-	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=12,13 "Built target teleop_wiimote"
-.PHONY : CMakeFiles/teleop_wiimote.dir/all
-
-# Include target in all.
-all: CMakeFiles/teleop_wiimote.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/teleop_wiimote.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/teleop_wiimote.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 0
-.PHONY : CMakeFiles/teleop_wiimote.dir/rule
-
-# Convenience name for target.
-teleop_wiimote: CMakeFiles/teleop_wiimote.dir/rule
-
-.PHONY : teleop_wiimote
-
-# clean rule for target.
-CMakeFiles/teleop_wiimote.dir/clean:
-	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/clean
-.PHONY : CMakeFiles/teleop_wiimote.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/teleop_wiimote.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/wiimote_node.dir
-
-# All Build rule for target.
-CMakeFiles/wiimote_node.dir/all: CMakeFiles/wiimote_generate_messages_cpp.dir/all
-	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/depend
-	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=31,32,33 "Built target wiimote_node"
-.PHONY : CMakeFiles/wiimote_node.dir/all
-
-# Include target in all.
-all: CMakeFiles/wiimote_node.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/wiimote_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wiimote_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 0
-.PHONY : CMakeFiles/wiimote_node.dir/rule
-
-# Convenience name for target.
-wiimote_node: CMakeFiles/wiimote_node.dir/rule
-
-.PHONY : wiimote_node
-
-# clean rule for target.
-CMakeFiles/wiimote_node.dir/clean:
-	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/clean
-.PHONY : CMakeFiles/wiimote_node.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/wiimote_node.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/clean_test_results_wiimote.dir
 
 # All Build rule for target.
@@ -291,6 +217,80 @@ CMakeFiles/run_tests_wiimote.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/run_tests_wiimote.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/teleop_wiimote.dir
+
+# All Build rule for target.
+CMakeFiles/teleop_wiimote.dir/all: CMakeFiles/wiimote_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/depend
+	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=12,13 "Built target teleop_wiimote"
+.PHONY : CMakeFiles/teleop_wiimote.dir/all
+
+# Include target in all.
+all: CMakeFiles/teleop_wiimote.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/teleop_wiimote.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/teleop_wiimote.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 0
+.PHONY : CMakeFiles/teleop_wiimote.dir/rule
+
+# Convenience name for target.
+teleop_wiimote: CMakeFiles/teleop_wiimote.dir/rule
+
+.PHONY : teleop_wiimote
+
+# clean rule for target.
+CMakeFiles/teleop_wiimote.dir/clean:
+	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/clean
+.PHONY : CMakeFiles/teleop_wiimote.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/teleop_wiimote.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/wiimote_node.dir
+
+# All Build rule for target.
+CMakeFiles/wiimote_node.dir/all: CMakeFiles/wiimote_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/depend
+	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles --progress-num=31,32,33 "Built target wiimote_node"
+.PHONY : CMakeFiles/wiimote_node.dir/all
+
+# Include target in all.
+all: CMakeFiles/wiimote_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/wiimote_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wiimote_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/bebop-software-framework/bebop_ws/build/wiimote/CMakeFiles 0
+.PHONY : CMakeFiles/wiimote_node.dir/rule
+
+# Convenience name for target.
+wiimote_node: CMakeFiles/wiimote_node.dir/rule
+
+.PHONY : wiimote_node
+
+# clean rule for target.
+CMakeFiles/wiimote_node.dir/clean:
+	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/clean
+.PHONY : CMakeFiles/wiimote_node.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/wiimote_node.dir/clean
 
 .PHONY : clean
 

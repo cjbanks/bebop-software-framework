@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "mav_planning_msgs: 9 messages, 2 services")
+message(STATUS "mav_planning_msgs: 9 messages, 3 services")
 
 set(MSG_I_FLAGS "-Imav_planning_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg;-Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg")
 
@@ -16,6 +16,11 @@ add_custom_target(mav_planning_msgs_generate_messages ALL)
 # verify that message/service dependencies have not changed since configure
 
 
+
+get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv" NAME_WE)
+add_custom_target(_mav_planning_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mav_planning_msgs" "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv" ""
+)
 
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg" NAME_WE)
 add_custom_target(_mav_planning_msgs_generate_messages_check_deps_${_filename}
@@ -146,6 +151,12 @@ _generate_srv_cpp(mav_planning_msgs
   "/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectoryPoint.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Transform.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg;/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectory.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mav_planning_msgs
 )
+_generate_srv_cpp(mav_planning_msgs
+  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mav_planning_msgs
+)
 
 ### Generating Module File
 _generate_module_cpp(mav_planning_msgs
@@ -159,6 +170,8 @@ add_custom_target(mav_planning_msgs_generate_messages_cpp
 add_dependencies(mav_planning_msgs_generate_messages mav_planning_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv" NAME_WE)
+add_dependencies(mav_planning_msgs_generate_messages_cpp _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg" NAME_WE)
 add_dependencies(mav_planning_msgs_generate_messages_cpp _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv" NAME_WE)
@@ -259,6 +272,12 @@ _generate_srv_eus(mav_planning_msgs
   "/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectoryPoint.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Transform.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg;/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectory.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mav_planning_msgs
 )
+_generate_srv_eus(mav_planning_msgs
+  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mav_planning_msgs
+)
 
 ### Generating Module File
 _generate_module_eus(mav_planning_msgs
@@ -272,6 +291,8 @@ add_custom_target(mav_planning_msgs_generate_messages_eus
 add_dependencies(mav_planning_msgs_generate_messages mav_planning_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv" NAME_WE)
+add_dependencies(mav_planning_msgs_generate_messages_eus _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg" NAME_WE)
 add_dependencies(mav_planning_msgs_generate_messages_eus _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv" NAME_WE)
@@ -372,6 +393,12 @@ _generate_srv_lisp(mav_planning_msgs
   "/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectoryPoint.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Transform.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg;/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectory.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mav_planning_msgs
 )
+_generate_srv_lisp(mav_planning_msgs
+  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mav_planning_msgs
+)
 
 ### Generating Module File
 _generate_module_lisp(mav_planning_msgs
@@ -385,6 +412,8 @@ add_custom_target(mav_planning_msgs_generate_messages_lisp
 add_dependencies(mav_planning_msgs_generate_messages mav_planning_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv" NAME_WE)
+add_dependencies(mav_planning_msgs_generate_messages_lisp _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg" NAME_WE)
 add_dependencies(mav_planning_msgs_generate_messages_lisp _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv" NAME_WE)
@@ -485,6 +514,12 @@ _generate_srv_nodejs(mav_planning_msgs
   "/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectoryPoint.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Transform.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg;/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectory.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mav_planning_msgs
 )
+_generate_srv_nodejs(mav_planning_msgs
+  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mav_planning_msgs
+)
 
 ### Generating Module File
 _generate_module_nodejs(mav_planning_msgs
@@ -498,6 +533,8 @@ add_custom_target(mav_planning_msgs_generate_messages_nodejs
 add_dependencies(mav_planning_msgs_generate_messages mav_planning_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv" NAME_WE)
+add_dependencies(mav_planning_msgs_generate_messages_nodejs _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg" NAME_WE)
 add_dependencies(mav_planning_msgs_generate_messages_nodejs _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv" NAME_WE)
@@ -598,6 +635,12 @@ _generate_srv_py(mav_planning_msgs
   "/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectoryPoint.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Transform.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg;/opt/ros/melodic/share/trajectory_msgs/cmake/../msg/MultiDOFJointTrajectory.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mav_planning_msgs
 )
+_generate_srv_py(mav_planning_msgs
+  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mav_planning_msgs
+)
 
 ### Generating Module File
 _generate_module_py(mav_planning_msgs
@@ -611,6 +654,8 @@ add_custom_target(mav_planning_msgs_generate_messages_py
 add_dependencies(mav_planning_msgs_generate_messages mav_planning_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv" NAME_WE)
+add_dependencies(mav_planning_msgs_generate_messages_py _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg" NAME_WE)
 add_dependencies(mav_planning_msgs_generate_messages_py _mav_planning_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_planning_msgs/srv/PlannerService.srv" NAME_WE)

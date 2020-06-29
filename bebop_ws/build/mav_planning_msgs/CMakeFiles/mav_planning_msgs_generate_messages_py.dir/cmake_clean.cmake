@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/msg/_PolynomialSegment4D.py"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/srv/_PolygonService.py"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/srv/_PlannerService.py"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/srv/_ChangeNameService.py"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/msg/__init__.py"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/lib/python2.7/dist-packages/mav_planning_msgs/srv/__init__.py"
 )

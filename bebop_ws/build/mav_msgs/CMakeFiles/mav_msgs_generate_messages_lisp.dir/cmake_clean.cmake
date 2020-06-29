@@ -8,7 +8,6 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/TorqueThrust.lisp"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/Status.lisp"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RateThrust.lisp"
-  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

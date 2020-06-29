@@ -16,6 +16,7 @@ Not searching for unused variables given on the command line.
 [36m--[0m  mavlink found, building MAVLINK_INTERFACE_PLUGIN.
 [36m--[0m BUILD_OCTOMAP_PLUGIN variable not provided, setting to FALSE.
 [36m--[0m BUILD_OPTICAL_FLOW_PLUGIN variable not provided, setting to FALSE.
+[36m--[0m NO_ROS variable not provided, setting to FALSE.
 [36m--[0m CMAKE_BINARY_DIR = /home/chris/bebop-software-framework/bebop_ws/build/rotors_gazebo_plugins
 [36m--[0m ADDITIONAL_INCLUDE_DIRS =
 [36m--[0m BUILD_OCTOMAP_PLUGIN = FALSE, NOT building gazebo_octomap_plugin.
@@ -90,7 +91,7 @@ CMake Warning (dev) at /usr/local/share/cmake-3.11/Modules/FindBoost.cmake:907 (
   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:175 (find_package)
   /opt/ros/melodic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
   /opt/ros/melodic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:222 (include)
-  CMakeLists.txt:111 (find_package)
+  CMakeLists.txt:125 (find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 [36m--[0m Looking for OGRE_Paging...
@@ -162,22 +163,15 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
   nor 'octomap_LIBRARIES' is defined.
 [36mCall Stack (most recent call first):[0m
   /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
-  CMakeLists.txt:223 (catkin_package)
-
-
-[33m[1mCMake Warning[0m at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
-  catkin_package() DEPENDS on 'opencv' but neither 'opencv_INCLUDE_DIRS' nor
-  'opencv_LIBRARIES' is defined.
-[36mCall Stack (most recent call first):[0m
-  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
-  CMakeLists.txt:223 (catkin_package)
+  CMakeLists.txt:229 (catkin_package)
 
 
 [36m--[0m GAZEBO 9.13.1
 --
 [36m--[0m BUILD_MAVLINK_INTERFACE_PLUGIN = TRUE, adding mavros dependency and building mavlink_interface_plugin.
-[36m--[0m MAVLINK_HEADER_DIR not provided, falling back to looking at default paths...
-[36m--[0m Found MAVLink headers at '/opt/ros/melodic/include/mavlink/v1.0/'.
+WARNMAVLINK_HEADER_DIR not provided, falling back to looking at default paths...
+[36m--[0m Found MAVLink headers in workspace at ' /opt/ros/melodic/include/mavlink/v2.0/'.
+WARNMavlink headers found and mavros version check successful, building MavlinkInterfacePlugin
 [36m--[0m CMAKE_INSTALL_PREFIX = /home/chris/bebop-software-framework/bebop_ws/install
 [36m--[0m Configuring done
 [36m--[0m Generating done

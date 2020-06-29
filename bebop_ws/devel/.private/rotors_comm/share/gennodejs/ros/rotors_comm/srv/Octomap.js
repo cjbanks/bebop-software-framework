@@ -185,6 +185,9 @@ class OctomapResponse {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
       this.map = null;
+      this.origin_latitude = null;
+      this.origin_longitude = null;
+      this.origin_altitude = null;
     }
     else {
       if (initObj.hasOwnProperty('map')) {
@@ -193,6 +196,24 @@ class OctomapResponse {
       else {
         this.map = new octomap_msgs.msg.Octomap();
       }
+      if (initObj.hasOwnProperty('origin_latitude')) {
+        this.origin_latitude = initObj.origin_latitude
+      }
+      else {
+        this.origin_latitude = 0.0;
+      }
+      if (initObj.hasOwnProperty('origin_longitude')) {
+        this.origin_longitude = initObj.origin_longitude
+      }
+      else {
+        this.origin_longitude = 0.0;
+      }
+      if (initObj.hasOwnProperty('origin_altitude')) {
+        this.origin_altitude = initObj.origin_altitude
+      }
+      else {
+        this.origin_altitude = 0.0;
+      }
     }
   }
 
@@ -200,6 +221,12 @@ class OctomapResponse {
     // Serializes a message object of type OctomapResponse
     // Serialize message field [map]
     bufferOffset = octomap_msgs.msg.Octomap.serialize(obj.map, buffer, bufferOffset);
+    // Serialize message field [origin_latitude]
+    bufferOffset = _serializer.float64(obj.origin_latitude, buffer, bufferOffset);
+    // Serialize message field [origin_longitude]
+    bufferOffset = _serializer.float64(obj.origin_longitude, buffer, bufferOffset);
+    // Serialize message field [origin_altitude]
+    bufferOffset = _serializer.float64(obj.origin_altitude, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -209,13 +236,19 @@ class OctomapResponse {
     let data = new OctomapResponse(null);
     // Deserialize message field [map]
     data.map = octomap_msgs.msg.Octomap.deserialize(buffer, bufferOffset);
+    // Deserialize message field [origin_latitude]
+    data.origin_latitude = _deserializer.float64(buffer, bufferOffset);
+    // Deserialize message field [origin_longitude]
+    data.origin_longitude = _deserializer.float64(buffer, bufferOffset);
+    // Deserialize message field [origin_altitude]
+    data.origin_altitude = _deserializer.float64(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
     let length = 0;
     length += octomap_msgs.msg.Octomap.getMessageSize(object.map);
-    return length;
+    return length + 24;
   }
 
   static datatype() {
@@ -225,13 +258,20 @@ class OctomapResponse {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'be9d2869d24fe40d6bc21ac21f6bb2c5';
+    return '57e29816a04b311c573d5337632a1156';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
+    # The created octomap in gazebo coordinates
     octomap_msgs/Octomap map
+    # The latitude of the gazebo coordinates origin [deg]
+    float64 origin_latitude
+    # The longitude of the gazebo coordinates origin [deg]
+    float64 origin_longitude
+    # The altitude of the gazebo coordinates origin [m]
+    float64 origin_altitude
     
     
     ================================================================================
@@ -283,6 +323,27 @@ class OctomapResponse {
       resolved.map = new octomap_msgs.msg.Octomap()
     }
 
+    if (msg.origin_latitude !== undefined) {
+      resolved.origin_latitude = msg.origin_latitude;
+    }
+    else {
+      resolved.origin_latitude = 0.0
+    }
+
+    if (msg.origin_longitude !== undefined) {
+      resolved.origin_longitude = msg.origin_longitude;
+    }
+    else {
+      resolved.origin_longitude = 0.0
+    }
+
+    if (msg.origin_altitude !== undefined) {
+      resolved.origin_altitude = msg.origin_altitude;
+    }
+    else {
+      resolved.origin_altitude = 0.0
+    }
+
     return resolved;
     }
 };
@@ -290,6 +351,6 @@ class OctomapResponse {
 module.exports = {
   Request: OctomapRequest,
   Response: OctomapResponse,
-  md5sum() { return '7b66ab5bfca356ccfebdd11157126a9f'; },
+  md5sum() { return 'a0b5f40a1676bf2554580b1ee723114a'; },
   datatype() { return 'rotors_comm/Octomap'; }
 };

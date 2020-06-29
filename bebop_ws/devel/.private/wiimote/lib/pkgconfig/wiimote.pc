@@ -5,4 +5,4 @@ Description: Description of wiimote
 Version: 1.13.0
 Cflags: -I/home/chris/bebop-software-framework/bebop_ws/devel/.private/wiimote/include -I/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/wiimote/include
 Libs: -L${prefix}/lib 
-Requires: geometry_msgs sensor_msgs std_msgs std_srvs rospy roscpp roslib genmsg
+Requires: geometry_msgs sensor_msgs std_msgs std_srvs

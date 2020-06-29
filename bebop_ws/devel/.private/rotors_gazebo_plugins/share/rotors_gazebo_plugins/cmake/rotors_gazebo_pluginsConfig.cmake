@@ -91,15 +91,15 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(rotors_gazebo_plugins_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/include;/usr/include/eigen3;/usr/include;/usr/include/opencv " STREQUAL " ")
   set(rotors_gazebo_plugins_INCLUDE_DIRS "")
-  set(_include_dirs "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/include;/usr/include/eigen3")
+  set(_include_dirs "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotors_gazebo_plugins/include;/usr/include/eigen3;/usr/include;/usr/include/opencv")
   if(NOT "https://github.com/ethz-asl/rotors_simulator/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ethz-asl/rotors_simulator/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "https://github.com/ethz-asl/rotors_simulator " STREQUAL " ")
     set(_report "Check the website 'https://github.com/ethz-asl/rotors_simulator' for information and consider reporting the problem.")
   else()
-    set(_report "Report the problem to the maintainer 'Fadri Furrer <fadri.furrer@mavt.ethz.ch>' and request to fix the problem.")
+    set(_report "Report the problem to the maintainer 'Fadri Furrer <fadri.furrer@mavt.ethz.ch>, Michael Pantic <michael.pantic@mavt.ethz.ch>, Mina Kamel <mina.kamel@mavt.ethz.ch>' and request to fix the problem.")
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
@@ -116,7 +116,7 @@ if(NOT "/home/chris/bebop-software-framework/bebop_ws/src/rotors_simulator/rotor
   endforeach()
 endif()
 
-set(libraries "rotors_gazebo_motor_model;rotors_gazebo_controller_interface")
+set(libraries "rotors_gazebo_motor_model;rotors_gazebo_controller_interface;/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -185,7 +185,7 @@ foreach(t ${rotors_gazebo_plugins_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "cv_bridge;geometry_msgs;mav_msgs;octomap_msgs;octomap_ros;rosbag;roscpp;rotors_comm;rotors_control;std_srvs;tf;gazebo_dev")
+set(depends "cv_bridge;geometry_msgs;mav_msgs;octomap_msgs;octomap_ros;rosbag;roscpp;gazebo_plugins;rotors_comm;rotors_control;std_srvs;tf")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

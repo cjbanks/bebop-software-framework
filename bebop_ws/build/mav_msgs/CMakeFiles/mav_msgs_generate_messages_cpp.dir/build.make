@@ -61,7 +61,6 @@ CMakeFiles/mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/
 CMakeFiles/mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 CMakeFiles/mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Status.h
 CMakeFiles/mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
-CMakeFiles/mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 
 
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -126,13 +125,6 @@ CMakeFiles/mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from mav_msgs/RateThrust.msg"
 	cd /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs && /home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RateThrust.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from mav_msgs/RollPitchYawrateThrustCrazyflie.msg"
-	cd /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs && /home/chris/bebop-software-framework/bebop_ws/build/mav_msgs/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg -Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p mav_msgs -o /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
-
 mav_msgs_generate_messages_cpp: CMakeFiles/mav_msgs_generate_messages_cpp
 mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/FilteredSensorData.h
@@ -142,7 +134,6 @@ mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/de
 mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Status.h
 mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
-mav_msgs_generate_messages_cpp: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 mav_msgs_generate_messages_cpp: CMakeFiles/mav_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : mav_msgs_generate_messages_cpp

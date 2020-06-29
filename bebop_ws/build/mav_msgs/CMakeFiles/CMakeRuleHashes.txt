@@ -5,7 +5,6 @@
 58e676e1685ee97592da5400127d0ca2 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/GpsWaypoint.h
 c2a269e7b221753a7f11c7f6b8a21743 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 1a6a33e5b354c7551f98fe555fa16a56 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
-2984f4c7d031b6fca0a2f6137adf3301 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 7f3d7d762d93512871de122a52e2f6a5 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/Status.h
 2b7b034163ffe43692bd489a42d5f6dc /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 e537574a3011180091b94d57e5cc938a /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_Actuators.py
@@ -14,7 +13,6 @@ e537574a3011180091b94d57e5cc938a /home/chris/bebop-software-framework/bebop_ws/d
 ef5f8f6938508cce2664fa38da8cb606 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_GpsWaypoint.py
 389afe713183a368302805d3fc967008 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RateThrust.py
 39d3d7d313a336ee17b735036c5c5b32 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrust.py
-332c7ad71b8312b911e1bb48e5d7ab5b /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_RollPitchYawrateThrustCrazyflie.py
 2f986c2d226cd528ace26ecad1cff6ae /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_Status.py
 71ee31cf95b753f31f7525f976686627 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/_TorqueThrust.py
 912ec798a4819190de4e9ab9f9be9bd5 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/lib/python2.7/dist-packages/mav_msgs/msg/__init__.py
@@ -24,7 +22,6 @@ e18f7612c4c5212205932c3368a7f8f4 /home/chris/bebop-software-framework/bebop_ws/d
 8445017a2c205bca591e9fb80dadb1c1 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/GpsWaypoint.lisp
 8419738246fa9ab5bb4b041936cfa46a /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RateThrust.lisp
 da55d305d2a3aff52a5b52fb832dfae1 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrust.lisp
-e38342a514cdf147dc185e1d27190e24 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.lisp
 44dc9fdfc93a993a7c0ae5a6df348fce /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/Status.lisp
 78e70c8fab648d516bb67107a315a91e /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/common-lisp/ros/mav_msgs/msg/TorqueThrust.lisp
 51df389f2ebf545259a18b46e1cfd0f7 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/Actuators.js
@@ -33,7 +30,6 @@ e38342a514cdf147dc185e1d27190e24 /home/chris/bebop-software-framework/bebop_ws/d
 f5daa7d290307c9887ec48fbedd6d18d /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/GpsWaypoint.js
 9bb660f53fb5a7f8d2f0016d02e743e1 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/RateThrust.js
 2e595e7bd0eb8808d69dfcadf46002ca /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/RollPitchYawrateThrust.js
-273d0d9dcb3e59387a134a255dc6df8c /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.js
 3fe93de44831318bd05227cc30f62503 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/Status.js
 1750e9bd48d89ec4b7aac95b86b66596 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/gennodejs/ros/mav_msgs/msg/TorqueThrust.js
 b98306d84e5fb8cd0f07dea6418b0b9a /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/manifest.l
@@ -43,7 +39,6 @@ b98306d84e5fb8cd0f07dea6418b0b9a /home/chris/bebop-software-framework/bebop_ws/d
 aca83530a225cc93f9a5e1cebaa3aefa /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/GpsWaypoint.l
 522537857926b85a99b13f746e496055 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RateThrust.l
 3c72e24ffdd24871c995839544dbb0f7 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrust.l
-9731b637bf8e21ff5058b3724f54d400 /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.l
 dd90f79576b69375570566b933c2292c /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/Status.l
 d590664aba61a7d1440c9ff97904f22c /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/TorqueThrust.l
 44ec8272f282757962cca0dfd1eaefcd CMakeFiles/_mav_msgs_generate_messages_check_deps_Actuators
@@ -52,7 +47,6 @@ d590664aba61a7d1440c9ff97904f22c /home/chris/bebop-software-framework/bebop_ws/d
 85c6b9ed8b018c577b607e14f45435e5 CMakeFiles/_mav_msgs_generate_messages_check_deps_GpsWaypoint
 409aa55ac6cbda585856851397c24406 CMakeFiles/_mav_msgs_generate_messages_check_deps_RateThrust
 68aea1e4596aac7bbf55e204e72779a0 CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
-9275d8491bc1ca954b369ad53a0443dd CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrustCrazyflie
 694cd27f34b0580699a201a59bf46a23 CMakeFiles/_mav_msgs_generate_messages_check_deps_Status
 e15abefd1d26aa731a98aac41ac5bfc7 CMakeFiles/_mav_msgs_generate_messages_check_deps_TorqueThrust
 352e089d0425125b97e7078ea7c97818 CMakeFiles/clean_test_results

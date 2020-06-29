@@ -113,15 +113,21 @@
 
 (defclass rotors_comm::OctomapResponse
   :super ros::object
-  :slots (_map ))
+  :slots (_map _origin_latitude _origin_longitude _origin_altitude ))
 
 (defmethod rotors_comm::OctomapResponse
   (:init
    (&key
     ((:map __map) (instance octomap_msgs::Octomap :init))
+    ((:origin_latitude __origin_latitude) 0.0)
+    ((:origin_longitude __origin_longitude) 0.0)
+    ((:origin_altitude __origin_altitude) 0.0)
     )
    (send-super :init)
    (setq _map __map)
+   (setq _origin_latitude (float __origin_latitude))
+   (setq _origin_longitude (float __origin_longitude))
+   (setq _origin_altitude (float __origin_altitude))
    self)
   (:map
    (&rest __map)
@@ -130,11 +136,26 @@
      (progn
        (if __map (setq _map (car __map)))
        _map)))
+  (:origin_latitude
+   (&optional __origin_latitude)
+   (if __origin_latitude (setq _origin_latitude __origin_latitude)) _origin_latitude)
+  (:origin_longitude
+   (&optional __origin_longitude)
+   (if __origin_longitude (setq _origin_longitude __origin_longitude)) _origin_longitude)
+  (:origin_altitude
+   (&optional __origin_altitude)
+   (if __origin_altitude (setq _origin_altitude __origin_altitude)) _origin_altitude)
   (:serialization-length
    ()
    (+
     ;; octomap_msgs/Octomap _map
     (send _map :serialization-length)
+    ;; float64 _origin_latitude
+    8
+    ;; float64 _origin_longitude
+    8
+    ;; float64 _origin_altitude
+    8
     ))
   (:serialize
    (&optional strm)
@@ -142,12 +163,24 @@
               (make-string-output-stream (send self :serialization-length)))))
      ;; octomap_msgs/Octomap _map
        (send _map :serialize s)
+     ;; float64 _origin_latitude
+       (sys::poke _origin_latitude (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; float64 _origin_longitude
+       (sys::poke _origin_longitude (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; float64 _origin_altitude
+       (sys::poke _origin_altitude (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
      ;;
      (if (null strm) (get-output-stream-string s))))
   (:deserialize
    (buf &optional (ptr- 0))
    ;; octomap_msgs/Octomap _map
      (send _map :deserialize buf ptr-) (incf ptr- (send _map :serialization-length))
+   ;; float64 _origin_latitude
+     (setq _origin_latitude (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; float64 _origin_longitude
+     (setq _origin_longitude (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; float64 _origin_altitude
+     (setq _origin_altitude (sys::peek buf ptr- :double)) (incf ptr- 8)
    ;;
    self)
   )
@@ -156,7 +189,7 @@
   :super ros::object
   :slots ())
 
-(setf (get rotors_comm::Octomap :md5sum-) "7b66ab5bfca356ccfebdd11157126a9f")
+(setf (get rotors_comm::Octomap :md5sum-) "a0b5f40a1676bf2554580b1ee723114a")
 (setf (get rotors_comm::Octomap :datatype-) "rotors_comm/Octomap")
 (setf (get rotors_comm::Octomap :request) rotors_comm::OctomapRequest)
 (setf (get rotors_comm::Octomap :response) rotors_comm::OctomapResponse)
@@ -164,7 +197,7 @@
 (defmethod rotors_comm::OctomapRequest
   (:response () (instance rotors_comm::OctomapResponse :init)))
 
-(setf (get rotors_comm::OctomapRequest :md5sum-) "7b66ab5bfca356ccfebdd11157126a9f")
+(setf (get rotors_comm::OctomapRequest :md5sum-) "a0b5f40a1676bf2554580b1ee723114a")
 (setf (get rotors_comm::OctomapRequest :datatype-) "rotors_comm/OctomapRequest")
 (setf (get rotors_comm::OctomapRequest :definition-)
       "# The center point of the axis-aligned bounding box in the global frame
@@ -185,7 +218,14 @@ float64 x
 float64 y
 float64 z
 ---
+# The created octomap in gazebo coordinates
 octomap_msgs/Octomap map
+# The latitude of the gazebo coordinates origin [deg]
+float64 origin_latitude
+# The longitude of the gazebo coordinates origin [deg]
+float64 origin_longitude
+# The altitude of the gazebo coordinates origin [m]
+float64 origin_altitude
 
 
 ================================================================================
@@ -222,7 +262,7 @@ time stamp
 string frame_id
 ")
 
-(setf (get rotors_comm::OctomapResponse :md5sum-) "7b66ab5bfca356ccfebdd11157126a9f")
+(setf (get rotors_comm::OctomapResponse :md5sum-) "a0b5f40a1676bf2554580b1ee723114a")
 (setf (get rotors_comm::OctomapResponse :datatype-) "rotors_comm/OctomapResponse")
 (setf (get rotors_comm::OctomapResponse :definition-)
       "# The center point of the axis-aligned bounding box in the global frame
@@ -243,7 +283,14 @@ float64 x
 float64 y
 float64 z
 ---
+# The created octomap in gazebo coordinates
 octomap_msgs/Octomap map
+# The latitude of the gazebo coordinates origin [deg]
+float64 origin_latitude
+# The longitude of the gazebo coordinates origin [deg]
+float64 origin_longitude
+# The altitude of the gazebo coordinates origin [m]
+float64 origin_altitude
 
 
 ================================================================================
@@ -282,6 +329,6 @@ string frame_id
 
 
 
-(provide :rotors_comm/Octomap "7b66ab5bfca356ccfebdd11157126a9f")
+(provide :rotors_comm/Octomap "a0b5f40a1676bf2554580b1ee723114a")
 
 

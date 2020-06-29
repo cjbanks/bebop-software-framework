@@ -185,7 +185,7 @@ foreach(t ${ps3joy_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "diagnostic_msgs;sensor_msgs;rospy;rosgraph")
+set(depends "diagnostic_msgs;sensor_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

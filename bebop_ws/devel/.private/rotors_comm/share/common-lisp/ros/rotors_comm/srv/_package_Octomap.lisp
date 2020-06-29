@@ -11,4 +11,10 @@
           FILENAME
           MAP-VAL
           MAP
+          ORIGIN_LATITUDE-VAL
+          ORIGIN_LATITUDE
+          ORIGIN_LONGITUDE-VAL
+          ORIGIN_LONGITUDE
+          ORIGIN_ALTITUDE-VAL
+          ORIGIN_ALTITUDE
 ))

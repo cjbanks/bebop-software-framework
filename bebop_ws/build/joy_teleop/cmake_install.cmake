@@ -144,10 +144,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy_teleop" TYPE PROGRAM FILES
-    "/home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/joy_teleop/scripts/joy_teleop.py"
-    "/home/chris/bebop-software-framework/bebop_ws/src/teleop_tools/joy_teleop/scripts/incrementer_server.py"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy_teleop" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/joy_teleop/catkin_generated/installspace/joy_teleop.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy_teleop" TYPE PROGRAM FILES "/home/chris/bebop-software-framework/bebop_ws/build/joy_teleop/catkin_generated/installspace/incrementer_server.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

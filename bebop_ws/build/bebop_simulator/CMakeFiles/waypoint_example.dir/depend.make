@@ -5,7 +5,6 @@ CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/be
 CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/AttitudeThrust.h
 CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RateThrust.h
 CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrust.h
-CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/RollPitchYawrateThrustCrazyflie.h
 CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_msgs/include/mav_msgs/TorqueThrust.h
 CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/BebopS/src/nodes/waypoint_example.cpp
 CMakeFiles/waypoint_example.dir/src/nodes/waypoint_example.cpp.o: /home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/include/mav_msgs/common.h

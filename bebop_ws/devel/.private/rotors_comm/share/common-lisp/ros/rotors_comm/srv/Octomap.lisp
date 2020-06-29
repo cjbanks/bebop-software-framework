@@ -120,10 +120,10 @@
   "rotors_comm/OctomapRequest")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<Octomap-request>)))
   "Returns md5sum for a message object of type '<Octomap-request>"
-  "7b66ab5bfca356ccfebdd11157126a9f")
+  "a0b5f40a1676bf2554580b1ee723114a")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'Octomap-request)))
   "Returns md5sum for a message object of type 'Octomap-request"
-  "7b66ab5bfca356ccfebdd11157126a9f")
+  "a0b5f40a1676bf2554580b1ee723114a")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<Octomap-request>)))
   "Returns full string definition for message of type '<Octomap-request>"
   (cl:format cl:nil "# The center point of the axis-aligned bounding box in the global frame~%geometry_msgs/Point bounding_box_origin~%# The 3 side lenghts of the axis-aligned bounding box~%geometry_msgs/Point bounding_box_lengths~%# The leaf size or resolution of the octomap~%float64 leaf_size~%# Indicate if the generated octomap should be published.~%bool publish_octomap~%# The filename under which the octomap should be stored (only stored if set)~%string filename~%~%================================================================================~%MSG: geometry_msgs/Point~%# This contains the position of a point in free space~%float64 x~%float64 y~%float64 z~%~%~%"))
@@ -154,7 +154,22 @@
     :reader map
     :initarg :map
     :type octomap_msgs-msg:Octomap
-    :initform (cl:make-instance 'octomap_msgs-msg:Octomap)))
+    :initform (cl:make-instance 'octomap_msgs-msg:Octomap))
+   (origin_latitude
+    :reader origin_latitude
+    :initarg :origin_latitude
+    :type cl:float
+    :initform 0.0)
+   (origin_longitude
+    :reader origin_longitude
+    :initarg :origin_longitude
+    :type cl:float
+    :initform 0.0)
+   (origin_altitude
+    :reader origin_altitude
+    :initarg :origin_altitude
+    :type cl:float
+    :initform 0.0))
 )
 
 (cl:defclass Octomap-response (<Octomap-response>)
@@ -169,13 +184,85 @@
 (cl:defmethod map-val ((m <Octomap-response>))
   (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader rotors_comm-srv:map-val is deprecated.  Use rotors_comm-srv:map instead.")
   (map m))
+
+(cl:ensure-generic-function 'origin_latitude-val :lambda-list '(m))
+(cl:defmethod origin_latitude-val ((m <Octomap-response>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader rotors_comm-srv:origin_latitude-val is deprecated.  Use rotors_comm-srv:origin_latitude instead.")
+  (origin_latitude m))
+
+(cl:ensure-generic-function 'origin_longitude-val :lambda-list '(m))
+(cl:defmethod origin_longitude-val ((m <Octomap-response>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader rotors_comm-srv:origin_longitude-val is deprecated.  Use rotors_comm-srv:origin_longitude instead.")
+  (origin_longitude m))
+
+(cl:ensure-generic-function 'origin_altitude-val :lambda-list '(m))
+(cl:defmethod origin_altitude-val ((m <Octomap-response>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader rotors_comm-srv:origin_altitude-val is deprecated.  Use rotors_comm-srv:origin_altitude instead.")
+  (origin_altitude m))
 (cl:defmethod roslisp-msg-protocol:serialize ((msg <Octomap-response>) ostream)
   "Serializes a message object of type '<Octomap-response>"
   (roslisp-msg-protocol:serialize (cl:slot-value msg 'map) ostream)
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'origin_latitude))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'origin_longitude))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'origin_altitude))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
 )
 (cl:defmethod roslisp-msg-protocol:deserialize ((msg <Octomap-response>) istream)
   "Deserializes a message object of type '<Octomap-response>"
   (roslisp-msg-protocol:deserialize (cl:slot-value msg 'map) istream)
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'origin_latitude) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'origin_longitude) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'origin_altitude) (roslisp-utils:decode-double-float-bits bits)))
   msg
 )
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<Octomap-response>)))
@@ -186,24 +273,30 @@
   "rotors_comm/OctomapResponse")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<Octomap-response>)))
   "Returns md5sum for a message object of type '<Octomap-response>"
-  "7b66ab5bfca356ccfebdd11157126a9f")
+  "a0b5f40a1676bf2554580b1ee723114a")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'Octomap-response)))
   "Returns md5sum for a message object of type 'Octomap-response"
-  "7b66ab5bfca356ccfebdd11157126a9f")
+  "a0b5f40a1676bf2554580b1ee723114a")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<Octomap-response>)))
   "Returns full string definition for message of type '<Octomap-response>"
-  (cl:format cl:nil "octomap_msgs/Octomap map~%~%~%================================================================================~%MSG: octomap_msgs/Octomap~%# A 3D map in binary format, as Octree~%Header header~%~%# Flag to denote a binary (only free/occupied) or full occupancy octree (.bt/.ot file)~%bool binary~%~%# Class id of the contained octree ~%string id~%~%# Resolution (in m) of the smallest octree nodes~%float64 resolution~%~%# binary serialization of octree, use conversions.h to read and write octrees~%int8[] data~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%string frame_id~%~%~%"))
+  (cl:format cl:nil "# The created octomap in gazebo coordinates~%octomap_msgs/Octomap map~%# The latitude of the gazebo coordinates origin [deg]~%float64 origin_latitude~%# The longitude of the gazebo coordinates origin [deg]~%float64 origin_longitude~%# The altitude of the gazebo coordinates origin [m]~%float64 origin_altitude~%~%~%================================================================================~%MSG: octomap_msgs/Octomap~%# A 3D map in binary format, as Octree~%Header header~%~%# Flag to denote a binary (only free/occupied) or full occupancy octree (.bt/.ot file)~%bool binary~%~%# Class id of the contained octree ~%string id~%~%# Resolution (in m) of the smallest octree nodes~%float64 resolution~%~%# binary serialization of octree, use conversions.h to read and write octrees~%int8[] data~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%string frame_id~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'Octomap-response)))
   "Returns full string definition for message of type 'Octomap-response"
-  (cl:format cl:nil "octomap_msgs/Octomap map~%~%~%================================================================================~%MSG: octomap_msgs/Octomap~%# A 3D map in binary format, as Octree~%Header header~%~%# Flag to denote a binary (only free/occupied) or full occupancy octree (.bt/.ot file)~%bool binary~%~%# Class id of the contained octree ~%string id~%~%# Resolution (in m) of the smallest octree nodes~%float64 resolution~%~%# binary serialization of octree, use conversions.h to read and write octrees~%int8[] data~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%string frame_id~%~%~%"))
+  (cl:format cl:nil "# The created octomap in gazebo coordinates~%octomap_msgs/Octomap map~%# The latitude of the gazebo coordinates origin [deg]~%float64 origin_latitude~%# The longitude of the gazebo coordinates origin [deg]~%float64 origin_longitude~%# The altitude of the gazebo coordinates origin [m]~%float64 origin_altitude~%~%~%================================================================================~%MSG: octomap_msgs/Octomap~%# A 3D map in binary format, as Octree~%Header header~%~%# Flag to denote a binary (only free/occupied) or full occupancy octree (.bt/.ot file)~%bool binary~%~%# Class id of the contained octree ~%string id~%~%# Resolution (in m) of the smallest octree nodes~%float64 resolution~%~%# binary serialization of octree, use conversions.h to read and write octrees~%int8[] data~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%string frame_id~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <Octomap-response>))
   (cl:+ 0
      (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'map))
+     8
+     8
+     8
 ))
 (cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <Octomap-response>))
   "Converts a ROS message object to a list"
   (cl:list 'Octomap-response
     (cl:cons ':map (map msg))
+    (cl:cons ':origin_latitude (origin_latitude msg))
+    (cl:cons ':origin_longitude (origin_longitude msg))
+    (cl:cons ':origin_altitude (origin_altitude msg))
 ))
 (cl:defmethod roslisp-msg-protocol:service-request-type ((msg (cl:eql 'Octomap)))
   'Octomap-request)

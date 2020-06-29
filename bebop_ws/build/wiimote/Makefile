@@ -168,32 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named teleop_wiimote
-
-# Build rule for target.
-teleop_wiimote: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 teleop_wiimote
-.PHONY : teleop_wiimote
-
-# fast build rule for target.
-teleop_wiimote/fast:
-	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/build
-.PHONY : teleop_wiimote/fast
-
-#=============================================================================
-# Target rules for targets named wiimote_node
-
-# Build rule for target.
-wiimote_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wiimote_node
-.PHONY : wiimote_node
-
-# fast build rule for target.
-wiimote_node/fast:
-	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/build
-.PHONY : wiimote_node/fast
-
-#=============================================================================
 # Target rules for targets named clean_test_results_wiimote
 
 # Build rule for target.
@@ -257,6 +231,32 @@ run_tests_wiimote: cmake_check_build_system
 run_tests_wiimote/fast:
 	$(MAKE) -f CMakeFiles/run_tests_wiimote.dir/build.make CMakeFiles/run_tests_wiimote.dir/build
 .PHONY : run_tests_wiimote/fast
+
+#=============================================================================
+# Target rules for targets named teleop_wiimote
+
+# Build rule for target.
+teleop_wiimote: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_wiimote
+.PHONY : teleop_wiimote
+
+# fast build rule for target.
+teleop_wiimote/fast:
+	$(MAKE) -f CMakeFiles/teleop_wiimote.dir/build.make CMakeFiles/teleop_wiimote.dir/build
+.PHONY : teleop_wiimote/fast
+
+#=============================================================================
+# Target rules for targets named wiimote_node
+
+# Build rule for target.
+wiimote_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wiimote_node
+.PHONY : wiimote_node
+
+# fast build rule for target.
+wiimote_node/fast:
+	$(MAKE) -f CMakeFiles/wiimote_node.dir/build.make CMakeFiles/wiimote_node.dir/build
+.PHONY : wiimote_node/fast
 
 #=============================================================================
 # Target rules for targets named roslint
@@ -1090,13 +1090,13 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... teleop_wiimote"
-	@echo "... wiimote_node"
 	@echo "... clean_test_results_wiimote"
 	@echo "... _run_tests_wiimote_roslint_package"
 	@echo "... _run_tests_wiimote_roslint"
 	@echo "... _run_tests_wiimote"
 	@echo "... run_tests_wiimote"
+	@echo "... teleop_wiimote"
+	@echo "... wiimote_node"
 	@echo "... roslint"
 	@echo "... wiimote_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"

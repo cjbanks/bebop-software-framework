@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/common-lisp/ros/mav_planning_msgs/msg/PolynomialSegment4D.lisp"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/common-lisp/ros/mav_planning_msgs/srv/PolygonService.lisp"
   "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/common-lisp/ros/mav_planning_msgs/srv/PlannerService.lisp"
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/mav_planning_msgs/share/common-lisp/ros/mav_planning_msgs/srv/ChangeNameService.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

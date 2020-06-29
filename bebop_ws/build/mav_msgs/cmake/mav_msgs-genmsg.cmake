@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "mav_msgs: 9 messages, 0 services")
+message(STATUS "mav_msgs: 8 messages, 0 services")
 
 set(MSG_I_FLAGS "-Imav_msgs:/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
 
@@ -57,11 +57,6 @@ add_custom_target(_mav_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mav_msgs" "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg" "geometry_msgs/Vector3:geometry_msgs/Quaternion:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg" NAME_WE)
-add_custom_target(_mav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mav_msgs" "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg" "std_msgs/Header"
-)
-
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -116,12 +111,6 @@ _generate_msg_cpp(mav_msgs
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mav_msgs
 )
-_generate_msg_cpp(mav_msgs
-  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mav_msgs
-)
 
 ### Generating Services
 
@@ -152,8 +141,6 @@ add_dependencies(mav_msgs_generate_messages_cpp _mav_msgs_generate_messages_chec
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_cpp _mav_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg" NAME_WE)
-add_dependencies(mav_msgs_generate_messages_cpp _mav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_cpp _mav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -213,12 +200,6 @@ _generate_msg_eus(mav_msgs
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mav_msgs
 )
-_generate_msg_eus(mav_msgs
-  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mav_msgs
-)
 
 ### Generating Services
 
@@ -249,8 +230,6 @@ add_dependencies(mav_msgs_generate_messages_eus _mav_msgs_generate_messages_chec
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_eus _mav_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg" NAME_WE)
-add_dependencies(mav_msgs_generate_messages_eus _mav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_eus _mav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -310,12 +289,6 @@ _generate_msg_lisp(mav_msgs
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mav_msgs
 )
-_generate_msg_lisp(mav_msgs
-  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mav_msgs
-)
 
 ### Generating Services
 
@@ -346,8 +319,6 @@ add_dependencies(mav_msgs_generate_messages_lisp _mav_msgs_generate_messages_che
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_lisp _mav_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg" NAME_WE)
-add_dependencies(mav_msgs_generate_messages_lisp _mav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_lisp _mav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -407,12 +378,6 @@ _generate_msg_nodejs(mav_msgs
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mav_msgs
 )
-_generate_msg_nodejs(mav_msgs
-  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mav_msgs
-)
 
 ### Generating Services
 
@@ -443,8 +408,6 @@ add_dependencies(mav_msgs_generate_messages_nodejs _mav_msgs_generate_messages_c
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_nodejs _mav_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg" NAME_WE)
-add_dependencies(mav_msgs_generate_messages_nodejs _mav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_nodejs _mav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -504,12 +467,6 @@ _generate_msg_py(mav_msgs
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mav_msgs
 )
-_generate_msg_py(mav_msgs
-  "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mav_msgs
-)
 
 ### Generating Services
 
@@ -540,8 +497,6 @@ add_dependencies(mav_msgs_generate_messages_py _mav_msgs_generate_messages_check
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/Status.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_py _mav_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/AttitudeThrust.msg" NAME_WE)
-add_dependencies(mav_msgs_generate_messages_py _mav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/chris/bebop-software-framework/bebop_ws/src/mav_comm/mav_msgs/msg/RollPitchYawrateThrustCrazyflie.msg" NAME_WE)
 add_dependencies(mav_msgs_generate_messages_py _mav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
