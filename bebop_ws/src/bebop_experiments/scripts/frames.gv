@@ -1,0 +1,7 @@
+digraph G {
+"world" -> "bebop1"[label="Broadcaster: /bebop1/vrpn_client_node\nAverage rate: 120.238 Hz\nMost recent transform: 1594140065.530 ( 0.003 sec old)\nBuffer length: 4.990 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1594140065.533"[ shape=plaintext ] ;
+ }->"world";
+}

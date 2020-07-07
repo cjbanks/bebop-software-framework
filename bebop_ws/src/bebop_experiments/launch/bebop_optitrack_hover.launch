@@ -15,7 +15,7 @@
 
 
    <!--Optitrack Params-->
-   <arg name="server" default= "192.168.1.1"/>
+   <arg name="server" default= "192.168.10.218"/>
    <arg name="port" default="3883"/>
 
   <!--Bebop-->
@@ -39,11 +39,13 @@
             <param name="bebop_ip" value="$(arg ip)" />
             <rosparam command="load" file="$(arg config_file)" />
         </node>
-	<include file="$(find bebop_description)/launch/description.launch" />
 
-      <node name="pose" pkg="bebop_experiments" type="publish_external_pose_vrpn" output="screen">
-          <param name="topic" value="/bebop1/vrpn_client_node/bebop1/pose"/>
-      </node>
+	<include file="$(find bebop_description)/launch/description.launch" /> 
+	<!--<node name="pose" pkg="bebop_experiments" type="publish_external_pose_vrpn.py" output="screen">
+	      <param name="topic" value="/bebop1/vrpn_client_node/bebop1/pose"/>
+	      <param name="frame_id" value="world"/>
+	      <param name="child_frame_id" value="bebop1"/>
+      </node>-->
 
       <!-- Optitrack Node-->
    <node pkg="vrpn_client_ros" type="vrpn_client_node" name="vrpn_client_node" output="screen">
