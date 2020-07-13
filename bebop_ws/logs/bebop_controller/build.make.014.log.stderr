@@ -1,0 +1,7 @@
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:219:40:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+     std::cout<<"FRAME :"<< frame << std[01;31m[K:[m[Kendl;
+                                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/scripts/controller_diff_flat_yaw.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/all] Error 2
+make: *** [all] Error 2

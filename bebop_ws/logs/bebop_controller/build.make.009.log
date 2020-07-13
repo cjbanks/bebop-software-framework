@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target bebop_controller_diff_flat_yaw[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/bebop_controller_diff_flat_yaw.dir/scripts/controller_diff_flat_yaw.cpp.o[0m
+[ 50%] Built target bebop_controller_diff_flat
+[ 83%] Built target bebop_controller
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:[m[K In constructor ‘[01m[KController::Controller(const string&, const string&, const ros::NodeHandle&)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:69:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KController[m[K’ does not have any field named ‘[01m[Km_subscribeDiffFlat[m[K’
+         , [01;31m[Km_subscribeDiffFlat[m[K()
+           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:71:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KController[m[K’ does not have any field named ‘[01m[Km_thrust[m[K’
+         , [01;31m[Km_thrust[m[K(0)
+           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_subscribeDiffFlat[m[K’ was not declared in this scope
+         [01;31m[Km_subscribeDiffFlat[m[K = nh.subscribe("cmd_diff", 1, &Controller::diffinput, this);
+         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:77:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Km_subscribeGoal[m[K’
+         [01;36m[Km_subscribeDiffFlat[m[K = nh.subscribe("cmd_diff", 1, &Controller::diffinput, this);
+         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+         [32m[Km_subscribeGoal[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:[m[K In member function ‘[01m[Kvoid Controller::iteration(const ros::TimerEvent&)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:170:67:[m[K [01;31m[Kerror: [m[K‘[01m[Km_thrust[m[K’ was not declared in this scope
+                 if (transform.getOrigin().z() < m_startZ - 0.3 || [01;31m[Km_thrust[m[K > 50000)
+                                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:170:67:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Km_thrust_nom[m[K’
+                 if (transform.getOrigin().z() < m_startZ - 0.3 || [01;36m[Km_thrust[m[K > 50000)
+                                                                   [01;36m[K^~~~~~~~[m[K
+                                                                   [32m[Km_thrust_nom[m[K
+CMakeFiles/bebop_controller_diff_flat_yaw.dir/build.make:62: recipe for target 'CMakeFiles/bebop_controller_diff_flat_yaw.dir/scripts/controller_diff_flat_yaw.cpp.o' failed
+make[2]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/scripts/controller_diff_flat_yaw.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/bebop_controller_diff_flat_yaw.dir/all' failed
+make[1]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

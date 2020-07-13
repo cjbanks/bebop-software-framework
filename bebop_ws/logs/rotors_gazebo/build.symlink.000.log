@@ -1,6 +1,0 @@
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/pkgconfig/rotors_gazebo.pc
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/rotors_gazebo/hovering_example
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/rotors_gazebo/waypoint_publisher_file
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/lib/rotors_gazebo/waypoint_publisher
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
-Symlinking /home/chris/bebop-software-framework/bebop_ws/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake

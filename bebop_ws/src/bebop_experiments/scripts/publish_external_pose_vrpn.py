@@ -3,20 +3,19 @@
 import rospy
 import tf
 from tf import TransformListener
-from geometry_msgs.msg import PoseStamped, TransformStamped
+from geometry_msgs.msg import PoseStamped
 
 def onNewTransform(pose):
     global msg
     global pub
     global firstTransform
 
-    print("transform")
     msg.header.frame_id = pose.header.frame_id
     msg.header.stamp = pose.header.stamp
     msg.header.seq += 1
     msg.pose.position.x = pose.pose.position.x
     msg.pose.position.y = pose.pose.position.y
-    msg.pose.position.z = pose.position.position.z
+    msg.pose.position.z = pose.pose.position.z
     msg.pose.orientation.x = pose.pose.orientation.x
     msg.pose.orientation.y = pose.pose.orientation.y
     msg.pose.orientation.z = pose.pose.orientation.z
@@ -37,7 +36,7 @@ if __name__ == '__main__':
     msg.header.stamp = rospy.Time.now()
     print("messages")
     # onNewTransform(world, child_frame)
-    rospy.Subscriber(topic, TransformStamped, onNewTransform)
+    rospy.Subscriber(topic, PoseStamped, onNewTransform)
 
     pub = rospy.Publisher("external_pose", PoseStamped, queue_size=1)
     rospy.spin()
