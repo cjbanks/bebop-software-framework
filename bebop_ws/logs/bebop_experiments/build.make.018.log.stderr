@@ -1,0 +1,14 @@
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:9:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kvoid[m[K’
+ [01;31m[Kvoid[m[K poseCallback(const geometry_msgs::PoseStamped:ConstPtr& msg){
+ [01;31m[K^~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:23:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kbebop_name[m[K’ was not declared in this scope
+     node.getParam("frame", [01;31m[Kbebop_name[m[K)
+                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:23:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+     node.getParam("frame", [01;36m[Kbebop_name[m[K)
+                            [01;36m[K^~~~~~~~~~[m[K
+                            [32m[Kbasename[m[K
+make[2]: *** [CMakeFiles/bebop_tf_broadcaster.dir/src/bebop_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bebop_tf_broadcaster.dir/all] Error 2
+make: *** [all] Error 2

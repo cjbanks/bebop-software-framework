@@ -1,0 +1,10 @@
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:[m[K In member function ‘[01m[Kvoid Controller::iteration(const ros::TimerEvent&)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:141:153:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_z_type {aka double}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’ to binary ‘[01m[Koperator<<[m[K’
+   std::cout <<"targetdrone position x: [%f], y: [%f], z: [%f]: "<< targetDrone.pose.position.x, targetDrone.pose.position.y,[01;31m[KtargetDrone.pose.position.z << std[m[K::endl;
+                                                                                                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:142:205:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >::_w_type {aka double}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’ to binary ‘[01m[Koperator<<[m[K’
+   std::cout <<"targetdrone orientation x: [%f], y: [%f], z: [%f], w:[%f]: " <<targetDrone.pose.orientation.x, targetDrone.pose.orientation.y, targetDrone.pose.orientation.z, [01;31m[KtargetDrone.pose.orientation.w<<std[m[K::endl;
+                                                                                                                                                                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+make[2]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/scripts/controller_diff_flat_yaw.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/all] Error 2
+make: *** [all] Error 2

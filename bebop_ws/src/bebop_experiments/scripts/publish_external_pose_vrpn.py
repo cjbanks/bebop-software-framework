@@ -25,7 +25,7 @@ def onNewTransform(pose):
 
 if __name__ == '__main__':
     rospy.init_node('publish_external_position_vrpn', anonymous=True)
-    topic = rospy.get_param("~topic", "/vicon/bebop1/bebop1")
+    topic = rospy.get_param("~topic", "/vrpn_client_node/bebop1/pose")
     world = rospy.get_param("~frame_id", "world")
     child_frame = rospy.get_param("~child_frame_id", "bebop1")
 

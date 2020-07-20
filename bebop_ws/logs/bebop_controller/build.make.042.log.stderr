@@ -1,0 +1,7 @@
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:[m[K In member function ‘[01m[Kvoid Controller::iteration(const ros::TimerEvent&)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_controller/scripts/controller_diff_flat_yaw.cpp:177:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   [01;31m[K}[m[K
+   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/scripts/controller_diff_flat_yaw.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bebop_controller_diff_flat_yaw.dir/all] Error 2
+make: *** [all] Error 2

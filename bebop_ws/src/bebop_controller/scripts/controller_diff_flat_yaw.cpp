@@ -89,6 +89,7 @@ private:
         const geometry_msgs::PoseStamped::ConstPtr& msg)
     {
         m_goal = *msg;
+        m_state = Automatic;
     }
 
     void diffinput(const geometry_msgs::Twist::ConstPtr& msg)
@@ -96,13 +97,6 @@ private:
         m_diffinput = *msg;
     }
 
-    void getTransform(
-        const std::string& sourceFrame,
-        const std::string& targetFrame,
-        tf::StampedTransform& result)
-    {
-        m_listener.lookupTransform(sourceFrame, targetFrame, ros::Time(0), result);
-    }
 
     void pidReset()
     {
@@ -123,18 +117,31 @@ private:
             {
                 ROS_INFO("Automatic!");
                 tf::StampedTransform transform;
-                m_listener.lookupTransform(m_worldFrame, m_frame, ros::Time(0), transform);
+                try{
+                        ros::Time now = ros::Time::now();
+                        m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(3.0));
+                        m_listener.lookupTransform(m_worldFrame, m_frame, ros::Time(0), transform);
 
-                testheight = transform.getOrigin().z();
+                }
+                catch(int e){
+                        ROS_WARN("LISTENER MISSED TRANSFORM");
+                }
 
-                geometry_msgs::PoseStamped targetWorld;
+
+
+                testheight = transform.getOrigin().y();
+		
+		ROS_INFO("goal orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",m_goal.pose.orientation.x, m_goal.pose.orientation.y, m_goal.pose.orientation.z, m_goal.pose.orientation.w);
+
+		geometry_msgs::PoseStamped targetWorld;
                 targetWorld.header.stamp = transform.stamp_;
                 targetWorld.header.frame_id = m_worldFrame;
                 targetWorld.pose = m_goal.pose;
-
+		
                 geometry_msgs::PoseStamped targetDrone;
                 m_listener.transformPose(m_frame, targetWorld, targetDrone);
-
+		ROS_INFO("targetdrone position x: [%f], y: [%f], z: [%f]: ", targetDrone.pose.position.x, targetDrone.pose.position.y,targetDrone.pose.position.z);
+		ROS_INFO("targetdrone orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",targetDrone.pose.orientation.x, targetDrone.pose.orientation.y, targetDrone.pose.orientation.z, targetDrone.pose.orientation.w); 
                 tfScalar roll, pitch, yaw;
                 tf::Matrix3x3(
                     tf::Quaternion(
@@ -164,13 +171,19 @@ private:
             {
                 ROS_INFO("IDLE");
                 tf::StampedTransform transform;
-                m_listener.lookupTransform(m_worldFrame, m_frame, ros::Time(0), transform);
-                testheight = transform.getOrigin().z();
+		
+		try{
+			ros::Time now = ros::Time::now();
+			m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(3.0));
+			m_listener.lookupTransform(m_worldFrame, m_frame, ros::Time(0), transform);
+			
+		}
+		catch(int e){
+			ROS_WARN("LISTENER MISSED TRANSFORM");
+		}
+
+                testheight = transform.getOrigin().y();
                 ROS_INFO("Height is %0.2f", testheight);
-                if (transform.getOrigin().z() < m_startZ - 0.3 || m_thrust > 50000)
-                {
-                    m_state = Automatic;
-                }
                 geometry_msgs::Twist msg;
                 m_pubNav.publish(msg);
             }
@@ -213,7 +226,7 @@ int main(int argc, char **argv)
   // Read parameters
   ros::NodeHandle n("~");
   std::string worldFrame;
-  n.param<std::string>("worldFrame", worldFrame, "/world");
+  n.param<std::string>("worldFrame", worldFrame, "world");
   std::string frame;
   n.getParam("frame", frame);
     std::cout<<"FRAME :"<< frame << std::endl;

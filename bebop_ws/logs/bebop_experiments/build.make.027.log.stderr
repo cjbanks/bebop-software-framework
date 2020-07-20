@@ -1,0 +1,10 @@
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:[m[K In function ‘[01m[Kvoid poseCallback(const ConstPtr&)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:105:[m[K [01;31m[Kerror: [m[K‘[01m[KTfScalar[m[K’ is not a member of ‘[01m[Ktf[m[K’
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg->pose.orientation.y, msg->pose.orientation.z),tf::[01;31m[KTfScalar[m[K(msg->orientation.w));
+                                                                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:119:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Korientation[m[K’
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg->pose.orientation.y, msg->pose.orientation.z),tf::TfScalar(msg->[01;31m[Korientation[m[K.w));
+                                                                                                                       [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/bebop_tf_broadcaster.dir/src/bebop_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bebop_tf_broadcaster.dir/all] Error 2
+make: *** [all] Error 2

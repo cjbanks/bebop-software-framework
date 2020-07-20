@@ -1,0 +1,55 @@
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:9:53:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseConstPtr[m[K’ in ‘[01m[Kgeometry_msgs::PoseStamped {aka struct geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K’ does not name a type
+ void poseCallback(const geometry_msgs::PoseStamped::[01;31m[KPoseConstPtr[m[K& msg){
+                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:[m[K In function ‘[01m[Kvoid poseCallback(const int&)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:12:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     transform.setOrigin(tf::Vector3(msg[01;31m[K->[m[Kpose.position.x, msg->pose.position.y, msg->pose.position.z));
+                                        [01;31m[K^~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:12:62:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     transform.setOrigin(tf::Vector3(msg->pose.position.x, msg[01;31m[K->[m[Kpose.position.y, msg->pose.position.z));
+                                                              [01;31m[K^~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:12:84:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     transform.setOrigin(tf::Vector3(msg->pose.position.x, msg->pose.position.y, msg[01;31m[K->[m[Kpose.position.z));
+                                                                                    [01;31m[K^~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     q.setRPY(tf::Vector3(msg[01;31m[K->[m[Kpose.orientation.x, msg->pose.orientation.y, msg->pose.orientation,z),tf::TfScalor(msg->orientation.w));
+                             [01;31m[K^~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:54:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg[01;31m[K->[m[Kpose.orientation.y, msg->pose.orientation,z),tf::TfScalor(msg->orientation.w));
+                                                      [01;31m[K^~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:79:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg->pose.orientation.y, msg[01;31m[K->[m[Kpose.orientation,z),tf::TfScalor(msg->orientation.w));
+                                                                               [01;31m[K^~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg->pose.orientation.y, msg->pose.orientation,[01;31m[Kz[m[K),tf::TfScalor(msg->orientation.w));
+                                                                                                  [01;31m[K^[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:105:[m[K [01;31m[Kerror: [m[K‘[01m[KTfScalor[m[K’ is not a member of ‘[01m[Ktf[m[K’
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg->pose.orientation.y, msg->pose.orientation,z),tf::[01;31m[KTfScalor[m[K(msg->orientation.w));
+                                                                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:117:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg->pose.orientation.y, msg->pose.orientation,z),tf::TfScalor(msg[01;31m[K->[m[Korientation.w));
+                                                                                                                     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:4[m[K:
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:228:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:24:90:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:121:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return [01;31m[KM::__s_getMD5Sum()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:237:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:24:90:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:138:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return [01;31m[KM::__s_getDataType()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/bebop_tf_broadcaster.dir/src/bebop_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bebop_tf_broadcaster.dir/all] Error 2
+make: *** [all] Error 2

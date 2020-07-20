@@ -1,0 +1,19 @@
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:[m[K In function ‘[01m[Kvoid poseCallback(const ConstPtr&)[m[K’:
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:105:[m[K [01;31m[Kerror: [m[K‘[01m[KtfScalar[m[K’ is not a member of ‘[01m[Ktf[m[K’
+     q.setRPY(tf::Vector3(msg->pose.orientation.x, msg->pose.orientation.y, msg->pose.orientation.z),tf::[01;31m[KtfScalar[m[K(msg->pose.orientation.w));
+                                                                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:14:105:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/tf/LinearMath/Vector3.h:21:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/LinearMath/Matrix3x3.h:19[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/LinearMath/Transform.h:21[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_datatypes.h:41[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/time_cache.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/tf.h:44[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/src/bebop_tf_broadcaster.cpp:5[m[K:
+[01m[K/opt/ros/melodic/include/tf/LinearMath/Scalar.h:160:16:[m[K [01;36m[Knote: [m[K  ‘[01m[KtfScalar[m[K’
+ typedef double [01;36m[KtfScalar[m[K;
+                [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/bebop_tf_broadcaster.dir/src/bebop_tf_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bebop_tf_broadcaster.dir/all] Error 2
+make: *** [all] Error 2

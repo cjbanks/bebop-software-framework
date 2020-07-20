@@ -1,7 +1,12 @@
 digraph G {
-"world" -> "bebop1"[label="Broadcaster: /bebop1/vrpn_client_node\nAverage rate: 120.238 Hz\nMost recent transform: 1594140065.530 ( 0.003 sec old)\nBuffer length: 4.990 sec\n"];
+"world" -> "bebop1"[label="Broadcaster: /vrpn_client_node\nAverage rate: 120.239 Hz\nMost recent transform: 1595185765.213 ( 0.001 sec old)\nBuffer length: 4.990 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /bebop1/bebop_driver\nAverage rate: 5.246 Hz\nMost recent transform: 1595185765.055 ( 0.158 sec old)\nBuffer length: 4.765 sec\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1594140065.533"[ shape=plaintext ] ;
+"Recorded at time: 1595185765.214"[ shape=plaintext ] ;
  }->"world";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1595185765.214"[ shape=plaintext ] ;
+ }->"odom";
 }
