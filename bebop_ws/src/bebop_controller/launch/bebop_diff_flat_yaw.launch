@@ -7,6 +7,6 @@
   <node name="controller" pkg="bebop_controller" type="bebop_controller_diff_flat_yaw" output="screen">
     <param name="frame" value="$(arg frame)" />
     <param name="worldFrame" value="$(arg worldFrame)" />
-    <rosparam command="load" file="$(find bebop_controller)/config/bebop.yaml" />
+    <rosparam command="load" file="$(find bebop_controller)/config/bebop_LW_yaw.yaml" />
   </node>
 </launch>

@@ -130,18 +130,30 @@ private:
 
 
                 testheight = transform.getOrigin().y();
-		
-		ROS_INFO("goal orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",m_goal.pose.orientation.x, m_goal.pose.orientation.y, m_goal.pose.orientation.z, m_goal.pose.orientation.w);
 
-		geometry_msgs::PoseStamped targetWorld;
+
+                ROS_INFO("goal position x: [%f], z: [%f], y: [%f]",m_goal.pose.position.x, m_goal.pose.position.z, m_goal.pose.position.y);
+
+                ROS_INFO("goal orientation x: [%f], z: [%f], y: [%f], w:[%f]: ",m_goal.pose.orientation.x, m_goal.pose.orientation.y, m_goal.pose.orientation.z, m_goal.pose.orientation.w);
+
+		        geometry_msgs::PoseStamped targetWorld;
                 targetWorld.header.stamp = transform.stamp_;
                 targetWorld.header.frame_id = m_worldFrame;
                 targetWorld.pose = m_goal.pose;
+                // targetWorld.pose.position.x = m_goal.pose.position.x;
+                // targetWorld.pose.position.y = m_goal.pose.position.z;
+                // targetWorld.pose.position.z = m_goal.pose.position.y;
+                // targetWorld.pose.orientation.x = m_goal.pose.orientation.x;
+                // targetWorld.pose.orientation.y = m_goal.pose.orientation.z;
+                // targetWorld.pose.orientation.z = m_goal.pose.orientation.y;
+                // targetWorld.pose.orientation.w = m_goal.pose.orientation.w;
+
+
 		
                 geometry_msgs::PoseStamped targetDrone;
                 m_listener.transformPose(m_frame, targetWorld, targetDrone);
-		ROS_INFO("targetdrone position x: [%f], y: [%f], z: [%f]: ", targetDrone.pose.position.x, targetDrone.pose.position.y,targetDrone.pose.position.z);
-		ROS_INFO("targetdrone orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",targetDrone.pose.orientation.x, targetDrone.pose.orientation.y, targetDrone.pose.orientation.z, targetDrone.pose.orientation.w); 
+		        ROS_INFO("targetdrone position x: [%f], y: [%f], z: [%f]: ", targetDrone.pose.position.x, targetDrone.pose.position.y,targetDrone.pose.position.z);
+		        ROS_INFO("targetdrone orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",targetDrone.pose.orientation.x, targetDrone.pose.orientation.y, targetDrone.pose.orientation.z, targetDrone.pose.orientation.w);
                 tfScalar roll, pitch, yaw;
                 tf::Matrix3x3(
                     tf::Quaternion(
@@ -152,18 +164,25 @@ private:
                     )).getRPY(roll, pitch, yaw);
 
                 geometry_msgs::Twist msg;
-                msg.linear.x = m_diffinput.linear.x + m_pidX.update(0, targetDrone.pose.position.x);
+                //optitrack coords
+                //+x -> +x
+                //+y -> +z
+                //+z -> +y
+                
+
+
+                msg.linear.x = m_diffinput.linear.x + m_pidX.update(0.0, targetDrone.pose.position.x);
                 msg.linear.y = m_diffinput.linear.y + m_pidY.update(0.0, targetDrone.pose.position.y);
-                msg.linear.z = m_diffinput.linear.z + m_pidZ.update(0.0, targetDrone.pose.position.z);
+                msg.linear.z = m_diffinput.linear.z + m_pidZ.update(0.0, -targetDrone.pose.position.z);
                 msg.angular.z = m_diffinput.angular.z + m_pidYaw.update(0.0, yaw);
                 
-                // note vx is -pitch, vy is roll, see cf server cpp code for detail
-                //ROS_INFO("Diff Flat Roll is: %0.2f", m_diffinput.linear.y);
-                //ROS_INFO("Diff Flat Pitch is: %0.2f", - m_diffinput.linear.x);
-                //ROS_INFO("Diff Flat Thrust is: %0.2f", m_diffinput.linear.z);
-                //ROS_INFO("Current Roll is: %0.2f", msg.linear.y);
-                //ROS_INFO("Current Pitch is: %0.2f", -msg.linear.x);
-                //ROS_INFO("Current Thrust is: %0.2f", msg.linear.z);
+                ROS_INFO("Diff Flat Roll is: %0.2f", m_diffinput.linear.x);
+                ROS_INFO("Diff Flat Pitch is: %0.2f", m_diffinput.linear.y);
+                ROS_INFO("Diff Flat Thrust is: %0.2f", m_diffinput.linear.z);
+                ROS_INFO("Current Roll is: %0.2f", msg.linear.x);
+                ROS_INFO("Current Pitch is: %0.2f", msg.linear.y);
+                ROS_INFO("Current Thrust is: %0.2f", msg.linear.z);
+                
                 m_pubNav.publish(msg);
             }
             break;
