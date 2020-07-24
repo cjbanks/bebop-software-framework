@@ -129,12 +129,12 @@ private:
 
 
 
-                testheight = transform.getOrigin().y();
+                testheight = transform.getOrigin().z();
 
 
-                ROS_INFO("goal position x: [%f], z: [%f], y: [%f]",m_goal.pose.position.x, m_goal.pose.position.z, m_goal.pose.position.y);
+                ROS_INFO("goal position x: [%f], y: [%f], z: [%f]",m_goal.pose.position.x, m_goal.pose.position.y, m_goal.pose.position.z);
 
-                ROS_INFO("goal orientation x: [%f], z: [%f], y: [%f], w:[%f]: ",m_goal.pose.orientation.x, m_goal.pose.orientation.y, m_goal.pose.orientation.z, m_goal.pose.orientation.w);
+                ROS_INFO("goal orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",m_goal.pose.orientation.x, m_goal.pose.orientation.y, m_goal.pose.orientation.z, m_goal.pose.orientation.w);
 
 		        geometry_msgs::PoseStamped targetWorld;
                 targetWorld.header.stamp = transform.stamp_;
@@ -168,6 +168,11 @@ private:
                 //+x -> +x
                 //+y -> +z
                 //+z -> +y
+
+                //LIMITS OF COLLABORATIVE ROBOTICS SPACE (meters)
+                //X: [0.5, -0.5]
+                //Y:                                            
+                //Z: [0, 2]
                 
 
 
@@ -201,7 +206,7 @@ private:
 			ROS_WARN("LISTENER MISSED TRANSFORM");
 		}
 
-                testheight = transform.getOrigin().y();
+                testheight = transform.getOrigin().z();
                 ROS_INFO("Height is %0.2f", testheight);
                 geometry_msgs::Twist msg;
                 m_pubNav.publish(msg);
