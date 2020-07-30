@@ -16,13 +16,13 @@ PIDs:
     integratorMin: -0.1 #-0.0003208 #-0.1
     integratorMax: 0.1 #0.0003208 #0.1
   Z:
-    kp: -1.7503 #-40.0 #-40000.0
+    kp: -.17503 #-40.0 #-40000.0
     kd: 0 #10.0 #-10000.0
     ki: 0 #-60.0 #-6000.0
     minOutput: -0.5 #-10000.0
     maxOutput: 0.5 #10000.0
-    integratorMin: 0 #-1.0 #-1000.0
-    integratorMax: 0 #1.0 #1000.0
+    integratorMin: -1.0 #-1000.0
+    integratorMax: 1.0 #1000.0
   Yaw:
     kp: 1.7503 #5 #500.0
     kd: 0 #1 #100.0
