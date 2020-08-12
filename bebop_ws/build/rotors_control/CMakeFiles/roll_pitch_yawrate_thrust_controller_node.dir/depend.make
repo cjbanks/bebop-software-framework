@@ -43,6 +43,7 @@ CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_ya
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o: /opt/ros/melodic/include/ros/message.h

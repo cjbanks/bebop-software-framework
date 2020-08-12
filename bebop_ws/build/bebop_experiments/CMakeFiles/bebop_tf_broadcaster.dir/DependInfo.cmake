@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments/include"
   "/home/chris/bebop-software-framework/bebop_ws/src/bebop_experiments/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"

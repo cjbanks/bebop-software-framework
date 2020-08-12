@@ -213,6 +213,7 @@ CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/in
 CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/include/gazebo-9/gazebo/physics/WorldState.hh
 CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/include/gazebo-9/gazebo/physics/physics.hh
 CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/include/gazebo-9/gazebo/rendering/RenderTypes.hh
+CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/include/gazebo-9/gazebo/sensors/Sensor.hh
 CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/include/gazebo-9/gazebo/sensors/SensorManager.hh
 CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/include/gazebo-9/gazebo/sensors/SensorTypes.hh
 CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o: /usr/include/gazebo-9/gazebo/transport/CallbackHelper.hh

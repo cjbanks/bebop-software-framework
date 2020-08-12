@@ -48,7 +48,9 @@
         <arg name="frame" value="$(arg frame1)" />
        </include>
        
-       <!-- <node name="pose" pkg="bebop_experiments" type="publish_external_pose_vrpn.py" output="screen">
+       <node name ="motor_speeds" pkg="bebop_experiment" type="publish_motor_rpm.py" output="screen" />
+
+<!-- <node name="pose" pkg="bebop_experiments" type="publish_external_pose_vrpn.py" output="screen">
               <param name="frame_id" value="world"/>
               <param name="child_frame_id" value="$(arg frame1)"/>
       </node>-->

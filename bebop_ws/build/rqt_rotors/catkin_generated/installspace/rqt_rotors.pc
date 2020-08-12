@@ -5,4 +5,4 @@ Description: Description of rqt_rotors
 Version: 2.2.3
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: mavros_msgs rospy rqt_gui rqt_gui_py

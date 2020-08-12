@@ -214,6 +214,7 @@ CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o
  /usr/include/gazebo-9/gazebo/physics/WorldState.hh
  /usr/include/gazebo-9/gazebo/physics/physics.hh
  /usr/include/gazebo-9/gazebo/rendering/RenderTypes.hh
+ /usr/include/gazebo-9/gazebo/sensors/Sensor.hh
  /usr/include/gazebo-9/gazebo/sensors/SensorManager.hh
  /usr/include/gazebo-9/gazebo/sensors/SensorTypes.hh
  /usr/include/gazebo-9/gazebo/transport/CallbackHelper.hh

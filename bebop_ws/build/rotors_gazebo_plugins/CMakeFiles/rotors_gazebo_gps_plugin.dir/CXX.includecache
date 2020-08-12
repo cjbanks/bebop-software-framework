@@ -6649,6 +6649,8 @@ string
 -
 sdf/sdf.hh
 -
+gazebo/msgs/poses_stamped.pb.h
+/usr/include/gazebo-9/gazebo/physics/gazebo/msgs/poses_stamped.pb.h
 gazebo/physics/PhysicsTypes.hh
 /usr/include/gazebo-9/gazebo/physics/gazebo/physics/PhysicsTypes.hh
 gazebo/util/system.hh
@@ -7307,6 +7309,8 @@ list
 -
 map
 -
+condition_variable
+-
 sdf/sdf.hh
 -
 gazebo/physics/PhysicsTypes.hh
@@ -7317,6 +7321,8 @@ gazebo/common/UpdateInfo.hh
 /usr/include/gazebo-9/gazebo/sensors/gazebo/common/UpdateInfo.hh
 gazebo/sensors/SensorTypes.hh
 /usr/include/gazebo-9/gazebo/sensors/gazebo/sensors/SensorTypes.hh
+gazebo/sensors/Sensor.hh
+/usr/include/gazebo-9/gazebo/sensors/gazebo/sensors/Sensor.hh
 gazebo/util/system.hh
 /usr/include/gazebo-9/gazebo/sensors/gazebo/util/system.hh
 

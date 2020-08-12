@@ -1,0 +1,1 @@
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments/lib/python2.7/dist-packages/bebop_experiments/msg/__init__.py

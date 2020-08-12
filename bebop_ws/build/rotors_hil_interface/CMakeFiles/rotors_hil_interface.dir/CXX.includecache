@@ -614,6 +614,10 @@ stdint.h
 
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_ack.hpp
 
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.h
+
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.hpp
+
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_int.h
 
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_int.hpp
@@ -705,6 +709,10 @@ stdint.h
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_attitude.h
 
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_attitude.hpp
+
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.h
+
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.hpp
 
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_status.h
 
@@ -1433,6 +1441,8 @@ stdint.h
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_long.h
 ./mavlink_msg_command_ack.h
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_ack.h
+./mavlink_msg_command_cancel.h
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.h
 ./mavlink_msg_manual_setpoint.h
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_manual_setpoint.h
 ./mavlink_msg_set_attitude_target.h
@@ -1641,6 +1651,8 @@ stdint.h
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_device_attitude_status.h
 ./mavlink_msg_autopilot_state_for_gimbal_device.h
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_autopilot_state_for_gimbal_device.h
+./mavlink_msg_gimbal_manager_set_tiltpan.h
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.h
 ./mavlink_msg_wifi_config_ap.h
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_wifi_config_ap.h
 ./mavlink_msg_protocol_version.h
@@ -1845,6 +1857,8 @@ sstream
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_long.hpp
 ./mavlink_msg_command_ack.hpp
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_ack.hpp
+./mavlink_msg_command_cancel.hpp
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.hpp
 ./mavlink_msg_manual_setpoint.hpp
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_manual_setpoint.hpp
 ./mavlink_msg_set_attitude_target.hpp
@@ -2053,6 +2067,8 @@ sstream
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_device_attitude_status.hpp
 ./mavlink_msg_autopilot_state_for_gimbal_device.hpp
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_autopilot_state_for_gimbal_device.hpp
+./mavlink_msg_gimbal_manager_set_tiltpan.hpp
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.hpp
 ./mavlink_msg_wifi_config_ap.hpp
 /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_wifi_config_ap.hpp
 ./mavlink_msg_protocol_version.hpp

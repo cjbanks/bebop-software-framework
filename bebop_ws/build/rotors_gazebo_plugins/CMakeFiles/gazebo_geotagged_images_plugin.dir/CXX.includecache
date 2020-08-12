@@ -6665,6 +6665,8 @@ string
 -
 sdf/sdf.hh
 -
+gazebo/msgs/poses_stamped.pb.h
+/usr/include/gazebo-9/gazebo/physics/gazebo/msgs/poses_stamped.pb.h
 gazebo/physics/PhysicsTypes.hh
 /usr/include/gazebo-9/gazebo/physics/gazebo/physics/PhysicsTypes.hh
 gazebo/util/system.hh
@@ -7521,6 +7523,8 @@ gazebo/util/system.hh
 /usr/include/gazebo-9/gazebo/rendering/RenderingIface.hh
 string
 -
+gazebo/msgs/poses_stamped.pb.h
+/usr/include/gazebo-9/gazebo/rendering/gazebo/msgs/poses_stamped.pb.h
 gazebo/rendering/RenderTypes.hh
 /usr/include/gazebo-9/gazebo/rendering/gazebo/rendering/RenderTypes.hh
 gazebo/util/system.hh

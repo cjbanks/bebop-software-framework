@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy:$CMAKE_PREFIX_PATH"
-export PWD="/home/chris/bebop-software-framework/bebop_ws/build/ps3joy"
+export LD_LIBRARY_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/chris/bebop-software-framework/bebop_ws/build/ps3joy'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/chris/bebop-software-framework/bebop_ws/devel/.private/ps3joy/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/ps3joy:$ROS_PACKAGE_PATH"

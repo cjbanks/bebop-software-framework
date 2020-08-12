@@ -142,6 +142,8 @@ CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/r
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_collision.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_ack.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_ack.hpp
+CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.h
+CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_int.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_int.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_long.h
@@ -188,6 +190,8 @@ CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/r
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_information.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_attitude.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_attitude.hpp
+CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.h
+CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_status.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_status.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_sensor_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_global_position_int.h
@@ -992,6 +996,8 @@ CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ro
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_collision.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_ack.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_ack.hpp
+CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.h
+CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_cancel.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_int.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_int.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_command_long.h
@@ -1038,6 +1044,8 @@ CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ro
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_information.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_attitude.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_attitude.hpp
+CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.h
+CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_set_tiltpan.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_status.h
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gimbal_manager_status.hpp
 CMakeFiles/rotors_hil_interface.dir/src/hil_state_level_interface.cpp.o: /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_global_position_int.h

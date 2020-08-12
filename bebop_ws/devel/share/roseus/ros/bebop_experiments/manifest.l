@@ -1,0 +1,1 @@
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_experiments/share/roseus/ros/bebop_experiments/manifest.l
