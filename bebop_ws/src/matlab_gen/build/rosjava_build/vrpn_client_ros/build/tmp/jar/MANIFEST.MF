@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.ros.rosjava_messages.vrpn_client_ros
+Bundle-Version: 0.2.2
+Bundle-Name: vrpn_client_ros
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1597330710000
+Created-By: 1.8.0_222 (AdoptOpenJDK)
+Tool: Bnd-2.1.0.20130426-122213
+

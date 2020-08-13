@@ -10,22 +10,26 @@ I2C_MTR_CTR_ADDR = 0x08
 
 class ReadMotorSpeeds(object):
     def __init__(self):
-        self.mtr_speed_pub = rospy.Publisher("motor_speeds", mtrspeeds, queue_size=100)
+        self.mtr_speed_pub = rospy.Publisher("motor_speeds", mtrspeeds, queue_size=1)
         self.address = I2C_MTR_CTR_ADDR
         self.old_mtr_speeds = mtrspeeds()
-        self.rate = rospy.Rate(60)
+        self.rate = rospy.Rate(30)
         self.bebop_sesh = None
         # ssh into bebop
         # while not rospy.is_shutdown() and self.bebop_sesh is None:
         try:
             rospy.loginfo("connecting...")
-            self.bebop_sesh = telnetlib.Telnet(HOST, timeout=1)
+            self.bebop_sesh = telnetlib.Telnet(HOST)
             rospy.loginfo("connected!")
         except (OSError, ConnectionRefusedError):
-             rospy.logwarn("cant run subprocess")
-             rospy.logwarn("reconnect..")
+            rospy.logwarn("cant run client")
+            rospy.logwarn("reconnect..")
         else:
             rospy.loginfo("success!")
+            self.bebop_sesh.close()
+
+
+
 
     def read_motor_data(self):
         # read all bebop data from motor controller
@@ -36,8 +40,13 @@ class ReadMotorSpeeds(object):
             #  self.bebop_sesh.write(b"ls\n")
         while not rospy.is_shutdown():
            try:
+            self.bebop_sesh = telnetlib.Telnet(HOST)
+            # rospy.sleep(0.02)
             self.bebop_sesh.write(b"i2ctool -d /dev/i2c-1 -n 15 0x08 0x20\n")
-            data = self.bebop_sesh.read_until(b"\n")
+            # data = self.bebop_sesh.read_until(b"\n")
+            # rospy.sleep(0.02)
+            data = self.bebop_sesh.read_until(b"reading")
+            # data = self.bebop_sesh.read_until(b"\n")
             coherent_data = self.bytes_2_rpm(data)
             all_motor_speeds.m_1 = coherent_data[0]
             all_motor_speeds.m_2 = coherent_data[1]
@@ -46,21 +55,32 @@ class ReadMotorSpeeds(object):
             self.mtr_speed_pub.publish(all_motor_speeds)
             self.old_mtr_speeds = all_motor_speeds
             self.rate.sleep()
-           except Exception:
+           except (OSError, AssertionError, ConnectionAbortedError,ConnectionRefusedError, TypeError):
                rospy.logwarn("AN EXCEPTION was thrown")
                self.mtr_speed_pub.publish(self.old_mtr_speeds)
+               self.bebop_sesh.close()
+           else:
+               self.bebop_sesh.close()
+               rospy.loginfo("Leaving connection")
         else:
             self.bebop_sesh.close()
 
     def bytes_2_rpm(self, bytes):
         arr = []
-        data = bytes.decode('ascii')
+        #data = bytes.decode('ascii')
         #print("raw data: ", data)
-        data = re.sub("\r\n", "", data)
+        #data = re.sub("\r\n", "", data)
         #print("new data: ", data)
-        split_data = re.split(' ', data)
-        #print("split data: ", split_data)
-        if split_data[0] == 'reading':
+        # split_data = re.split(' ', data)
+
+        data = self.bebop_sesh.read_until(b"\n")
+        #print("other data: ", data.decode('ascii'))
+        split_data = re.split(' ', data.decode('ascii'))
+
+        # print("split data: ", split_data)
+
+
+        if split_data[1] == '0x08-0x20:':
             rospy.loginfo("RECIEVED GOOD INFO -- return motor speeds")
             # print("val in int: ", int(split_data[-1], 16))
             split_data_n = split_data[3::]
@@ -74,7 +94,7 @@ class ReadMotorSpeeds(object):
             arr.append(buffer_rpm[2] + buffer_rpm[3])
             arr.append(buffer_rpm[4] + buffer_rpm[5])
             arr.append(buffer_rpm[5] + buffer_rpm[6])
-            #print("rpm: ", arr)
+            # print("rpm: ", arr)
             return arr
         else:
             return AssertionError

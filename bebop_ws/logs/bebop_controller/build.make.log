@@ -1,9 +1,3 @@
-[35m[1mScanning dependencies of target bebop_controller_diff_flat[0m
 [ 33%] Built target bebop_controller_diff_flat_yaw
-[35m[1mScanning dependencies of target bebop_controller[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/bebop_controller_diff_flat.dir/scripts/controller_diff_flat.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/bebop_controller.dir/scripts/controller.cpp.o[0m
-[ 83%] [32m[1mLinking CXX executable /home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller[0m
-[ 83%] Built target bebop_controller
-[100%] [32m[1mLinking CXX executable /home/chris/bebop-software-framework/bebop_ws/devel/.private/bebop_controller/lib/bebop_controller/bebop_controller_diff_flat[0m
-[100%] Built target bebop_controller_diff_flat
+[ 66%] Built target bebop_controller_diff_flat
+[100%] Built target bebop_controller
