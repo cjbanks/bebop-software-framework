@@ -13,7 +13,7 @@ class ReadMotorSpeeds(object):
         self.mtr_speed_pub = rospy.Publisher("motor_speeds", mtrspeeds, queue_size=1)
         self.address = I2C_MTR_CTR_ADDR
         self.old_mtr_speeds = mtrspeeds()
-        self.rate = rospy.Rate(30)
+        self.rate = rospy.Rate(10)
         self.bebop_sesh = None
         # ssh into bebop
         # while not rospy.is_shutdown() and self.bebop_sesh is None:
@@ -33,11 +33,8 @@ class ReadMotorSpeeds(object):
 
     def read_motor_data(self):
         # read all bebop data from motor controller
-        print("reading motor data")
+        # print("reading motor data")
         all_motor_speeds = mtrspeeds()
-        #bebop_init = subprocess.run(["telnet", "192.168.42.1"])
-            #data = subprocess.run(["i2ctool", "-d", "/dev/i2c-1", "-n", "15", "0x08", "0x20"])
-            #  self.bebop_sesh.write(b"ls\n")
         while not rospy.is_shutdown():
            try:
             self.bebop_sesh = telnetlib.Telnet(HOST)
@@ -54,14 +51,18 @@ class ReadMotorSpeeds(object):
             all_motor_speeds.m_4 = coherent_data[3]
             self.mtr_speed_pub.publish(all_motor_speeds)
             self.old_mtr_speeds = all_motor_speeds
-            self.rate.sleep()
-           except (OSError, AssertionError, ConnectionAbortedError,ConnectionRefusedError, TypeError):
+           except Exception:
+               self.bebop_sesh.close()
                rospy.logwarn("AN EXCEPTION was thrown")
                self.mtr_speed_pub.publish(self.old_mtr_speeds)
-               self.bebop_sesh.close()
+               # rospy.sleep(0.02)
+               self.rate.sleep()
            else:
                self.bebop_sesh.close()
+               self.mtr_speed_pub.publish(self.old_mtr_speeds)
                rospy.loginfo("Leaving connection")
+               # rospy.sleep(0.02)
+               self.rate.sleep()
         else:
             self.bebop_sesh.close()
 
@@ -85,16 +86,16 @@ class ReadMotorSpeeds(object):
             # print("val in int: ", int(split_data[-1], 16))
             split_data_n = split_data[3::]
             buffer_rpm = []
-            #print("n: ", split_data_n)
+            print("n: ", split_data_n)
             for item in split_data_n:
-                buffer_rpm.append(int(item, 16))
+                buffer_rpm.append(int(item, 0))
 
-            #print("buffer: ", buffer_rpm)
-            arr.append(buffer_rpm[1] + buffer_rpm[0])
-            arr.append(buffer_rpm[2] + buffer_rpm[3])
-            arr.append(buffer_rpm[4] + buffer_rpm[5])
-            arr.append(buffer_rpm[5] + buffer_rpm[6])
-            # print("rpm: ", arr)
+            print("buffer: ", buffer_rpm)
+            arr.append(((buffer_rpm[1] | (buffer_rpm[0] << 8)) & ~(1 << 15)))
+            arr.append(((buffer_rpm[3] | (buffer_rpm[2] << 8)) & ~(1 << 15)))
+            arr.append(((buffer_rpm[5] | (buffer_rpm[4] << 8)) & ~(1 << 15)))
+            arr.append(((buffer_rpm[7] | (buffer_rpm[6] << 8)) & ~(1 << 15)))
+            print("rpm: ", arr)
             return arr
         else:
             return AssertionError

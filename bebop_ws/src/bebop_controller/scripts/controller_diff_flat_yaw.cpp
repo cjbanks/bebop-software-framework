@@ -109,7 +109,7 @@ private:
     void iteration(const ros::TimerEvent& e)
     {
         float dt = e.current_real.toSec() - e.last_real.toSec();
-        float testheight, k_z;
+        float testz, testx, testy, k_z;
 
         switch(m_state)
         {
@@ -128,10 +128,11 @@ private:
                 }
 
 
+                testx = transform.getOrigin().x();
+                testz = transform.getOrigin().z();
+                testy = transform.getOrigin().y();
 
-                testheight = transform.getOrigin().z();
-
-
+                ROS_INFO("test x: %f, test y: %f, height: %f", testx, testy,testz);
                 ROS_INFO("goal position x: [%f], y: [%f], z: [%f]",m_goal.pose.position.x, m_goal.pose.position.y, m_goal.pose.position.z);
 
                 ROS_INFO("goal orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",m_goal.pose.orientation.x, m_goal.pose.orientation.y, m_goal.pose.orientation.z, m_goal.pose.orientation.w);
@@ -148,8 +149,6 @@ private:
                 // targetWorld.pose.orientation.z = m_goal.pose.orientation.y;
                 // targetWorld.pose.orientation.w = m_goal.pose.orientation.w;
 
-
-		
                 geometry_msgs::PoseStamped targetDrone;
                 m_listener.transformPose(m_frame, targetWorld, targetDrone);
 		        ROS_INFO("targetdrone position x: [%f], y: [%f], z: [%f]: ", targetDrone.pose.position.x, targetDrone.pose.position.y,targetDrone.pose.position.z);
@@ -187,6 +186,7 @@ private:
                 ROS_INFO("Current Roll is: %0.2f", msg.linear.x);
                 ROS_INFO("Current Pitch is: %0.2f", msg.linear.y);
                 ROS_INFO("Current Thrust is: %0.2f", msg.linear.z);
+                ROS_INFO("Current Yaw is: %0.2f", msg.angular.z);
                 
                 m_pubNav.publish(msg);
             }
@@ -198,7 +198,7 @@ private:
 		
 		try{
 			ros::Time now = ros::Time::now();
-			m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(3.0));
+			m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(2.0));
 			m_listener.lookupTransform(m_worldFrame, m_frame, ros::Time(0), transform);
 			
 		}
@@ -206,8 +206,8 @@ private:
 			ROS_WARN("LISTENER MISSED TRANSFORM");
 		}
 
-                testheight = transform.getOrigin().z();
-                ROS_INFO("Height is %0.2f", testheight);
+                testz = transform.getOrigin().z();
+                ROS_INFO("Height is %0.2f", testz);
                 geometry_msgs::Twist msg;
                 m_pubNav.publish(msg);
             }

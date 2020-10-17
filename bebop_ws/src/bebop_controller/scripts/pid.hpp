@@ -61,11 +61,14 @@ public:
         float output = p + d + i;
         m_previousError = error;
         m_previousTime = time;
+        std::cout<<"prop: "<<p <<std::endl;
+        std::cout<<"der: "<<d <<std::endl;
+        std::cout<<"integral: "<<i <<std::endl;
         // self.pubOutput.publish(output)
         // self.pubError.publish(error)
         // self.pubP.publish(p)
         // self.pubD.publish(d)
-        // self.pubI.publish(i)
+        //self.pubI.publish(i)
         return std::max(std::min(output, m_maxOutput), m_minOutput);
     }
 

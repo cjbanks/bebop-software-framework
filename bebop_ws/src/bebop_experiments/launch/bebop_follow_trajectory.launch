@@ -4,10 +4,10 @@
     <arg name="namespace" default="bebop1" />
     <!--<arg name="ip" default="192.168.42.1" />-->
     <arg name="ip" default="192.168.42.1" />
-    <arg name="drone_type" default="bebop1" /> <!-- available drone types: bebop1, bebop2 -->
+    <arg name="drone_type" default="bebop2" /> <!-- available drone types: bebop1, bebop2 -->
     <arg name="config_file" default="$(find bebop_driver)/config/defaults.yaml" />
     <arg name="camera_info_url" default="package://bebop_driver/data/$(arg drone_type)_camera_calib.yaml" />
-    <arg name="frame1" default = "$(arg drone_type)" />
+    <arg name="frame1" default = "$(arg namespace)" />
 
     <!--Joystick Params-->
     <arg name="joy_dev" default="/dev/input/js0" />
@@ -48,8 +48,8 @@
         <arg name="frame" value="$(arg frame1)" />
        </include>
        
-       <node name ="motor_speeds" pkg="bebop_experiments" type="publish_motor_rpm.py" output="screen" />
-
+     <node name ="motor_speeds" pkg="bebop_experiments" type="publish_motor_rpm.py" output="screen">
+      </node>
 <!-- <node name="pose" pkg="bebop_experiments" type="publish_external_pose_vrpn.py" output="screen">
               <param name="frame_id" value="world"/>
               <param name="child_frame_id" value="$(arg frame1)"/>

@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/rqt_rotors:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/rqt_rotors/lib:$LD_LIBRARY_PATH"
+export PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/rqt_rotors/bin:$PATH"
 export PKG_CONFIG_PATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/rqt_rotors/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/chris/bebop-software-framework/bebop_ws/build/rqt_rotors'
 export PYTHONPATH="/home/chris/bebop-software-framework/bebop_ws/devel/.private/rqt_rotors/lib/python2.7/dist-packages:$PYTHONPATH"

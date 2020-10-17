@@ -17,7 +17,7 @@ states:
   enable_pilotingstate_positionchanged: true
   enable_altitudechanged: true
   enable_autotakeoffmodechanged: true
-  enable_mediastreamingstate_videoenablechanged: true
+  enable_mediastreamingstate_videoenablechanged: false
   enable_camerastate_orientation: true
   enable_gpsstate_numberofsatellitechanged: true
   enable_numberofsatellitechanged: true
