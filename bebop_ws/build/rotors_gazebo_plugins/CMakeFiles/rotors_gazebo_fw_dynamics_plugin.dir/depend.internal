@@ -345,6 +345,7 @@ CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/src/gazebo_fw_dynamics_plugin.cp
  /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
  /usr/include/gazebo-9/gazebo/msgs/param.pb.h
  /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+ /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
  /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
  /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
  /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h

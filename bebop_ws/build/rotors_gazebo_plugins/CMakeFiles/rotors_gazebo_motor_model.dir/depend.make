@@ -414,6 +414,7 @@ CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/incl
 CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
 CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param.pb.h
 CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
 CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
 CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
 CMakeFiles/rotors_gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o: /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h

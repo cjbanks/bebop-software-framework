@@ -29,6 +29,7 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/ASLUAV/./mavlink_msg_sens_power_board.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ASLUAV/./mavlink_msg_sensorpod_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ASLUAV/ASLUAV.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/all/all.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_adap_tuning.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_ahrs.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_ahrs2.hpp
@@ -71,7 +72,6 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_led_control.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_limits_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mag_cal_progress.hpp
- /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mag_cal_report.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_meminfo.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mount_configure.hpp
  /opt/ros/melodic/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_mount_control.hpp
@@ -126,14 +126,22 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_button_change.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_capture_status.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_capture_status.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_fov_status.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_fov_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_image_captured.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_image_captured.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_information.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_information.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_settings.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_settings.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_tracking_geo_status.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_tracking_geo_status.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_tracking_image_status.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_tracking_image_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_trigger.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_trigger.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_cellular_config.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_cellular_config.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_cellular_status.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_cellular_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_change_operator_control.h
@@ -168,6 +176,10 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_encapsulated_data.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_encapsulated_data.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_esc_info.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_esc_info.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_esc_status.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_esc_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_estimator_status.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_estimator_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_extended_sys_state.h
@@ -220,8 +232,6 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gps_rtk.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gps_status.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_gps_status.hpp
- /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_heartbeat.h
- /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_heartbeat.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_high_latency.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_high_latency.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_high_latency2.h
@@ -276,6 +286,8 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_logging_data.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_logging_data_acked.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_logging_data_acked.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_mag_cal_report.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_mag_cal_report.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_manual_control.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_manual_control.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_manual_setpoint.h
@@ -346,16 +358,24 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_optical_flow_rad.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_orbit_execution_status.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_orbit_execution_status.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ack_transaction.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ack_transaction.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_ack.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_ack.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_ack_trimmed.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_ack_trimmed.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_request_list.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_request_list.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_request_read.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_request_read.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_set.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_set.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_set_trimmed.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_set_trimmed.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_value.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_value.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_value_trimmed.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_ext_value_trimmed.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_map_rc.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_map_rc.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_param_request_list.h
@@ -378,8 +398,6 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_position_target_local_ned.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_power_status.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_power_status.hpp
- /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_protocol_version.h
- /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_protocol_version.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_radio_status.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_radio_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_raw_imu.h
@@ -496,6 +514,8 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_wheel_distance.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_wifi_config_ap.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_wifi_config_ap.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_winch_status.h
+ /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_winch_status.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_wind_cov.h
  /opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_wind_cov.hpp
  /opt/ros/melodic/include/mavlink/v2.0/common/common.h
@@ -539,6 +559,12 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/mavlink_sha256.h
  /opt/ros/melodic/include/mavlink/v2.0/mavlink_types.h
  /opt/ros/melodic/include/mavlink/v2.0/message.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/minimal/./mavlink_msg_heartbeat.h
+ /opt/ros/melodic/include/mavlink/v2.0/minimal/./mavlink_msg_heartbeat.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/minimal/./mavlink_msg_protocol_version.h
+ /opt/ros/melodic/include/mavlink/v2.0/minimal/./mavlink_msg_protocol_version.hpp
+ /opt/ros/melodic/include/mavlink/v2.0/minimal/minimal.h
+ /opt/ros/melodic/include/mavlink/v2.0/minimal/minimal.hpp
  /opt/ros/melodic/include/mavlink/v2.0/msgmap.hpp
  /opt/ros/melodic/include/mavlink/v2.0/paparazzi/./mavlink_msg_script_count.hpp
  /opt/ros/melodic/include/mavlink/v2.0/paparazzi/./mavlink_msg_script_current.hpp
@@ -547,27 +573,6 @@ CMakeFiles/rotors_hil_interface_node.dir/src/hil_interface_node.cpp.o
  /opt/ros/melodic/include/mavlink/v2.0/paparazzi/./mavlink_msg_script_request_list.hpp
  /opt/ros/melodic/include/mavlink/v2.0/paparazzi/paparazzi.hpp
  /opt/ros/melodic/include/mavlink/v2.0/protocol.h
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_boot.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_control_surface.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_cpu_load.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_ctrl_srfc_pt.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_data_log.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_diagnostic.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_gps_date_time.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_isr_location.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_mid_lvl_cmds.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_novatel_diag.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_ptz_status.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_sensor_bias.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_sensor_diag.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_slugs_camera_order.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_slugs_configuration_camera.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_slugs_mobile_location.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_slugs_navigation.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_status_gps.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_uav_status.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/./mavlink_msg_volt_sensor.hpp
- /opt/ros/melodic/include/mavlink/v2.0/slugs/slugs.hpp
  /opt/ros/melodic/include/mavlink/v2.0/standard/standard.hpp
  /opt/ros/melodic/include/mavlink/v2.0/uAvionix/./mavlink_msg_uavionix_adsb_out_cfg.hpp
  /opt/ros/melodic/include/mavlink/v2.0/uAvionix/./mavlink_msg_uavionix_adsb_out_dynamic.hpp

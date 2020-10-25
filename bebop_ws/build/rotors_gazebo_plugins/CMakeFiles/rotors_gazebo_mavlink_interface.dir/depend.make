@@ -416,6 +416,7 @@ CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.
 CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
 CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param.pb.h
 CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
 CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
 CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
 CMakeFiles/rotors_gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h

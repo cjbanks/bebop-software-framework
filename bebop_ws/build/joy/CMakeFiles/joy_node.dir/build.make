@@ -79,6 +79,7 @@ joy_node_EXTERNAL_OBJECTS =
 
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/joy/lib/joy/joy_node: CMakeFiles/joy_node.dir/src/joy_node.cpp.o
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/joy/lib/joy/joy_node: CMakeFiles/joy_node.dir/build.make
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/joy/lib/joy/joy_node: /opt/ros/melodic/lib/libdiagnostic_updater.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/joy/lib/joy/joy_node: /opt/ros/melodic/lib/libroscpp.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/joy/lib/joy/joy_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/joy/lib/joy/joy_node: /opt/ros/melodic/lib/librosconsole.so

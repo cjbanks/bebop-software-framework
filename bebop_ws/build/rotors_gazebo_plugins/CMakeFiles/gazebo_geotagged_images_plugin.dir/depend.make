@@ -342,6 +342,7 @@ CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_imag
 CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
 CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param.pb.h
 CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
 CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
 CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
 CMakeFiles/gazebo_geotagged_images_plugin.dir/src/external/gazebo_geotagged_images_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h

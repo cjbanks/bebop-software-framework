@@ -82,6 +82,7 @@ rotors_hil_interface_node_EXTERNAL_OBJECTS =
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node: /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node: /opt/ros/melodic/lib/libmavros.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node: /opt/ros/melodic/lib/libdiagnostic_updater.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node: /opt/ros/melodic/lib/libeigen_conversions.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/rotors_hil_interface/rotors_hil_interface_node: /opt/ros/melodic/lib/libmavconn.so

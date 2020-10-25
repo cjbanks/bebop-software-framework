@@ -413,6 +413,7 @@ CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interfac
 CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
 CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param.pb.h
 CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
 CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
 CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
 CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o: /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h

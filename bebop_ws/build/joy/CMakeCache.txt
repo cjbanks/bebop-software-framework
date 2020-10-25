@@ -359,7 +359,7 @@ joy_BINARY_DIR:STATIC=/home/chris/bebop-software-framework/bebop_ws/build/joy
 joy_SOURCE_DIR:STATIC=/home/chris/bebop-software-framework/bebop_ws/src/joystick_drivers/joy
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/melodic/lib/libdiagnostic_updater.so
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake

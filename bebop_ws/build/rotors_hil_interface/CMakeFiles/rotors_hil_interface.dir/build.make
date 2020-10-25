@@ -96,6 +96,7 @@ rotors_hil_interface_EXTERNAL_OBJECTS =
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: CMakeFiles/rotors_hil_interface.dir/build.make
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libmavros.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libdiagnostic_updater.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libeigen_conversions.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libmavconn.so
@@ -131,6 +132,7 @@ rotors_hil_interface_EXTERNAL_OBJECTS =
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libmavros.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libdiagnostic_updater.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libeigen_conversions.so
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
 /home/chris/bebop-software-framework/bebop_ws/devel/.private/rotors_hil_interface/lib/librotors_hil_interface.so: /opt/ros/melodic/lib/libmavconn.so

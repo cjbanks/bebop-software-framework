@@ -169,8 +169,8 @@ private:
                 //+z -> +y
 
                 //LIMITS OF COLLABORATIVE ROBOTICS SPACE (meters)
-                //X: [0.5, -0.5]
-                //Y:                                            
+                //X: [2.5, -2.5]
+                //Y: [2.5, -2.5]                                           
                 //Z: [0, 2]
                 
 
