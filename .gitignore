@@ -1,2 +1,2 @@
-*.log
+bebop_ws/logs/*.log
 *.cmake

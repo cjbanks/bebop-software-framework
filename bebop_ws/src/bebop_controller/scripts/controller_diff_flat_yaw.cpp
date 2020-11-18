@@ -119,7 +119,7 @@ private:
                 tf::StampedTransform transform;
                 try{
                         ros::Time now = ros::Time::now();
-                        m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(3.0));
+                        //m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(1.0));
                         m_listener.lookupTransform(m_worldFrame, m_frame, ros::Time(0), transform);
 
                 }
@@ -160,20 +160,21 @@ private:
                         targetDrone.pose.orientation.y,
                         targetDrone.pose.orientation.z,
                         targetDrone.pose.orientation.w
-                    )).getRPY(roll, pitch, yaw);
+                    )).getRPY(pitch, yaw, roll);
 
                 geometry_msgs::Twist msg;
                 //optitrack coords
-                //+x -> +x
-                //+y -> +z
-                //+z -> +y
+                ROS_INFO("targetdrone degrees: [%f], roll: [%f], pitch: [%f], yaw:[%f]: ", roll, pitch, yaw);
+
 
                 //LIMITS OF COLLABORATIVE ROBOTICS SPACE (meters)
                 //X: [2.5, -2.5]
                 //Y: [2.5, -2.5]                                           
                 //Z: [0, 2]
                 
-
+                // Bebop coords:
+                // global y -> local x
+                // global x -> local y
 
                 msg.linear.x = m_diffinput.linear.x + m_pidX.update(0.0, targetDrone.pose.position.x);
                 msg.linear.y = m_diffinput.linear.y + m_pidY.update(0.0, targetDrone.pose.position.y);
@@ -182,10 +183,10 @@ private:
                 
                 ROS_INFO("Diff Flat Roll is: %0.2f", m_diffinput.linear.x);
                 ROS_INFO("Diff Flat Pitch is: %0.2f", m_diffinput.linear.y);
-                ROS_INFO("Diff Flat Thrust is: %0.2f", m_diffinput.linear.z);
+                ROS_INFO("Diff Flat Vel is: %0.2f", m_diffinput.linear.z);
                 ROS_INFO("Current Roll is: %0.2f", msg.linear.x);
                 ROS_INFO("Current Pitch is: %0.2f", msg.linear.y);
-                ROS_INFO("Current Thrust is: %0.2f", msg.linear.z);
+                ROS_INFO("Current Vel is: %0.2f", msg.linear.z);
                 ROS_INFO("Current Yaw is: %0.2f", msg.angular.z);
                 
                 m_pubNav.publish(msg);
@@ -198,7 +199,7 @@ private:
 		
 		try{
 			ros::Time now = ros::Time::now();
-			m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(2.0));
+			m_listener.waitForTransform(m_worldFrame, m_frame, now, ros::Duration(2.5));
 			m_listener.lookupTransform(m_worldFrame, m_frame, ros::Time(0), transform);
 			
 		}
@@ -208,6 +209,27 @@ private:
 
                 testz = transform.getOrigin().z();
                 ROS_INFO("Height is %0.2f", testz);
+                geometry_msgs::PoseStamped targetWorld;
+                targetWorld.header.stamp = transform.stamp_;
+                targetWorld.header.frame_id = m_worldFrame;
+                targetWorld.pose = m_goal.pose;
+
+                //geometry_msgs::PoseStamped targetDrone;
+                //m_listener.transformPose(m_frame, targetWorld, targetDrone);
+                //ROS_INFO("targetdrone position x: [%f], y: [%f], z: [%f]: ", targetDrone.pose.position.x, targetDrone.pose.position.y,targetDrone.pose.position.z);
+                //ROS_INFO("targetdrone orientation x: [%f], y: [%f], z: [%f], w:[%f]: ",targetDrone.pose.orientation.x, targetDrone.pose.orientation.y, targetDrone.pose.orientation.z, targetDrone.pose.orientation.w);
+                //tfScalar roll, pitch, yaw;
+                //tf::Matrix3x3(
+               //         tf::Quaternion(
+                //                targetDrone.pose.orientation.x,
+                //                targetDrone.pose.orientation.y,
+                //                targetDrone.pose.orientation.z,
+                //                targetDrone.pose.orientation.w
+                //        )).getRPY(roll, pitch, yaw);
+
+                //optitrack coords
+                //ROS_INFO("targetdrone degrees:  roll: [%f], pitch: [%f], yaw:[%f]: ", roll, pitch, yaw);
+
                 geometry_msgs::Twist msg;
                 m_pubNav.publish(msg);
             }
